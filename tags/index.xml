@@ -1,54 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Electrify Canberra</title>
-    <link>https://gjolleyrogers.github.io/tags/</link>
-    <description>Recent content in Tags on Electrify Canberra</description>
+    <title>Tags on GJR</title>
+    <link>https://www.suburbzeroact.au/tags/</link>
+    <description>Recent content in Tags on GJR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gjolleyrogers.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.suburbzeroact.au/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>faq</title>
-      <link>https://gjolleyrogers.github.io/tags/faq/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>style</title>
+      <link>https://www.suburbzeroact.au/tags/style/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/tags/faq/</guid>
+      <guid>https://www.suburbzeroact.au/tags/style/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>funding</title>
-      <link>https://gjolleyrogers.github.io/tags/funding/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>hugo-site</title>
+      <link>https://www.suburbzeroact.au/tags/hugo-site/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/tags/funding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>measures</title>
-      <link>https://gjolleyrogers.github.io/tags/measures/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gjolleyrogers.github.io/tags/measures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>other</title>
-      <link>https://gjolleyrogers.github.io/tags/other/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gjolleyrogers.github.io/tags/other/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pilot</title>
-      <link>https://gjolleyrogers.github.io/tags/pilot/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gjolleyrogers.github.io/tags/pilot/</guid>
+      <guid>https://www.suburbzeroact.au/tags/hugo-site/</guid>
       <description></description>
     </item>
     

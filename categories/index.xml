@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Electrify Canberra</title>
-    <link>https://gjolleyrogers.github.io/categories/</link>
-    <description>Recent content in Categories on Electrify Canberra</description>
+    <title>Categories on GJR</title>
+    <link>https://www.suburbzeroact.au/categories/</link>
+    <description>Recent content in Categories on GJR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://gjolleyrogers.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.suburbzeroact.au/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Features</title>
+      <link>https://www.suburbzeroact.au/categories/theme-features/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/categories/theme-features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evergreen</title>
+      <link>https://www.suburbzeroact.au/categories/evergreen/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/categories/evergreen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
+      <link>https://www.suburbzeroact.au/categories/workshop/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/categories/workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://www.suburbzeroact.au/categories/r/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>https://www.suburbzeroact.au/categories/meetup/</link>
+      <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/categories/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package</title>
+      <link>https://www.suburbzeroact.au/categories/package/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/categories/package/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

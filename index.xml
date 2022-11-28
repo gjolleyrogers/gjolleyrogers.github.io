@@ -1,214 +1,315 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Let&#39;s decarbonise. on Electrify Canberra</title>
-    <link>https://gjolleyrogers.github.io/</link>
-    <description>Recent content in Let&#39;s decarbonise. on Electrify Canberra</description>
+    <title>Garry Jolley-Rogers on GJR</title>
+    <link>https://www.suburbzeroact.au/</link>
+    <description>Recent content in Garry Jolley-Rogers on GJR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gjolleyrogers.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.suburbzeroact.au/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Q: Who is Electrify Canberra?</title>
-      <link>https://gjolleyrogers.github.io/post/1/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Netlify</title>
+      <link>https://www.suburbzeroact.au/collection/day02/01-netlify/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/1/</guid>
-      <description>A: Electrify Canberra is a dedicated group of local people who share a passion for big ideas and positive change, working together on a voluntary basis. When we got word that Canberra could be the home of the electrification pilot, we came together to try to mobilise our community to bring it about.
-We’re working closely with Rewiring Australia.</description>
+      <guid>https://www.suburbzeroact.au/collection/day02/01-netlify/</guid>
+      <description>So far, we&amp;rsquo;ve been leveraging GitHub Pages for publishing. This works great, but for blogdown we&amp;rsquo;ll start using Netlify. Let&amp;rsquo;s start RIGHT NOW with a site we&amp;rsquo;ve already built and published.
+Pre-requisites Pick either your postcards site, or your distill site from day 01. Refresh your memory- which repository was it again?</description>
     </item>
     
     <item>
-      <title>Q: Who is Rewiring Australia?</title>
-      <link>https://gjolleyrogers.github.io/post/3/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A first post</title>
+      <link>https://www.suburbzeroact.au/blog/spoonful-series/01-spoonful/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/3/</guid>
-      <description>A: Rewiring Australia was launched in 2021, founded by engineer / energy expert / The Big Switch author, Dr. Saul Griffith.
-Rewiring Australia illustrates the positive climate and economic outcomes possible for Australia, and the world, with an ‘electrify everything’ strategy. They’re working with government agencies, business, industries, investors and other stakeholders to try and electrify all households in Australia.</description>
+      <guid>https://www.suburbzeroact.au/blog/spoonful-series/01-spoonful/</guid>
+      <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
+Here I am: content/blog/spoonful-series/01-spoonful.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
+My content section is: blog My layout is: single-series does this work? or this? Let&amp;rsquo;s start.
+beginning middle end </description>
     </item>
     
     <item>
-      <title> Q: What exactly is ‘an electrified household’?</title>
-      <link>https://gjolleyrogers.github.io/post/4/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A GitHub profile</title>
+      <link>https://www.suburbzeroact.au/collection/day01/01-github/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/4/</guid>
-      <description>A: Practically, in the average Australian household there are 6 things that could be transitioned to electric - rooftop solar, a home battery, cooking, heating your home, hot water and an electric vehicle.</description>
+      <guid>https://www.suburbzeroact.au/collection/day01/01-github/</guid>
+      <description>Profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
+Pin projects to profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile
+Profile README This is new! Let&amp;rsquo;s do it:
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
     </item>
     
     <item>
-      <title> Q. What is the purpose of the pilots?</title>
-      <link>https://gjolleyrogers.github.io/post/5/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Prework</title>
+      <link>https://www.suburbzeroact.au/collection/prework/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/5/</guid>
-      <description>A. By connecting all the homes in a street or suburb, these pilots will do much to prove that climate action makes environmental and economic sense.
-We’re mobilising interest in our community. We are working to demonstrate that we have enough households in a concentrated area ready to make the transition to electrification.</description>
+      <guid>https://www.suburbzeroact.au/collection/prework/</guid>
+      <description>Welcome to the Introducing Yourself Online workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.
+Set up RStudio Cloud Sign up for a free RStudio Cloud account at https://rstudio.cloud/ before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.</description>
     </item>
     
     <item>
-      <title> Q: Where is the funding coming from?</title>
-      <link>https://gjolleyrogers.github.io/post/6/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A postcard</title>
+      <link>https://www.suburbzeroact.au/collection/day01/02-postcards/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/6/</guid>
-      <description>A: We don’t know the exact subsidies and benefits that will be offered yet, but the program will be heavily subsidised to make it compelling and affordable for as many households as possible.
-Electrify 2515, together with Rewiring Australia, is campaigning for funding from government agencies such as the Australian Renewable Energy Agency and the Clean Energy Finance Corporation, state governments, and industry such as vehicle companies and appliance manufacturers.</description>
+      <guid>https://www.suburbzeroact.au/collection/day01/02-postcards/</guid>
+      <description>Pre-requisites First, make sure you have the latest version of the postcards package installed from CRAN:
+install.packages(&amp;#34;postcards&amp;#34;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS). packageVersion(&amp;#34;postcards&amp;#34;) [1] ‘0.2.0’ Create GitHub repo Online.
+Clone GitHub repo usethis::create_from_github(&amp;#34;https://github.com/apreshill/global-postcard.git&amp;#34;) ✨ Commit &amp;amp; Push! ✨</description>
     </item>
     
     <item>
-      <title> Q. What is being offered to households included in the pilot?</title>
-      <link>https://gjolleyrogers.github.io/post/7/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A second post</title>
+      <link>https://www.suburbzeroact.au/blog/spoonful-series/02-spoonful/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/7/</guid>
-      <description>Appliances and Home Battery: As part of the proposed program, you would receive the electric home appliances you need free of charge - induction cooktop, split system air conditioner and heat pump hot water heater. You would also be supplied with a home battery. You would be able to keep these items at the end of the 2 year trial.
-Rooftop Solar: If you don’t already have a rooftop solar system you would be provided one at a heavily subsidised price.</description>
+      <guid>https://www.suburbzeroact.au/blog/spoonful-series/02-spoonful/</guid>
+      <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
+Here I am: content/blog/spoonful-series/02-spoonful/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
+My content section is: blog My layout is: single-series Images in this page bundle: /blog/spoonful-series/02-spoonful/sidebar-inverse.jpg part 2! does this work? now for some very cool things more get ready! </description>
     </item>
     
     <item>
-      <title> Q: Do participants get to keep the electrified items?</title>
-      <link>https://gjolleyrogers.github.io/post/8/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Using blogdown</title>
+      <link>https://www.suburbzeroact.au/collection/day02/02-blogdown/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/8/</guid>
-      <description> A:Under the draft program:
-Appliances and Home Battery: You can keep the appliances and home battery. Rooftop Solar: You can keep the rooftop solar system. Electric Vehicle: You can choose to purchase the electric vehicle at a discounted price or return it. </description>
+      <guid>https://www.suburbzeroact.au/collection/day02/02-blogdown/</guid>
+      <description>Pre-requisites First, make sure you have the latest version of the blogdown package installed from CRAN:
+install.packages(&amp;#34;blogdoown&amp;#34;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS). packageVersion(&amp;#34;blogdown&amp;#34;) [1] ‘1.0’ Create GitHub repo Online.
+Clone GitHub repo usethis::create_from_github(&amp;#34;https://github.com/apreshill/global-blogdown.git&amp;#34;) ✨ Commit &amp;amp; Push! ✨</description>
     </item>
     
     <item>
-      <title> Q: Is the electric vehicle free?</title>
-      <link>https://gjolleyrogers.github.io/post/9/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A third post</title>
+      <link>https://www.suburbzeroact.au/blog/spoonful-series/03-spoonful/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/9/</guid>
-      <description>A: We don’t expect it will be - it will most likely be offered under a lease for the 2 year pilot program.
-The draft proposal is a leasing charge of 4 cents per kilometer to use the EV (for comparison, the average petrol vehicle costs 20 cents per kilometer to run), and you would have the option to purchase the EV at a discounted price at the end of the 2 year trial.</description>
+      <guid>https://www.suburbzeroact.au/blog/spoonful-series/03-spoonful/</guid>
+      <description>Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
+Here I am: content/blog/spoonful-series/03-spoonful/index.markdown Here is my R Markdown source file: blog/spoonful-series/03-spoonful/index.Rmarkdown You&#39;ll want to edit this file, then re-knit to see the changes take effect in your site preview.
+To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
+My content section is: blog My layout is: single-series Images in this page bundle: /blog/spoonful-series/03-spoonful/featured-photo.</description>
     </item>
     
     <item>
-      <title>Q: How many households do you need to register?</title>
-      <link>https://gjolleyrogers.github.io/post/10/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A distill site</title>
+      <link>https://www.suburbzeroact.au/collection/day01/03-distill/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/10/</guid>
-      <description>A: The search is on to find a community willing and able to test an electrification pilot. We need to show that there is a compelling number of households connected to our local grid willing to do so.
-500 households is the minimum number required to be considered. The goal is closer to 2,000 households which will demonstrate the technical and social viability of the program</description>
+      <guid>https://www.suburbzeroact.au/collection/day01/03-distill/</guid>
+      <description>Pre-requisites First, make sure you have the latest version of the distill package installed from CRAN:
+install.packages(&amp;quot;distill&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS). &amp;lt;!-- --&amp;gt; packageVersion(&amp;quot;distill&amp;quot;) [1] ‘1.2’ Create GitHub repo Online.
+Clone GitHub repo usethis::create_from_github(&amp;quot;https://github.com/apreshill/global-distill.git&amp;quot;) ✨ Commit &amp;amp; Push!</description>
     </item>
     
     <item>
-      <title>Q:  How will this lead to savings in cost of living?</title>
-      <link>https://gjolleyrogers.github.io/post/11/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Warm woolen mittens</title>
+      <link>https://www.suburbzeroact.au/collection/day02/03-blogdown/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/11/</guid>
-      <description>A: Electrifying our homes will not only slash our emissions it will also save households money on energy bills (p.89). By 2030 an electrified household will save on average $5000 per year on their energy and fuel costs. Lower-income homes spend a higher proportion of their pay cheques (nearly double) on energy costs (p.95)</description>
+      <guid>https://www.suburbzeroact.au/collection/day02/03-blogdown/</guid>
+      <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
+Here I am: content/collection/day02/03-blogdown/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
+My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
     </item>
     
     <item>
-      <title>Q. What happens if households refuse to participate?</title>
-      <link>https://gjolleyrogers.github.io/post/12/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Set up your social</title>
+      <link>https://www.suburbzeroact.au/blog/social/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/12/</guid>
-      <description>A: As long as more than 60-70% of freestanding households enroll, the pilot will be a rigorous test of electrification. The minimum grouping of households would be the 50 or so houses that take power from the same distribution transformer. (p.143) A larger pilot would aggregate households connecting to adjacent distribution transformers. The goal would be to scale a pilot so that it included every house connected to the neighbourhood substation.</description>
+      <guid>https://www.suburbzeroact.au/blog/social/</guid>
+      <description>There are five places where you can choose to show social icons. Here is the tl;dr:
+site header (set in config.toml), site footer (set in config.toml), homepage (set in content/_index.md), about page in the sidebar (set in content/about/sidebar/index.md), and contact page (set in content/form/contact.md). Read on to learn how to set up your social icons, and how to show/hide them.
+Configure social Wherever you end up wanting to show your social icons, you&amp;rsquo;ll need to start by setting up the links in your site config.</description>
     </item>
     
     <item>
-      <title>Q. What about renters, apartment dwellers and people that don’t drive a car, how can they benefit from electrification?</title>
-      <link>https://gjolleyrogers.github.io/post/13/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Style your site colors</title>
+      <link>https://www.suburbzeroact.au/blog/color-themes/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/13/</guid>
-      <description>A: The financial structure of the pilots can be designed to include everyone in the community, even those that do not have a car or roof space for solar. The financial benefit that comes from replacing gas and grid electricity with cheap, locally produced solar can be shared. The way to make this work is that all households would sign up to an electricity retailer that is participating in the pilot.</description>
+      <guid>https://www.suburbzeroact.au/blog/color-themes/</guid>
+      <description>You can totally customize your site&amp;rsquo;s theme colors within minutes of creating a new site. Read on to find out how, and decide which of the three options meets your needs.
+Use a color theme Hugo Apéro includes 8 built-in color themes that work &amp;ldquo;out of the box.&amp;rdquo; This means you can use a color theme to quickly customize the look of your site without needing to write any CSS. You can select the color theme in your config.</description>
     </item>
     
     <item>
-      <title>Q. Can renters participate in the project?</title>
-      <link>https://gjolleyrogers.github.io/post/14/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Style your site typography</title>
+      <link>https://www.suburbzeroact.au/blog/fonts/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/14/</guid>
-      <description>A: Yes, for a renter to get involved and see the benefits of reduced energy bills, they would need to work in partnership with their landlord (who will see the benefit of efficient appliances installed).</description>
+      <guid>https://www.suburbzeroact.au/blog/fonts/</guid>
+      <description>As with color themes, you can completely customize your site&amp;rsquo;s fonts within minutes of creating a new site. How you do it depends on how much control and customization you need.
+Embedded fonts Hugo Apéro includes 6 embedded fonts that work &amp;ldquo;out of the box.&amp;rdquo; We selected 3 serif and 3 sans-serif options that we thought looked good with this theme, in our humble opinions. All embedded fonts include real italics so you may emphasize to your heart&amp;rsquo;s content ❤️!</description>
     </item>
     
     <item>
-      <title>Q. What is a householder doesn’t want or need one of the electrified household items?</title>
-      <link>https://gjolleyrogers.github.io/post/15/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>An evergreen post</title>
+      <link>https://www.suburbzeroact.au/blog/evergreen/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/15/</guid>
-      <description>A: No problem. Just take the things you need and leave the rest. However, Rewiring Australia would require that you transition away from gas for at least one household appliance - cooking, heating your home and/or hot water.</description>
+      <guid>https://www.suburbzeroact.au/blog/evergreen/</guid>
+      <description>Rendering mathematical equations Examples from the mathjax demo. But they work with katex as well.
+Rmarkdown In .Rmarkdown documents, you can use either
+$a \ne 0$ to get inline math: \(a \ne 0\). There is no conflict with using dollar symbols regularly, because knitr automatically escapes freestanding dollar symbols.
+And you can use
+$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ to get a math paragraph:
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</description>
     </item>
     
     <item>
-      <title>Q. How will data be collected?</title>
-      <link>https://gjolleyrogers.github.io/post/16/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A campfire</title>
+      <link>https://www.suburbzeroact.au/talk/campfire/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/16/</guid>
-      <description>A: Data will be collected through a smart meter that would be installed on your fuse box. Your data will be protected by Rewiring Australia.</description>
+      <guid>https://www.suburbzeroact.au/talk/campfire/</guid>
+      <description>I&amp;rsquo;m really excited to give this talk! Stay tuned for video and slides.</description>
     </item>
     
     <item>
-      <title>Q: When with the pilot start?</title>
-      <link>https://gjolleyrogers.github.io/post/17/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Using panelsets</title>
+      <link>https://www.suburbzeroact.au/blog/seedling/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/post/17/</guid>
-      <description>A: Rewiring Australia would like to select a pilot community in the first quarter of 2023 and begin rollout in mid 2023.
-2022 - 2025: Pilots to showcase the technology Australia is the place to make electrification happen first. We have the institutions, technology and successful love affair with rooftop solar. But with any change, we need to show people how it works and iron out any issues before we move towards the mass electrification of the country.</description>
+      <guid>https://www.suburbzeroact.au/blog/seedling/</guid>
+      <description>Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset
+For example, this panelset:
+Hello! 👋 hello
+Goodbye 💨 goodbye
+Was created by combining this theme&amp;rsquo;s panelset and panel shortcodes:
+{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}} hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}} goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:
+Question Which came first: the 🐔 or the 🥚?</description>
     </item>
     
     <item>
-      <title>a world-first pilot program</title>
-      <link>https://gjolleyrogers.github.io/about/about_the-_programme/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A seedling</title>
+      <link>https://www.suburbzeroact.au/talk/second-seedling/</link>
+      <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/about/about_the-_programme/</guid>
-      <description>This proposed pilot program would assist a whole community to make the switch; that is, generously subsidise and support participating households to go electric in six important ways (see below). The exact details of the program are still being determined, but could look something like this:
-Over a two-year period, Rewiring Australia will supply a household with the electrified appliances they don’t already own, and lease them an electric vehicle. This would cut the average household’s running costs by 30%, saving people thousands on their energy and fuel bills.</description>
+      <guid>https://www.suburbzeroact.au/talk/second-seedling/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>electrify everywhere:</title>
-      <link>https://gjolleyrogers.github.io/about/electrify_everywhere/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>An Rmarkdown post</title>
+      <link>https://www.suburbzeroact.au/blog/rmarkdown/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/about/electrify_everywhere/</guid>
-      <description>Let’s electrify everywhere! Let’s electrify everywhere! </description>
+      <guid>https://www.suburbzeroact.au/blog/rmarkdown/</guid>
+      <description> Air quality </description>
     </item>
     
     <item>
-      <title>other initiatives?</title>
-      <link>https://gjolleyrogers.github.io/about/relations-to-other-programmes/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>A seedling</title>
+      <link>https://www.suburbzeroact.au/talk/seedling/</link>
+      <pubDate>Mon, 13 Jan 2020 14:15:59 -0600</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/about/relations-to-other-programmes/</guid>
-      <description>How do we fit in with other initiatives?
-Suburb Zero Pilot and the National Electrification Program (NEP) The smart-energy transition and household electrification will lead to lower bills, fewer emissions and more jobs.
-I advocate an Australia-wide National Electrification Program (NEP), starting with a demonstration project in Canberra to create the world’s first fully electrified suburb, to be developed in conjunction with Saul Griffith and Rewiring Australia.
-The ‘Suburb Zero’ trial would see $20 million of federal government funding leverage $50 million of private sector capital for a two-year, opt-in pilot program that guarantees participating Canberran households a 20-25 per cent saving per year on their fuel and energy bills.</description>
+      <guid>https://www.suburbzeroact.au/talk/seedling/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>six things to electrify:</title>
-      <link>https://gjolleyrogers.github.io/about/six-things/</link>
-      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Tachyons for Style</title>
+      <link>https://www.suburbzeroact.au/project/giraffes/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/about/six-things/</guid>
-      <description>Six things to electrify: Rooftop solar Solar panels mean your home can generate its own power. Rooftop solar electricity is about five times cheaper than grid prices. A home battery Solar panels can charge up a home battery while the sun shines. Then the battery can help power your home through the evening. (You&amp;rsquo;re still connected to the grid for cloudy days when you need more energy.) Cooking Induction cooking uses around half the energy required by fossil fuel methods.</description>
+      <guid>https://www.suburbzeroact.au/project/giraffes/</guid>
+      <description>Tachyons is a design system that allows you to design gorgeous interfaces in the browser with little effort. Because Speed Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It&amp;rsquo;s a design system that provides very small (which means fast) CSS modules that you can use in your HTML. So, rather than writing every line of CSS, you apply the style you need as you write your HTML with easy to understand shorthand class names.</description>
+    </item>
+    
+    <item>
+      <title>CSS Grid Scaffold</title>
+      <link>https://www.suburbzeroact.au/blog/css-grid-scaffold/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/blog/css-grid-scaffold/</guid>
+      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1
+Overview Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
+    </item>
+    
+    <item>
+      <title>Palmer Penguins</title>
+      <link>https://www.suburbzeroact.au/project/penguins/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/project/penguins/</guid>
+      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1
+Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid TABLE.</description>
+    </item>
+    
+    <item>
+      <title>Bakeoff</title>
+      <link>https://www.suburbzeroact.au/project/bakeoff/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/project/bakeoff/</guid>
+      <description>Formspree makes it easy to receive submissions from HTML forms on your static website. Functional Form This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used. Please use your actual email address.</description>
+    </item>
+    
+    <item>
+      <title>Built-in Contact Form</title>
+      <link>https://www.suburbzeroact.au/blog/built-in-contact-form/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/blog/built-in-contact-form/</guid>
+      <description>Formspree makes it easy to receive submissions from HTML forms on your static website. Functional Form This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used. Please use your actual email address.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://gjolleyrogers.github.io/contact/</link>
+      <link>https://www.suburbzeroact.au/contact/</link>
+      <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/contact/</guid>
+      <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder.
+Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
+    </item>
+    
+    <item>
+      <title>Typography Styles &amp; Element Examples</title>
+      <link>https://www.suburbzeroact.au/elements/</link>
+      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/elements/</guid>
+      <description>Font Sizes A A A A A A A A 6rem
+(96px) 5rem
+(80px) 3rem
+(48px) 2.25rem
+(36px) 1.5rem
+(24px) 1.25rem
+(20px) 1rem
+(16px) .875rem
+(14px) Type Samples Head&amp;shy;line Sub&amp;shy;head&amp;shy;line Level 1 Heading One page to rule them all...well, not really. This page displays sample typography and page elements to illustrate their style. Things like headings and paragraphs showing the beautiful type scale, form elements, tabular data, and image layouts just to name a few.</description>
+    </item>
+    
+    <item>
+      <title>Contributors</title>
+      <link>https://www.suburbzeroact.au/contributors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gjolleyrogers.github.io/contact/</guid>
-      <description>The Electrify Canberra initiative is 100% volunteer-driven. This website is administered by the Electrify 2515 Committee - a group of local people from all walks of life, dedicated to advancing climate action in our own community and throughout Australia.
-If you’re keen to express your interest in the program and stay updated on progress, please complete a short Survey 1.
-Have further questions? You can contact us at electrify2515@gmail.com or complete this form.</description>
+      <guid>https://www.suburbzeroact.au/contributors/</guid>
+      <description>Thank you to all the folks who have contributed both technical and creative skills to this project:
+Desirée De Leon 🦒 (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)
+Garrick Aden-Buie 🧙‍♀️ (debugged headroom.js and lent his panelset.js code to the theme)
+Allison Horst 🐕 (awesome illustrations of campfires, seedlings, and evergreens, as well as my R Markdown hedgehog mascot 🦔)</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://www.suburbzeroact.au/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.suburbzeroact.au/license/</guid>
+      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.</description>
     </item>
     
   </channel>
