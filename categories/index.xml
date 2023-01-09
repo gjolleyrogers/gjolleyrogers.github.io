@@ -6,11 +6,29 @@
     <description>Recent content in Categories on GJR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jolley-rogers.au/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jolley-rogers.au/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>package</title>
+      <link>https://www.jolley-rogers.au/categories/package/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/categories/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://www.jolley-rogers.au/categories/r/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/categories/r/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Theme Features</title>
       <link>https://www.jolley-rogers.au/categories/theme-features/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.jolley-rogers.au/categories/theme-features/</guid>
       <description></description>
@@ -35,29 +53,11 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>https://www.jolley-rogers.au/categories/r/</link>
-      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jolley-rogers.au/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>meetup</title>
       <link>https://www.jolley-rogers.au/categories/meetup/</link>
       <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
       
       <guid>https://www.jolley-rogers.au/categories/meetup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>package</title>
-      <link>https://www.jolley-rogers.au/categories/package/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jolley-rogers.au/categories/package/</guid>
       <description></description>
     </item>
     
