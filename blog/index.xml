@@ -13,9 +13,7 @@
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.jolley-rogers.au/blog/social/</guid>
-      <description>There are five places where you can choose to show social icons. Here is the tl;dr:
-site header (set in config.toml), site footer (set in config.toml), homepage (set in content/_index.md), about page in the sidebar (set in content/about/sidebar/index.md), and contact page (set in content/form/contact.md). Read on to learn how to set up your social icons, and how to show/hide them.
-Configure social Wherever you end up wanting to show your social icons, you&amp;rsquo;ll need to start by setting up the links in your site config.</description>
+      <description>Here&amp;#39;s an example sidenote. This is this example note&#39;s content. If you&amp;rsquo;re on a mobile device, the content is hidden by default: there&amp;rsquo;s no &amp;ldquo;side&amp;rdquo; on which the note fits. In this case, you can click or tap the underlined portion of the text, which is the part to which the sidenote is related or refers to. Otherwise, the example sidenote should be visible on the right side of the screen.</description>
     </item>
     
     <item>

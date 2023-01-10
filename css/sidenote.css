@@ -1,62 +1,47 @@
-sidenote {
-    font-size: 2%;
-    
-        background-color: yellow;
-    position: relative;
-}
-/* Wide viewport */
-@media (min-width: 1400px) {
-    .sidenote {
-        float: right;
-        clear: right;
-        margin-left: -23vw;
-        text-align: left;
+ .sidenote-content {
+    display: block;
+    position: absolute;
+    width: $sidenote-width;
+    box-sizing: border-box;
+    margin-top: -1.5em;
 
-        top: -3rem;
-        width: 20vw;
-        margin-top: 1rem;
+    &.sidenote-right {
+        right: 0;
+        margin-right: -($sidenote-width + $sidenote-offset);
+    }
+
+    // ...
+}
+.sidenote-checkbox {
+    display: none;
+}
+
+.sidenote {
+    &:hover {
+        .sidenote-label { /* style for the label */ }
+        .sidenote-content { /* style for the sidenote */ }
     }
 }
 
-/* Narrow viewport */
-@media (max-width: 1400px) {
-    .sidenote {
-        float: right;
-        text-align: right;
-
+.sidenote-content {
+    // ...
+    @media screen and
+        (max-width: $container-width + 2 * ($sidenote-width + 2 * $sidenote-offset)) {
+        position: static;
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 100%;
-        margin: 1rem 0;
-        padding-left: 15%;
-    }
-}
+        display: none;
 
-/* Sidenote counter */
-body {
-    counter-reset: sidenote-counter;
-}
-.sidenote-number {
-    counter-increment: sidenote-counter;
-}
-/* Counter before the sidenote in the margin. */
-.sidenote::before {
-    content: counter(sidenote-counter)".";
-    position: relative;
-    vertical-align: baseline;
-    font-size: 0.9em;
-    font-weight: bold;
-}
-/* Counter in the main body. */
-.sidenote-number::after {
-    content: counter(sidenote-counter);
-    vertical-align: super;
-    font-size: 0.7em;
-    font-weight: bold;
-    margin-right: 0.5rem;
-}
+        .sidenote-checkbox:checked ~ & {
+            display: block;
+        }
 
-@media (min-width: 1400px) {
-    /* Highlight the sidenote when mouse hovers on the sidenote number in body. */
-    .sidenote-number:hover .sidenote {
-        background-color: yellow;
+        &.sidenote-right {
+            margin-right: 0px;
+        }
+
+        // ...
     }
+    // ...
 }
