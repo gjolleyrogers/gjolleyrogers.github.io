@@ -14,7 +14,7 @@
       <guid>https://www.jolley-rogers.au/about/header/</guid>
       <description>I am an independant researcher and author. Drawing on a core set of skills in biology, maths, and computer science, I have had adventures in many disciplines.
 Right now, I am following my own star.
-I have many long term passion projects in train.
+I a few long term passion projects in train - some science, some writing, some mucking around, and some observing.
 I am open to providing web support for community projects I admire.</description>
     </item>
     
@@ -37,7 +37,10 @@ Information technology</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.jolley-rogers.au/about/sidebar/</guid>
-      <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
+      <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **
+name: malacostracans url: https://en.wikipedia.org/wiki/Malacostraca
+name: birds url: https://en.wikipedia.org/wiki/Paris
+name: reading url: https://en.wikipedia.org/wiki/People </description>
     </item>
     
   </channel>
