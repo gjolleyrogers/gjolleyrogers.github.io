@@ -31,4 +31,4 @@ jobs:
           user_name: gjolleyrogers
           user_email: garry@jolley-rogers.id.au
           publish_branch: master
-           cname: www.jolley-rogers.au
+          cname: www.jolley-rogers.au
