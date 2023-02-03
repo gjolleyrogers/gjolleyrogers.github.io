@@ -40,7 +40,7 @@ Information technology</description>
       <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **
 name: malacostracans url: https://en.wikipedia.org/wiki/Malacostraca
 name: birds url: https://en.wikipedia.org/wiki/Paris
-name: reading url: https://en.wikipedia.org/wiki/People </description>
+name: reading url: https://en.wikipedia.org/wiki/People **</description>
     </item>
     
   </channel>
