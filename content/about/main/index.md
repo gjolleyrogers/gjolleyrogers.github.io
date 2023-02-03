@@ -13,20 +13,20 @@ intro: |
   <i class="fas fa-edit"></i>  &ensp;  writing about natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
  
   #### I am   <br>
-  <i class="fas fa-binoculars"></i>  &ensp;  &ensp; a  nature  lover  and  bird nerd     <br>
+  <i class="fas fa-binoculars"></i>  &ensp;  &ensp;  &ensp; a  nature  lover  and  bird nerd     <br>
   <i class="fas fa-edit"></i>  &ensp;   &ensp;  an aspiring  writer  <br>
   (<i class="fas fa-microscope"></i>+<i class="fas fa-pastafarianism"></i>) &ensp;   &ensp; a  zoologist   <br>
     &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp; &ensp;  with particular fondness for malacostracan crustaceans <br>
-  <i class="fas fa-brain"></i>  &ensp;  &ensp; an  ethologist  and  neuroscientist  <br>
-  <i class="fas fa-laptop-code"></i>  &ensp;  &ensp; a  computer scientist  <br>
+  <i class="fas fa-brain"></i>  &ensp;  &ensp;  &ensp; an  ethologist  and  neuroscientist  <br>
+  <i class="fas fa-laptop-code"></i>  &ensp;  &ensp;  &ensp; a  computer scientist  <br>
   
  
   #### I have worked as a  <br>
-  <i class="fas fa-sitemap"></i>  &ensp; a  biodiversity-informatician   <br>
-  <i class="fas fa-chart-line"></i>  &ensp; a  numerical analyst  and   modeller    <br>
-  <i class="fas fa-tools"></i>  &ensp; a  boffin    <br>
-  <i class="fas fa-laptop-code"></i>  &ensp;    software engineer   <br>
-  <i class="fas fa-laptop"></i>  &ensp; an IT specialist and manager 
+  <i class="fas fa-sitemap"></i>  &ensp;  &ensp;  &ensp; a  biodiversity-informatician   <br>
+  <i class="fas fa-chart-line"></i>  &ensp;  &ensp;  &ensp; a  numerical analyst  and   modeller    <br>
+  <i class="fas fa-tools"></i>  &ensp;  &ensp;  &ensp; a  boffin    <br>
+  <i class="fas fa-laptop-code"></i>  &ensp;  &ensp;  &ensp;    software engineer   <br>
+  <i class="fas fa-laptop"></i>  &ensp;  &ensp;  &ensp; an IT specialist and manager 
       
   #### I have undertaken research in 
   (<i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i>) &ensp;  systematics  (taxonomy   and phylogeny) <br>
