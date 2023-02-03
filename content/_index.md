@@ -14,7 +14,9 @@ description: |
    
    with a particular interests in
    > comparative  biology of behaviour  <br>
-   >  neuroanatomy of malacsotracan crustacea
+   > neuroanatomy of malacsotracan crustacea <br>
+   > biodiversity
+   > changes in insect abundances
     
 images:
   - images/yabby.png
