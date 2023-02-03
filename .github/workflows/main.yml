@@ -28,7 +28,7 @@ jobs:
           external_repository: gjolleyrogers/gjolleyrogers.github.io
           publish_dir: ./public
           #   keep_files: true
-          user_name: gjolleyrogersh
+          user_name: gjolleyrogers
           user_email: garry@jolley-rogers.id.au
           publish_branch: master
           cname: www.jolley-rogers.au
