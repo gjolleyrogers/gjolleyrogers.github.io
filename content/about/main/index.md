@@ -7,14 +7,14 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: | 
   #### Currently, I am thinking about: {#thinking}
-  <i class="fas fa-bug pr2"></i>  &ensp;    if there is evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
-  <i class="fas fa-code-branch pr2"></i>  &ensp;    how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
-  <i class="fas fa-brain"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) <br>
-  <i class="fas fa-edit"></i>  &ensp;  writing about natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
+  <i class="fas fa-bug pr2"></i>  &ensp;   &ensp;&ensp; if there is evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
+  <i class="fas fa-code-branch pr2"></i>  &ensp; &ensp;&ensp;   how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
+  <i class="fas fa-brain"></i>  &ensp;  &ensp;&ensp;   comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) <br>
+  <i class="fas fa-edit"></i>  &ensp; &ensp;&ensp; writing about natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
  
   #### I am   <br>
-  <i class="fas fa-binoculars"></i>  &ensp;  &ensp;  &ensp; a  nature  lover  and  bird nerd     <br>
-  <i class="fas fa-edit"></i>  &ensp;   &ensp;  an aspiring  writer  <br>
+  <i class="fas fa-binoculars"></i>  &ensp;  &ensp; &ensp; &ensp; a  nature  lover  and  bird nerd     <br>
+  <i class="fas fa-edit"></i>  &ensp;   &ensp;&ensp;  an aspiring  writer  <br>
   (<i class="fas fa-microscope"></i>+<i class="fas fa-pastafarianism"></i>) &ensp;   &ensp; a  zoologist   <br>
     &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp; &ensp;  with particular fondness for malacostracan crustaceans <br>
   <i class="fas fa-brain"></i>  &ensp;  &ensp;  &ensp; an  ethologist  and  neuroscientist  <br>
