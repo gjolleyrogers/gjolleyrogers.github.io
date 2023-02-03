@@ -1,0 +1,10 @@
+<div class="paragraph-with-sidenote">
+    <div class="sidenote-paragraph">
+    {{ .Get 0 | markdownify }}
+    </div>
+    <div class="sidenote-box">
+        <div class="sidenote-note">
+        {{ .Inner | markdownify }}
+        </div>
+    </div>
+</div>

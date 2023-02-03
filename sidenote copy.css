@@ -1,0 +1,41 @@
+.paragraph-with-sidenote {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    /* allow this box to go beyond the normal width to the right 
+       so that there is space for the sidenote 
+    */
+    width: calc(720px + (100vw - 720px)/2.1);
+}
+
+.sidenote-paragraph {
+    padding-right: 1rem;
+    width: 720px;
+}
+
+.sidenote-box {
+    width: calc((100vw - 720px)/3);
+}
+
+.sidenote-note {
+    background-color: whitesmoke;
+    border: solid 1px grey;
+    border-radius: 10px;
+    box-sizing: content-box;
+    padding: 0.8rem;
+}
+
+/* below 1000 there isn't enough space for a sidenote on the right margin anyway. 
+   force widths so that it goes on a block below the paragraph. 
+*/
+@media screen and (max-width: 1000px) {
+    .paragraph-with-sidenote {
+        width: 100%;
+    }
+
+    .sidenote-box {
+        width: 100%;
+    }
+}
