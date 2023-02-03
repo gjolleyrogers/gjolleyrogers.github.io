@@ -13,12 +13,12 @@ intro: |
   <i class="fas fa-edit"></i>  &ensp;  writing about natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
  
   #### I am   <br>
-  <i class="fas fa-binoculars"></i>  &ensp; a  nature  lover  and  bird nerd     <br>
-  <i class="fas fa-edit"></i>  &ensp;   an aspiring  writer  <br>
-  (<i class="fas fa-microscope"></i>+<i class="fas fa-pastafarianism"></i>)  &ensp; a  zoologist   <br>
-    &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp; with particular fondness for malacostracan crustaceans <br>
-  <i class="fas fa-brain"></i>  &ensp; an  ethologist  and  neuroscientist  <br>
-  <i class="fas fa-laptop-code"></i>  &ensp; a  computer scientist  <br>
+  <i class="fas fa-binoculars"></i>  &ensp;  &ensp; a  nature  lover  and  bird nerd     <br>
+  <i class="fas fa-edit"></i>  &ensp;   &ensp;  an aspiring  writer  <br>
+  (<i class="fas fa-microscope"></i>+<i class="fas fa-pastafarianism"></i>) &ensp;   &ensp; a  zoologist   <br>
+    &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp; &ensp;  with particular fondness for malacostracan crustaceans <br>
+  <i class="fas fa-brain"></i>  &ensp;  &ensp; an  ethologist  and  neuroscientist  <br>
+  <i class="fas fa-laptop-code"></i>  &ensp;  &ensp; a  computer scientist  <br>
   
  
   #### I have worked as a  <br>
