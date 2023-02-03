@@ -3,7 +3,7 @@ baseURL = "https://www.jolley-rogers.au/"
 theme = "hugo-apero"
 languageCode = "en"
  
-publishDir = "gjolleyrogers.github.io"
+ 
 relativeURLs = true
 
 title = "GJR"
