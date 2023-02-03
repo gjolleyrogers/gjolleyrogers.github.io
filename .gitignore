@@ -71,3 +71,4 @@ project/.DS_Store
 .DS_Store
 
 .DS_Store
+.hugo_build.lock
