@@ -9,7 +9,7 @@ role:   |
  
    
    I am     
-   <i class="fas fa-binoculars"></i>    <i class="fas fa-edit"></i>  &ensp;  (<i class="fas fa-microscope"></i>   <i class="fas fa-pastafarianism"></i>)  &ensp;	 <i class="fas fa-brain"></i> 	  (<i class="fas fa-laptop-code"></i><i class="fas fa-laptop"></i> )<br> 
+   <i class="fas fa-binoculars"></i>    <i class="fas fa-edit"></i>  &ensp;  <i class="fas fa-microscope"></i>   <i class="fas fa-pastafarianism"></i>  &ensp;	 <i class="fas fa-brain"></i> 	  <i class="fas fa-laptop-code"></i><i class="fas fa-laptop"></i> <br> 
 
    Past research <br> 
    (<i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i>) (<i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i>)  
