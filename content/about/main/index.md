@@ -1,17 +1,12 @@
 ---
 ## Configure page content in wide column
-title: "" # leave blank to exclude
+title: "Lately..." # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: | 
-  Right now, I am following my own star.
-
-  {{< figure src="/images/treking.png" title=""  >}}
-
-
-  #### Currently,  I am thinking about: {#thinking}  
+  ####  I am thinking about: {#thinking}  
   <i class="fas fa-bug pr2"></i>  &ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
   <i class="fas fa-code-branch pr2"></i>  &ensp;    how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
   <i class="fas fa-brain"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) <br>
@@ -19,12 +14,15 @@ intro: |
   #### and   writing on
   <i class="fas fa-edit"></i>  &ensp; natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
   <i class="fas fa-edit"></i>  &ensp; my love of the natural environment
- 
+  
+  #### and
+  <i class="fas fa-laptop-code"></i>  &ensp; I provide web support for community projects I admire 
+   
   #### I am   <br>
   <i class="fas fa-binoculars"></i>  &ensp; a  nature  lover  and  bird nerd     <br>
   <i class="fas fa-edit"></i>  &ensp;   an aspiring  writer  <br>
   <i class="fas fa-paw"></i>  &ensp; a  zoologist   <br>
-  <i class="fas fa-pastafarianism"></i> &ensp;with particular fondness for malacostracan crustaceans <br>
+  <i class="fas fa-pastafarianism"></i> &ensp;with a particular fondness for malacostracan crustaceans <br>
   <i class="fas fa-brain"></i>  &ensp; an  ethologist  and  neuroscientist  <br>
   <i class="fas fa-laptop-code"></i>  &ensp; a  computer scientist  <br>
   
@@ -44,13 +42,13 @@ intro: |
     
     
   #### Professionally, I have 
-  * led small research teams (CSIRO).     <br> 
-  * held  university research roles (various). <br> 
-  *  worked in infotech  (various roles in management/support) . <br> 
-  * worked as a Programmer and Software Analyst.  <br> 
+  <i class="fas fa-users"></i>  &ensp;led  research teams    <br> 
+  <i class="ai ai-ror fa-lg fa-fw"></i> &ensp;held  research roles  <br> 
+  <i class="fas fa-laptop-code"></i> &ensp;worked in infotech <br> 
+  <i class="fas fa-laptop-code"></i> &ensp;worked as a Programmer/Analyst  <br> 
 
-  An acquired brain injury forced a necessary break in my career and a re-evaluation of my career goals.
- 
+  <i class="fa fa-bolt" aria-hidden="true"></i>+<i class="fas fa-brain"></i>  &ensp; An acquired brain injury forced a necessary break in my career and a re-evaluation of my  goals. Right now, I am following my own star.
+  {{< figure src="/images/treking.png" title=""  >}}
    
   #### MY NAME   {{< figure src="/images/hook.png" title="" class="fr">}}
   Before we were married I was Garry Rogers. <br>	My wife to be was Cynthia Jolley. 

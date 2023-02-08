@@ -16,7 +16,6 @@ role:   |
    <i class="fas fa-microscope"></i> <i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><br>
    <i class="fas fa-binoculars"></i>+<i class="fas fa-users-cog"></i>&ensp;  <i class="far fa-eye"></i>+<i class="fas fa-users-cog"></i> 
    <hr> 
-   {{< figure src="/images/hook.png" title="">}}
    Links
 avatar_shape: circle 
 # rounded # circle, square, rounded, leave blank to exclude

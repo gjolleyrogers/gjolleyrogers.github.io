@@ -6,7 +6,7 @@ subtitle:
 description: | 
    I am 
    >  a  biodiversity-informatician <br>
-   > a computer scientist  <br> information technology expert  <br>
+   > a computer scientist <br>
    > a numerical analyst <br> a modeller  <br>
    > a neuroscientist and cognitive scientist  <br>
    > a zoologist     <br>
