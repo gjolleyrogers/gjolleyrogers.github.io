@@ -22,7 +22,7 @@ intro: |
   <i class="fas fa-binoculars"></i>  &ensp; a  nature  lover  and  bird nerd     <br>
   <i class="fas fa-edit"></i>  &ensp;   an aspiring  writer  <br>
   <i class="fas fa-paw"></i>  &ensp; a  zoologist   <br>
-  <i class="fas fa-pastafarianism"></i> &ensp;with a particular fondness for malacostracan crustaceans <br>
+  <i class="fas fa-pastafarianism"></i> &ensp; particularly fond of malacostracan crustaceans <br>
   <i class="fas fa-brain"></i>  &ensp; an  ethologist  and  neuroscientist  <br>
   <i class="fas fa-laptop-code"></i>  &ensp; a  computer scientist  <br>
   
