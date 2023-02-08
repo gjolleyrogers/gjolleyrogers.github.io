@@ -6,17 +6,28 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: | 
-  #### Currently, I am thinking about: {#thinking}
-  <i class="fas fa-bug pr2"></i>  &ensp;    if there is evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
+  Right now, I am following my own star.
+
+  {{< figure src="/images/treking.png" title=""  >}}
+  I a few long term passion projects in train - some science, some writing, some mucking around, and some observing.
+ 
+  I am open to providing web support for community projects I admire.
+ 
+
+  #### Currently,  I am thinking about: {#thinking}  
+  <i class="fas fa-bug pr2"></i>  &ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
   <i class="fas fa-code-branch pr2"></i>  &ensp;    how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
   <i class="fas fa-brain"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) <br>
-  <i class="fas fa-edit"></i>  &ensp;  writing about natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
+
+  #### and   writing on
+  <i class="fas fa-edit"></i>  &ensp; natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
+  <i class="fas fa-edit"></i>  &ensp; my love of the natural environment
  
   #### I am   <br>
   <i class="fas fa-binoculars"></i>  &ensp; a  nature  lover  and  bird nerd     <br>
   <i class="fas fa-edit"></i>  &ensp;   an aspiring  writer  <br>
-  (<i class="fas fa-microscope"></i>+<i class="fas fa-pastafarianism"></i>)  &ensp; a  zoologist   <br>
-    &ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp; with particular fondness for malacostracan crustaceans <br>
+  <i class="fas fa-paw"></i>  &ensp; a  zoologist   <br>
+  <i class="fas fa-pastafarianism"></i> &ensp;with particular fondness for malacostracan crustaceans <br>
   <i class="fas fa-brain"></i>  &ensp; an  ethologist  and  neuroscientist  <br>
   <i class="fas fa-laptop-code"></i>  &ensp; a  computer scientist  <br>
   
@@ -29,10 +40,10 @@ intro: |
   <i class="fas fa-laptop"></i>  &ensp; an IT specialist and manager 
       
   #### I have undertaken research in 
-  (<i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i>) &ensp;  systematics  (taxonomy   and phylogeny) <br>
-  (<i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i>)  &ensp;  comparative neuroanatomy  <br>
-  (<i class="fas fa-binoculars"></i>+<i class="fas fa-users-cog"></i> ) &ensp;  ethology  and  cognition  <br>
-   (<i class="far fa-eye"></i>+<i class="fas fa-users-cog"></i>)  &ensp;  sensory biology  and   psychology   <br>
+  <i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i> &ensp;  systematics  (taxonomy   and phylogeny) <br>
+  <i class="fas fa-microscope"></i> <i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i> &ensp;  comparative neuroanatomy  <br>
+  <i class="fas fa-binoculars"></i>+<i class="fas fa-users-cog"></i>  &ensp;  ethology  and  cognition  <br>
+  <i class="far fa-eye"></i>+<i class="fas fa-users-cog"></i>  &ensp;  sensory biology  and   psychology   <br>
     
     
   #### Professionally, I have 

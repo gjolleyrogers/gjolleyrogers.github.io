@@ -3,17 +3,17 @@
 author: " "
 role:   | 
    Nothing in Biology Makes Sense Except in the Light of Evolution <br><i class="fas fa-caret-right"></i> Dobzhansky   
-   <hr>
-    
-   thinking of  <br>  <i class="fas fa-bug pr2"></i>  &ensp; <i class="fas fa-code-branch pr2"></i>  &ensp;  <i class="fas fa-brain"></i>  &ensp; <i class="fas fa-edit"></i> 
+   <hr> 
+   thinking of  <br>  
+   <i class="fas fa-bug pr2"></i>  &ensp; <i class="fas fa-code-branch pr2"></i>  &ensp;  <i class="fas fa-brain"></i>  &ensp; <i class="fas fa-edit"></i> 
  
-   
-   I am     
-   <i class="fas fa-binoculars"></i>    <i class="fas fa-edit"></i>  &ensp;  (<i class="fas fa-microscope"></i>   <i class="fas fa-pastafarianism"></i>)  &ensp;	 <i class="fas fa-brain"></i> 	  (<i class="fas fa-laptop-code"></i><i class="fas fa-laptop"></i> )<br> 
+   I am     <br> 
+   <i class="fas fa-binoculars"></i>    <i class="fas fa-edit"></i>     <i class="fas fa-microscope"></i>   <i class="fas fa-pastafarianism"></i>   <i class="fas fa-brain"></i> 	  <i class="fas fa-laptop-code"></i><i class="fas fa-laptop"></i> <br> 
 
-   Past research <br> 
-   (<i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i>) (<i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i>)  
-   (<i class="fas fa-binoculars"></i>+<i class="fas fa-users-cog"></i> )   (<i class="far fa-eye"></i>+<i class="fas fa-users-cog"></i>)   
+   Past research  
+   <i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i>&ensp;
+   <i class="fas fa-microscope"></i> <i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><br>
+   <i class="fas fa-binoculars"></i>+<i class="fas fa-users-cog"></i>&ensp;  <i class="far fa-eye"></i>+<i class="fas fa-users-cog"></i> 
    <hr> 
    {{< figure src="/images/hook.png" title="">}}
    Links
