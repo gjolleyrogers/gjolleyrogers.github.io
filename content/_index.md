@@ -16,7 +16,7 @@ description: |
    > comparative  biology of behaviour  <br>
    > neuroanatomy of malacsotracan crustacea <br><br>
    > biodiversity<br>
-   > changes in insect abundances
+   > declines in insect abundance
     
 images:
   - images/yabby.png

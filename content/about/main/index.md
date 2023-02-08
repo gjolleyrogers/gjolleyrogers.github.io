@@ -9,10 +9,7 @@ intro: |
   Right now, I am following my own star.
 
   {{< figure src="/images/treking.png" title=""  >}}
-  I a few long term passion projects in train - some science, some writing, some mucking around, and some observing.
- 
-  I am open to providing web support for community projects I admire.
- 
+
 
   #### Currently,  I am thinking about: {#thinking}  
   <i class="fas fa-bug pr2"></i>  &ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
