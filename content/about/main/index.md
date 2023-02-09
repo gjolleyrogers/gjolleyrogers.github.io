@@ -30,7 +30,7 @@ intro: |
   #### I have worked as a  <br>
   <i class="fas fa-sitemap"></i>  &ensp; a  biodiversity-informatician   <br>
   <i class="fas fa-chart-line"></i>  &ensp; a  numerical analyst  and   modeller    <br>
-  <i class="fas fa-tools"></i>  &ensp; a  boffin    <br>
+  <i class="fas fa-tools"></i><i class="fas fa-microscope"></i><i class="fa fa-flask" aria-hidden="true"></i>  &ensp; a  boffin    <br>
   <i class="fas fa-laptop-code"></i>  &ensp;    software engineer   <br>
   <i class="fas fa-laptop"></i>  &ensp; an IT specialist and manager 
       

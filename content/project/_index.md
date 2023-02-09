@@ -1,7 +1,7 @@
 ---
-title: Current Projects
-description: "Currently, I am thinking about:"
-author: "The R Markdown Team @RStudio"
+title: Projects
+description: "Some Projects:"
+author: ""
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
