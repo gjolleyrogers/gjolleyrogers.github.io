@@ -9,9 +9,9 @@ role:   |
  
  
    I am     <br> 
-   <i class="fas fa-binoculars"></i>    <i class="fas fa-edit"></i>     <i class="fas fa-microscope"></i> <i class="fa fa-flask" aria-hidden="true"></i>  <i class="fas fa-pastafarianism"></i>   <i class="fas fa-brain"></i> 	  <i class="fas fa-laptop-code"></i><i class="fas fa-laptop"></i> <br> 
+   <i class="fas fa-binoculars"></i>    <i class="fas fa-edit"></i>     <i class="fas fa-microscope"></i> <i class="fa fa-flask" aria-hidden="true"></i> <i class="fas fa-paw"></i> <i class="fas fa-pastafarianism"></i>   <i class="fas fa-brain"></i> 	  <i class="fas fa-laptop-code"></i><i class="fas fa-laptop"></i><i class="fas fa-skull-crossbones"></i> <br> 
  
-   Past research  
+   Research  
    <i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i>&ensp;
    <i class="fas fa-microscope"></i><i class="fa fa-flask" aria-hidden="true"></i> <i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><br>
    <i class="fas fa-binoculars"></i>+<i class="fas fa-users-cog"></i>&ensp;  <i class="far fa-eye"></i>+<i class="fas fa-users-cog"></i> 
