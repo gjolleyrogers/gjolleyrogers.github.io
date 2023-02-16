@@ -16,14 +16,15 @@ role:   |
    <i class="fas fa-microscope"></i><i class="fa fa-flask" aria-hidden="true"></i> <i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><br>
    <i class="fas fa-binoculars"></i>+<i class="fas fa-users-cog"></i>&ensp;  <i class="far fa-eye"></i>+<i class="fas fa-users-cog"></i> 
    <hr> 
-   Links
+ 
 avatar_shape: circle 
 # rounded # circle, square, rounded, leave blank to exclude
-show_social_links: true # specify social accounts in site config
+show_social_links: false # specify social accounts in site config
 audio_link_label:  # "How to say my name" leave blank to exclude
 link_list_label: "" # bookmarks, elsewhere, etc.
 link_list: 
-
+- name: My home Library
+  url: https://www.librarycat.org/lib/garryjr
 ---
 
 ** index doesn't contain a body, just front matter above.
