@@ -7,9 +7,10 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: | 
   ####  I am thinking about: {#thinking}  
+  
   <i class="fas fa-bug pr2"></i>  &ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
   <i class="fas fa-code-branch pr2"></i>  &ensp;    how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
-  <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) <br>
+  <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) 
 
   #### and   writing on
   <i class="fas fa-edit"></i>  &ensp; natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
@@ -18,6 +19,16 @@ intro: |
   #### and
   <i class="fas fa-laptop-code"></i>  &ensp; I provide web support for community projects I admire 
    
+  ### About 
+  I am an independant researcher and author. Drawing on a core set of skills in biology, maths, and computer science, I have had adventures in many disciplines.   Right now, I working on some passion projects.
+    I am 
+   >  a  biodiversity-informatician <br>
+   > a computer scientist <br>
+   > a numerical analyst <br> a modeller  <br>
+   > a neuroscientist and cognitive scientist  <br>
+   > a zoologist     <br>
+   > an aspiring writer  <br><br>
+
   #### I am   <br>
   <i class="fas fa-binoculars"></i>  &ensp; a  nature  lover  and  bird nerd     <br>
   <i class="fas fa-edit"></i>  &ensp;   an aspiring  writer  <br>

@@ -12,7 +12,13 @@ show_outro: true
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
 ---
- 
+   ####  I am thinking about: {#thinking}  
+  
+ |    |          |    |
+|----------|:-------------:|------:|
+| <i class="fas fa-bug pr2"></i>  |    |evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  |
+|   <i class="fas fa-code-branch pr2"></i> |       |   how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}}) |
+|  <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>|   |    comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}})  |
   I  am trained in __computer science__ and __neuroscience__. <br>
   I have worked as a  software engineer, programmer ,  IT manager, and researcher.  
 Drawing on a core set of skills in lab science,  

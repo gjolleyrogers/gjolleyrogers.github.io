@@ -36,10 +36,6 @@
           {{ end }}
           {{ if .Params.show_intro }}
             <div class="pv3 f4 measure lh-copy dib">{{ .Params.intro | markdownify }}</div>
-        <section class="post-body pt5 pb4">
-        {{ .Content }}
-        {{ .Scratch.Set "details" "closed" }} 
-         </section>
           {{ end }}
           {{ partial "shared/summary-li" . }}
           {{ if .Params.show_outro }}

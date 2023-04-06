@@ -15,12 +15,13 @@ draft: false
 ### or this?
 
 ---
-{{< rawhtml >}}
+  rawhtml >}}
  <img style="float: right;" class="alignright" src="/images/hook.png">
  
 
   
  
+  \rawhtml >}}
 Let's start.
  {{< sidenote >}}
   blah
@@ -31,8 +32,7 @@ Let's start.
 ## middle
 
  
-## end
-{{< rawhtml >}}
+## end 
 <aside class="page-sidebar" role="complementary">
                          
  
@@ -40,7 +40,6 @@ Let's start.
 
  Hi
 </aside>
-{{< \rawhtml >}}
 
 
 ![your_img](/images/hook.png#floatright)

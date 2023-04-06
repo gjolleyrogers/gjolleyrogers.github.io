@@ -74,3 +74,6 @@ project/.DS_Store
 .hugo_build.lock
 
 /.quarto/
+.DS_Store
+.DS_Store
+assets/custom.scss

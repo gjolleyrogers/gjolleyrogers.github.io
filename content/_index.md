@@ -4,19 +4,16 @@ subtitle:
   "a student of Nature  
   & a Nature lover " 
 description: | 
-   I am 
-   >  a  biodiversity-informatician <br>
-   > a computer scientist <br>
-   > a numerical analyst <br> a modeller  <br>
-   > a neuroscientist and cognitive scientist  <br>
-   > a zoologist     <br>
-   > an aspiring writer  <br><br>
+   I am an independant researcher and author.<br><br>
+   Drawing on a core set of skills in biology, maths, and computer science, I have had adventures in many disciplines. <br><br>
+
    
-   with a particular interests in
+   I have  particular interests in
    > comparative  biology of behaviour  <br>
-   > neuroanatomy of malacsotracan crustacea <br><br>
+   > neuroanatomy of malacsotracan crustacea  <br>
    > biodiversity<br>
    > declines in insect abundance
+
     
 images:
   - images/yabby.png
@@ -32,3 +29,4 @@ type: home
 
 ** index doesn't contain a body, just front matter above.
 See index.html in the layouts folder ** 
+

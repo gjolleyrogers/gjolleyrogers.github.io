@@ -21,7 +21,7 @@ $line-height-title: 1.25 !default;
 $line-height-copy: 1.5 !default;
 $measure: 30em !default;
 $measure-narrow: 20em !default;
-$measure-wide: 80em !default;
+$measure-wide: 34em !default;
 $spacing-none: 0 !default;
 $spacing-extra-small: .25rem !default;
 $spacing-small: .5rem !default;
@@ -133,8 +133,8 @@ $washed-red: #ffdfdf !default;
 // Custom Media Query Variables
 
 $breakpoint-not-small: 'screen and (min-width: 30em)' !default;
-$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 50em)' !default;
-$breakpoint-large: 'screen and (min-width: 50em)' !default;
+$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
+$breakpoint-large: 'screen and (min-width: 60em)' !default;
 
 /*
 
