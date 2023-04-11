@@ -8,36 +8,25 @@ show_intro: true
 intro: | 
   ####  I am thinking about: {#thinking}  
   
-  <i class="fas fa-bug pr2"></i>  &ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
-  <i class="fas fa-code-branch pr2"></i>  &ensp;    how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
+  <i class="fas fa-bug pr2"></i>  &ensp; &ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
+  <i class="fas fa-code-branch pr2"></i>  &ensp;  &ensp;   how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
   <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) 
 
   #### and   writing on
   <i class="fas fa-edit"></i>  &ensp; natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
   <i class="fas fa-edit"></i>  &ensp; my love of the natural environment
   
-  #### and
-  <i class="fas fa-laptop-code"></i>  &ensp; I provide web support for community projects I admire 
+  #### and I provide web support
+  <i class="fas fa-laptop-code"></i>  &ensp;  for community projects I admire 
    
-  ### About 
-  I am an independant researcher and author. Drawing on a core set of skills in biology, maths, and computer science, I have had adventures in many disciplines.   Right now, I working on some passion projects.
-    I am 
-   >  a  biodiversity-informatician <br>
-   > a computer scientist <br>
-   > a numerical analyst <br> a modeller  <br>
-   > a neuroscientist and cognitive scientist  <br>
-   > a zoologist     <br>
-   > an aspiring writer  <br><br>
-
-  #### I am   <br>
+  #### I am    
   <i class="fas fa-binoculars"></i>  &ensp; a  nature  lover  and  bird nerd     <br>
   <i class="fas fa-edit"></i>  &ensp;   an aspiring  writer  <br>
   <i class="fas fa-paw"></i>  &ensp; a  zoologist   <br>
   <i class="fas fa-pastafarianism"></i> &ensp; particularly fond of malacostracan crustaceans <br>
   <i class="fas fa-brain"></i>  &ensp; an  ethologist  and  neuroscientist  <br>
   <i class="fas fa-laptop-code"></i>  &ensp; a  computer scientist  <br>
-  
- 
+   
   #### I have worked as a  <br>
   <i class="fas fa-sitemap"></i>  &ensp; a  biodiversity-informatician   <br>
   <i class="fas fa-chart-line"></i>  &ensp; a  numerical analyst  and   modeller    <br>

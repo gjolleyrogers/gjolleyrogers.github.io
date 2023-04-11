@@ -1,3 +1,9 @@
 [submodule "themes/hugo-cloak-email"]
 	path = themes/hugo-cloak-email
 	url = https://github.com/martignoni/hugo-cloak-email.git
+[submodule "themes/themes/hugo-cloak-email"]
+	path = themes/themes/hugo-cloak-email
+	url = https://github.com/martignoni/hugo-cloak-email.git
+[submodule "themes/themes/hugo-shortcode-roneo-collection"]
+	path = themes/themes/hugo-shortcode-roneo-collection
+	url = https://gitlab.com/Roneo/hugo-shortcode-roneo-collection.git
