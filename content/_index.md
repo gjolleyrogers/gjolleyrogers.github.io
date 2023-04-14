@@ -24,6 +24,7 @@ action_link: /about
 action_label: "further details &rarr;"
 action_type: text # text  button
 type: home
+sidebar_left: true
 ---
 
 ** index doesn't contain a body, just front matter above.

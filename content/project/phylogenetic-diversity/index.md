@@ -1,9 +1,9 @@
 ---
-title: "how to estimate clade phylogenetic diversity "
-subtitle: "A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that always moves faster than light."
-excerpt: "Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It’s a design system that provides very small (which means fast) CSS modules that you can use in your HTML."
-date: 2019-07-03
-author: "Eric Anderson"
+title: "Clade phylogenetic diversity "
+subtitle: "."
+excerpt: "."
+date: 2023-04-03
+author: "Garry Jolley-Rogers"
 draft: false
 tags:
   - hugo-site
@@ -12,7 +12,7 @@ categories:
   - R
   - package
 # layout options: single or single-sidebar
-layout: single
+layout:  single-sidebar
 ---
 
 ![Tachyons Logo Script](tachyons-logo-script.png)
@@ -21,6 +21,8 @@ layout: single
 
 ---
 
+  <i class="fas fa-edit"></i>  &ensp; natural processes and the [**anthropocene**]( {{< relref "/project/writing" >}}) <br>
+  <i class="fas fa-edit"></i>  &ensp; my love of the natural environment
 ### Because Speed
 
 Building this static site generator theme was the first time I used an Atomic
