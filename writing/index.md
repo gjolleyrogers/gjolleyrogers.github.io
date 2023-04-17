@@ -1,5 +1,5 @@
 ---
-title: A Spoonful of Hugo
+title: Writing
 description: |
   A forking fun new feature for series.
 author: Alison Hill
@@ -26,8 +26,8 @@ sidebar:
 # set up common front matter for all individual pages in series
 cascade:
   layout: single-series       # for a series, do not change
-  series: A Spoonful of Hugo  # name your series
-  author: Alison Hill
+  series: in process  # name your series
+  author: GJR
   show_author_byline: true
   show_post_date: true
   sidebar:
@@ -42,5 +42,5 @@ cascade:
   - Theme Features
   - R
 ---
-df
-** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**
+
+thr

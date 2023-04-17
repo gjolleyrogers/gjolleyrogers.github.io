@@ -12,8 +12,9 @@ intro: |
   <i class="fas fa-code-branch pr2"></i>  &ensp;  &ensp;   how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
   <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) 
 
-  #### and   
-    <i class="fas fa-edit"></i>   [**writing**]( {{< relref "/project/writing" >}})
+  #### and   writing on
+  <i class="fas fa-edit"></i>  &ensp; natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
+  <i class="fas fa-edit"></i>  &ensp; my love of the natural environment
   
   #### and I provide web support
   <i class="fas fa-laptop-code"></i>  &ensp;  for community projects I admire 

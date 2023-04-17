@@ -18,8 +18,7 @@ layout: single
 ## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website.
 
 ---
-{{< tweet user="KeithNHumphreys" id="1459606451467390976" >}}
-  {{< youtube _9BGLtqqkVI >}}
+
 ### Functional Form
 
 This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
