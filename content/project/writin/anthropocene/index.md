@@ -1,10 +1,12 @@
 ---
-title: Writing
-weight: 2 
-date: 2023-04-15
+title: Antr
+author: "Garry Jolley-Rogers"
 categories: 
   - Matplotlib
   - Coordinates
+weight: 6 
+date: 2023-04-15
+author: "Garry Jolley-Rogers"
 format: hugo-md
 execute:
   echo: false

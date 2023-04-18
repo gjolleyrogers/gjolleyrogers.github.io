@@ -2,16 +2,16 @@
 title: "Are insect abundances in decline?"
 subtitle: "An R Package"
 excerpt: "This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the form front matter."
-weight: 2 
+weight: 1
 date: 2023-04-15
 author: "Garry Jolley-Rogers"
 draft: false
 tags:
-  - hugo-site
+  - projects
 categories:
-  - Theme Features
-  - R
-  - package
+  - ecology
+  - abundance
+  - insects
 layout: single
 links:
 
