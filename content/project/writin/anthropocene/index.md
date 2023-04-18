@@ -1,6 +1,7 @@
 ---
-title: Hello, Quarto
-date: "2012-04-06"
+title: Writing
+weight: 2 
+date: 2023-04-15
 categories: 
   - Matplotlib
   - Coordinates
