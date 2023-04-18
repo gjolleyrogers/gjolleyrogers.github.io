@@ -7,32 +7,69 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: | 
   ####  I am thinking about: {#thinking}  
-  
-  <i class="fas fa-bug pr2"></i>  &ensp; &ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
-  <i class="fas fa-code-branch pr2"></i>  &ensp;  &ensp;   how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
+   
+  <i class="fas fa-bug pr2"></i>   &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;   &ensp;&ensp;&ensp; &ensp;&ensp; evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br>
+  <i class="fas fa-code-branch pr2"></i>  &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;  &ensp; &ensp;&ensp; &ensp;&ensp;  how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  <br>
   <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp;     comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) 
 
+
+    <h3 class="ttu tracked black-30 pv3 mt5 bt b--black-10"> I am thinking about:   </h3>
+    <table class="collapse ba bw1 b--moon-gray mv4 w-100">
+      <thead>
+        <tr>
+          <th class="f6 fw6 tl ttu pa3"> </th>
+          <th class="f6 fw6 tl ttu pa3"> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="stripe-dark">
+          <td class="pa3"> <i class="fas fa-bug pr2"></td>
+          <td class="pa3">&starf;&starf;&starf;&starf;&starf;</td>
+        </tr>
+        <tr class="stripe-dark">
+          <td class="pa3"><i class="fas fa-code-branch pr2"></i> </td>
+          <td class="pa3">&starf;&starf;&starf;&starf;&starf;</td>
+        </tr>
+        <tr class="stripe-dark">
+          <td class="pa3">Fargo</td>
+          <td class="pa3">&starf;&starf;&starf;&starf;&starf;</td>
+        </tr>
+        <tr class="stripe-dark">
+          <td class="pa3">Intersellar</td>
+          <td class="pa3">&starf;&starf;&starf;&starf;&star;</td>
+        </tr>
+        <tr class="stripe-dark">
+          <td class="pa3">Dumb &amp; Dumber</td>
+          <td class="pa3">&starf;&starf;&starf;&starf;&star;</td>
+        </tr>
+        <tr class="stripe-dark">
+          <td class="pa3">The Big White</td>
+          <td class="pa3">&starf;&starf;&starf;&starf;&star;</td>
+        </tr>
+      </tbody>
+    </table>
+    
   #### and   writing on
-  <i class="fas fa-edit"></i>  &ensp; natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
-  <i class="fas fa-edit"></i>  &ensp; my love of the natural environment
+  <i class="fas fa-edit"></i> &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;   &ensp;&ensp;&ensp; &ensp;&ensp;natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) <br>
+  <i class="fas fa-edit"></i>  &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;   &ensp;&ensp;&ensp; &ensp;&ensp;  my love of the natural environment
   
   #### and I provide web support
-  <i class="fas fa-laptop-code"></i>  &ensp;  for community projects I admire 
+  <i class="fas fa-laptop-code"></i>  &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;   &ensp;&ensp;&ensp; &ensp;&ensp;for community projects I admire 
    
   #### I am    
-  <i class="fas fa-binoculars"></i>  &ensp; a  nature  lover  and  bird nerd     <br>
-  <i class="fas fa-edit"></i>  &ensp;   an aspiring  writer  <br>
-  <i class="fas fa-paw"></i>  &ensp; a  zoologist   <br>
-  <i class="fas fa-pastafarianism"></i> &ensp; particularly fond of malacostracan crustaceans <br>
-  <i class="fas fa-brain"></i>  &ensp; an  ethologist  and  neuroscientist  <br>
-  <i class="fas fa-laptop-code"></i>  &ensp; a  computer scientist  <br>
+  <i class="fas fa-binoculars"></i>  &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp; a  nature  lover  and  bird nerd     <br>
+  <i class="fas fa-edit"></i>  &ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;an aspiring  writer  <br>
+  <i class="fas fa-paw"></i>  &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp; a  zoologist   <br>
+  <i class="fas fa-pastafarianism"></i>  &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;particularly fond of malacostracan crustaceans <br>
+  <i class="fas fa-brain"></i> &ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp; an  ethologist  and  neuroscientist  <br>
+  <i class="fas fa-laptop-code"></i> &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp; a  computer scientist  <br>
    
   #### I have worked as a  <br>
-  <i class="fas fa-sitemap"></i>  &ensp; a  biodiversity-informatician   <br>
-  <i class="fas fa-chart-line"></i>  &ensp; a  numerical analyst  and   modeller    <br>
+  <i class="fas fa-sitemap"></i> &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp; a  biodiversity-informatician   <br>
+  <i class="fas fa-chart-line"></i>  &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp; a  numerical analyst  and   modeller    <br>
   <i class="fas fa-tools"></i><i class="fas fa-microscope"></i><i class="fa fa-flask" aria-hidden="true"></i>  &ensp; a  boffin    <br>
-  <i class="fas fa-laptop-code"></i>  &ensp;    software engineer   <br>
-  <i class="fas fa-laptop"></i>  &ensp; an IT specialist and manager 
+  <i class="fas fa-laptop-code"></i> &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;software engineer   <br>
+  <i class="fas fa-laptop"></i> &ensp; &ensp;	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp; an IT specialist and manager 
       
   #### I have undertaken research in 
   <i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i> &ensp;  systematics  (taxonomy   and phylogeny) <br>
