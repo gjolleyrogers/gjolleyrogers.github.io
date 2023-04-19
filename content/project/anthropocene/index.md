@@ -1,6 +1,6 @@
 ---
-title: Antr
-author: "Garry Jolley-Rogers"
+title: Hello, Quarto
+date: "2012-04-06" 
 categories: 
   - Matplotlib
   - Coordinates

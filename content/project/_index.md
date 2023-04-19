@@ -1,7 +1,7 @@
 ---
 title: Projects
 description: "Some Projects:"
-author: "Garry Jolley-Rogers"
+author: ""
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false

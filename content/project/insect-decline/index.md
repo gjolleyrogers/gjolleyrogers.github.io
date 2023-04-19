@@ -25,4 +25,3 @@ by analysing  past and recent patterns of  [insect  abundance]( {{< relref "/pro
   
 {{% alert note %}} Yaya {{% /alert %}}
 
-...
