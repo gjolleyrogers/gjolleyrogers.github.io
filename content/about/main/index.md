@@ -6,6 +6,8 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: | 
+  I working on some passion projects.  You can read about some of them on the [Project](/project/) page.  Over time, I plan to add details and updates as I progress. I will also add details of  past projectS that I judge noteworthy.   If you are interested, and my progress is too slow, then get in [touch](/contact/).
+  
   ####  I am thinking about: {#thinking}  
    
   {{< table title="" style="width: 100%;" id="optional- declaration-a-unique-one-will-be-generated" >}}

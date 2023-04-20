@@ -1,8 +1,0 @@
-{{- $p := .Page -}}
-{{- range (split .Inner "\n") -}}
-  {{- if gt (len .) 0 }}
-  <p class="p2">
-    {{ . | $p.RenderString }}
-  </p>
-  {{- end }}
-{{- end -}}
