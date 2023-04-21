@@ -6,7 +6,9 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: | 
-  I working on some passion projects.  You can read about some of them on the [Project](/project/) page.  Over time, I plan to add details and updates as I progress. I will also add details of  past projectS that I judge noteworthy.   If you are interested, and my progress is too slow, then get in [touch](/contact/).
+  I working on some passion projects. 
+  
+  You can read about some of them on the [Project](/project/) page.  Over time, I plan to add details and updates as I progress. I will also add details of  past projects that I judge noteworthy.   If you are interested, and my progress writing about them is too slow, then get in [touch](/contact/).
   
   ####  I am thinking about: {#thinking}  
    
@@ -15,7 +17,7 @@ intro: |
   |:---|----|---------------------------------:|
   |  | <i class="fas fa-bug pr2"></i> &ensp; &ensp;     | evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br> |
   | | <i class="fas fa-code-branch pr2"></i>   &ensp; &ensp;   |  how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  |
-  | | <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp; &ensp;  | omparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) | 
+  | | <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp; &ensp;  | comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) | 
   {{< /table >}}
 
     
@@ -79,15 +81,21 @@ intro: |
     {{< /table >}}
 
 
-  <i class="fa fa-bolt" aria-hidden="true"></i>+<i class="fas fa-brain"></i>  &ensp; An acquired brain injury forced a necessary break in my career and a re-evaluation of my  goals. Right now, I am following my own star.
-  {{< figure src="/images/treking.png" title=""  >}}
    
   #### MY NAME   {{< figure src="/images/hook.png" title="" class="fr">}}
   Before we were married I was Garry Rogers. <br>	My wife to be was Cynthia Jolley. 
 
   We hyphenated because it was just too good an opportunity to pass up - so we are now Cynthia and Garry Jolley-Rogers. When we met, Cynthia was working as Assistant Stage Manager on a production of Gilbert and Sullivans "Pirates of Penzance".
 
-
+  #### Right now, I am following my own star. 
+    {{< table title="" class="optional CSS class declaration" id="optional- declaration-a-unique-one-will-be-generated" >}}
+  |   |   |  
+  |:-------|---------------------------------:|
+  | <i class="fa fa-bolt" aria-hidden="true"></i>+<i class="fas fa-brain"></i>   &ensp; |An acquired brain injury forced a necessary break in my career and a re-evaluation of my  goals.   | 
+    {{< /table >}}
+  
+    
+  {{< figure src="/images/treking.png" title=""  >}}	
 outro: |
   |<i class="fas fa-glass-cheers pr2"></i>  &ensp;Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
 layout: single

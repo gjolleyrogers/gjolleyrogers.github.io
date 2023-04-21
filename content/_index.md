@@ -4,16 +4,12 @@ subtitle:
   "a student of Nature  
   & a Nature lover " 
 description: | 
-   I am an independant researcher and author.<br><br>
-   Drawing on a core set of skills in biology, maths, and computer science, I have had adventures in many disciplines. <br><br>
-
+   I am an independant researcher and author.<br><br> 
    I have  particular interests in
    > comparative  biology of behaviour  <br>
    > neuroanatomy of malacsotracan crustacea  <br>
    > biodiversity<br>
-   > declines in insect abundance
-
-    
+   > declines in insect abundance 
 images:
   - images/yabby.png
 image_left: true

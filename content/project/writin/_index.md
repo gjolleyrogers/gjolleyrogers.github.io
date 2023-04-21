@@ -1,8 +1,8 @@
 ---
-title: we
+title: Writing
 description: |
-  A forking fun new feature for series.
-author: Alison Hill
+  A stub..  details to come .
+author: Garry Jolley-Rogers
 show_post_thumbnail: false
 show_author_byline: true
 show_post_date: true
@@ -42,5 +42,5 @@ cascade:
   - Theme Features
   - R
 ---
-df
+A stub..  details to come .
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**
