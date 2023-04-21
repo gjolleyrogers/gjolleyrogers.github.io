@@ -1,6 +1,6 @@
  
 baseURL = "https://www.jolley-rogers.au/"
-theme =  [ "hugo-cloak-email", "hugo-apero", "hugo-shortcode-gallery"] 
+theme =  [ "hugo-cloak-email", "hugo-apero"] 
 languageCode = "en"
  
  
