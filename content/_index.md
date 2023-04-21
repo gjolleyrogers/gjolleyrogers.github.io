@@ -6,10 +6,10 @@ subtitle:
 description: | 
    I am an independant researcher and author.<br><br> 
    I have  particular interests in
-   > comparative  biology of behaviour  <br>
-   > neuroanatomy of malacsotracan crustacea  <br>
-   > biodiversity<br>
-   > declines in insect abundance 
+   > * comparative  biology of behaviour  <br>
+   > * neuroanatomy of malacsotracan crustacea  <br>
+   > * biodiversity<br>
+   > * declines in insect abundance 
 images:
   - images/yabby.png
 image_left: true
