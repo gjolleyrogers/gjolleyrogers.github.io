@@ -1,18 +1,20 @@
 ---
-title: Writing
+title: Vz
 description: |
-  A stub..  details to come .
+  viz
 author: Garry Jolley-Rogers
 show_post_thumbnail: false
 show_author_byline: true
 show_post_date: true
+
+date: 2023-04-15
 # for series listing page layout
 layout: list-sidebar # list, list-sidebar, list-grid
-
+weight: 1 
 # for list-sidebar layout
 sidebar: 
-  title: A Spoonful of Hugo
-  author: Alison Hill
+  title: Viz
+  author: gjr
   description: |
     A forking fun new feature for series.
     Even this sidebar offers a ton of customizations!
@@ -26,8 +28,8 @@ sidebar:
 # set up common front matter for all individual pages in series
 cascade:
   layout: single-series       # for a series, do not change
-  series: A Spoonful of Hugo  # name your series
-  author: Alison Hill
+  series: Viz # name your series
+  author: gjr
   show_author_byline: true
   show_post_date: true
   sidebar:

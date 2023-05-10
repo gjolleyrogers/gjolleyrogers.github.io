@@ -9,7 +9,7 @@ relativeURLs = true
 title = "GJR"
 author = "Garry Jolley-Rogers"
 copyright = "" # set to override the auto generated copyright using org info and now year
-googleAnalytics = ""
+googleAnalytics = "G-FEY2C57K9Z"
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
@@ -45,7 +45,7 @@ enableEmoji = true
   description = "Garry Jolley-Rogers Personal site"
   favicon = "/img/favicon.ico"
   logo = "/images/evolve_square.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project", "nature"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -174,8 +174,8 @@ enableEmoji = true
     url = "/blog/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
+    name = "Nature"
+    title = "Nature"
     url = "/talk/"
     weight = 4
   [[menu.header]]
@@ -183,11 +183,7 @@ enableEmoji = true
     title = "A collection"
     url = "/collection/"
     weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+ 
     
   # Configure footer  
   [[menu.footer]]

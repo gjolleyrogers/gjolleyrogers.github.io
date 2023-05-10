@@ -12,7 +12,8 @@ categories:
   - ecology
   - abundance
   - insects
-layout: single
+# layout options: single or single-sidebar
+layout: single-sidebar
 links:
 
 ---

@@ -8,9 +8,9 @@ author: "Garry Jolley-Rogers"
 featured: true
 draft: false
 tags:
-- hugo-site
+- projects
 categories:
-- Theme Features
+- anatomy
 - R
 - package
 # layout options: single or single-sidebar

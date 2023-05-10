@@ -12,7 +12,7 @@ intro: |
   
   ####  I am thinking about: {#thinking}  
    
-  {{< table title="" style="width: 100%;" id="optional- declaration-a-unique-one-will-be-generated" >}}
+  {{< table title="" class="collapse     mv4 w-100"   >}}
   | |  |   |  
   |:---|----|---------------------------------:|
   |  | <i class="fas fa-bug pr2"></i> &ensp; &ensp;     | evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br> |
@@ -22,7 +22,7 @@ intro: |
 
     
   #### and   writing on
-    {{< table title=""  style="width: 100%;" id="optional- declaration-a-unique-one-will-be-generated" >}}
+    {{< table title=""  class="collapse     mv4 w-100"  >}}
   |   |   |  
   |:-------|---------------------------------:|
   |<i class="fas fa-edit"></i>&ensp; &ensp;  |natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) |
@@ -30,14 +30,14 @@ intro: |
     {{< /table >}}
 
   #### and I provide web support
-    {{< table title="" class="optional CSS class declaration" id="optional- declaration-a-unique-one-will-be-generated" >}}
+    {{< table title="" class="collapse     mv4 w-100"  >}}
   |   |   |  
   |:-------|---------------------------------:|
   |<i class="fas fa-laptop-code"></i> &ensp; &ensp;  |for community projects I admire |
      {{< /table >}}
 
   #### I am    
-    {{< table title="" class="optional CSS class declaration" id="optional- declaration-a-unique-one-will-be-generated" >}}
+    {{< table title="" class="collapse     mv4 w-100"  >}}
   |   |   |  
   |:-------|---------------------------------:|
   |<i class="fas fa-binoculars"></i>  &ensp; &ensp;  | a  nature  lover  and  bird nerd    |
@@ -49,7 +49,7 @@ intro: |
      {{< /table >}}
 
   #### I have worked as a  
-    {{< table title="" class="optional CSS class declaration" id="optional- declaration-a-unique-one-will-be-generated" >}}
+    {{< table title=""class="collapse     mv4 w-100" >}}
   |   |   |  
   |:-------|---------------------------------:|
   |<i class="fas fa-sitemap"></i> &ensp; &ensp;  | a  biodiversity-informatician   | 
@@ -60,7 +60,7 @@ intro: |
      {{< /table >}}
    
   #### I have undertaken research in 
-    {{< table title="" class="optional CSS class declaration" id="optional- declaration-a-unique-one-will-be-generated" >}}
+    {{< table title="" class="collapse     mv4 w-100" >}}
   |   |   |  
   |:-------|---------------------------------:|
   |<i class="fas fa-sort-amount-up-alt"></i>+<i class="fas fa-code-branch pr2"></i> &ensp;  | systematics  (taxonomy   and phylogeny) | 
@@ -71,7 +71,7 @@ intro: |
  
     
   #### Professionally, I have 
-    {{< table title="" class="optional CSS class declaration" id="optional- declaration-a-unique-one-will-be-generated" >}}
+    {{< table title="" class="collapse     mv4 w-100" >}}
   |   |   |  
   |:-------|---------------------------------:|
   |<i class="fas fa-users"></i>  &ensp; |led  research teams    |
@@ -88,7 +88,7 @@ intro: |
   We hyphenated because it was just too good an opportunity to pass up - so we are now Cynthia and Garry Jolley-Rogers. When we met, Cynthia was working as Assistant Stage Manager on a production of Gilbert and Sullivans "Pirates of Penzance".
 
   #### Right now, I am following my own star. 
-    {{< table title="" class="optional CSS class declaration" id="optional- declaration-a-unique-one-will-be-generated" >}}
+    {{< table title="" class="collapse     mv4 w-100" >}}
   |   |   |  
   |:-------|---------------------------------:|
   | <i class="fa fa-bolt" aria-hidden="true"></i>+<i class="fas fa-brain"></i>   &ensp; |An acquired brain injury forced a necessary break in my career and a re-evaluation of my  goals.   | 

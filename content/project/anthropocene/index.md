@@ -4,7 +4,7 @@ date: "2012-04-06"
 categories: 
   - Matplotlib
   - Coordinates
-weight: 6 
+weight: 2 
 date: 2023-04-15
 author: "Garry Jolley-Rogers"
 format: hugo-md
