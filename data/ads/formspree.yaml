@@ -9,6 +9,7 @@ body: >
     <div>
     
     <a href="https://keelingcurve.ucsd.edu"> <img src="https://scripps.ucsd.edu/bluemoon/co2_400/co2_800k_zoom.png" alt="ice"> </a>
-    <img src="https://nsidc.org/data/seaice_index/images/daily_images/N_iqr_timeseries.png" alt="artic ocean ice">
+    <a href="https://nsidc.org/arcticseaicenews/"> 
+    <img src="https://nsidc.org/data/seaice_index/images/daily_images/N_iqr_timeseries.png" alt="artic ocean ice"> </a>
     
     </div>
