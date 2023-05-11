@@ -1,5 +1,5 @@
----
-title: "Create a Collection"
+•---
+title: "Nature"
 subtitle: "A collection, minus the blog."
 description: |
   Sometimes you want a souped-up series- a bundle of related pages 
@@ -11,7 +11,7 @@ thumbnail_left: false # for list-sidebar only
 show_author_byline: false
 show_post_date: false
 # for listing page layout
-layout: list-sidebar # list, list-sidebar
+layout: list # list, list-sidebar
 
 # set up common front matter for all individual pages in series
 cascade:

@@ -175,15 +175,19 @@ enableEmoji = true
     weight = 3
   [[menu.header]]
     name = "Nature"
-    title = "Nature"
-    url = "/talk/"
-    weight = 4
-  [[menu.header]]
-    name = "A collection"
     title = "A collection"
     url = "/collection/"
     weight = 5
- 
+   [[menu.header]]
+    name = "Writing"
+    title = "Writings"
+    url = "/project/writing/"
+    weight = 3
+   [[menu.header]]
+    name = "Viz"
+    title = "Visualisations"
+    url = "/project/viz/"
+    weight = 3
     
   # Configure footer  
   [[menu.footer]]

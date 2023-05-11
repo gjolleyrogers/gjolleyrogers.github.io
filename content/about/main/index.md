@@ -25,7 +25,7 @@ intro: |
     {{< table title=""  class="collapse     mv4 w-100"  >}}
   |   |   |  
   |:-------|---------------------------------:|
-  |<i class="fas fa-edit"></i>&ensp; &ensp;  |natural processes and the [**anthropocene**]( {{< relref "/project/anthropocene" >}}) |
+  |<i class="fas fa-edit"></i>&ensp; &ensp;  |natural processes and the [**anthropocene**]( {{< relref "/project/writing/anthropocene" >}}) |
   |<i class="fas fa-edit"></i> &ensp; &ensp;  |  my love of the natural environment |
     {{< /table >}}
 
