@@ -1,4 +1,14 @@
-title: Made by Formspree
+title: Everything in nature is framed by our presence.
 body: >
-  <a href="https://formspree.io" target="_blank">Formspree is a form backend, API and email 
-  service for HTML forms</a>. It is the simplest way to collect form submissions on your static website.
+ 
+  <!--Start CO2 Earth widget by Show.Earth v21c-->
+    <a href="https://www.co2.earth/" target="_blank">
+    <img src="https://assets.show.earth/widget-co2/rio-0092.png" style="max-width:100%" title="Click for more CO2 Earth info..." alt="Latest monthly CO2 level in the Earth's atmosphere" /> </a>
+    <!--End CO2 Earth Widget-->
+    
+    <div>
+    
+    <a href="https://keelingcurve.ucsd.edu"> <img src="https://scripps.ucsd.edu/bluemoon/co2_400/co2_800k_zoom.png" alt="ice"> </a>
+    <img src="https://nsidc.org/data/seaice_index/images/daily_images/N_iqr_timeseries.png" alt="artic ocean ice">
+    
+    </div>

@@ -1,15 +1,16 @@
 ---
 ## Configure page content in wide column
-title: "Lately..." # leave blank to exclude
+title: "about me" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
-intro: | 
-  I working on some passion projects. 
+intro: |   
+  I am an independent researcher and author.
   
-  You can read about some of them on the [Project](/project/) page.  Over time, I plan to add details and updates as I progress. I will also add details of  past projects that I judge noteworthy.   If you are interested, and my progress writing about them is too slow, then get in [touch](/contact/).
-  
+  Drawing on a core set of skills in biology, maths, and computer science, I have had adventures in many disciplines.
+
+
   ####  I am thinking about: {#thinking}  
    
   {{< table title="" class="collapse     mv4 w-100"   >}}

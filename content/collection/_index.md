@@ -1,11 +1,11 @@
 ---
-title: "Create a Collection"
+title: "Nature"
 subtitle: "A collection, minus the blog."
 description: |
   Sometimes you want a souped-up series- a bundle of related pages 
   meant to be read in sequence. This section is like a blog series, 
   minus the blog.
-author: Alison Hill
+author: Garry Jolley-Rogers
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
 show_author_byline: false
@@ -17,8 +17,8 @@ layout: list-sidebar # list, list-sidebar
 cascade:
   layout: single-series 
   sidebar:
-    title: "Create a Collection"
-    author: Alison Hill
+    title: "Nature"
+    author: Garry Jolley-Rogers
     description: |
       Sometimes you want a souped-up series- a bundle of related pages 
       meant to be read in sequence. This section is like a blog series, 

@@ -11,12 +11,13 @@ layout:   list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Projects
+  title: Projects
   description: |
-    Projects can be anything!
-    Check out the _index.md file in the /project folder 
-    to edit this content.
-  author: "The R Markdown Team @RStudio"
+      Over time, I plan to add details and updates as I progress. <br>
+      I will also add details of  past projects that I judge noteworthy. <br>  
+      If you are interested, and my progress writing about them is too slow, then get in [touch](/contact/).
+  
+  author: "Garry Jolley-Rogers"
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
