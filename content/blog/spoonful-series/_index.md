@@ -2,7 +2,7 @@
 title: A Spoonful of Hugo
 description: |
   A forking fun new feature for series.
-author: Alison Hill
+author: Garry Jolley-Rogers
 show_post_thumbnail: false
 show_author_byline: true
 show_post_date: true
@@ -12,7 +12,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 # for list-sidebar layout
 sidebar: 
   title: A Spoonful of Hugo
-  author: Alison Hill
+  author: Garry Jolley-Rogers
   description: |
     A forking fun new feature for series.
     Even this sidebar offers a ton of customizations!
@@ -27,7 +27,7 @@ sidebar:
 cascade:
   layout: single-series       # for a series, do not change
   series: A Spoonful of Hugo  # name your series
-  author: Alison Hill
+  author: Garry Jolley-Rogers
   show_author_byline: true
   show_post_date: true
   sidebar:

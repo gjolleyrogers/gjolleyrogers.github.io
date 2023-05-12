@@ -9,7 +9,7 @@ min_version = "0.79.0"
 
 # If the theme has a single author
 [author]
-    name = "Alison Hill"
+    name = "Garry Jolley-Rogers"
     homepage = "https://alison.rbind.io"
 
 # If porting an existing theme

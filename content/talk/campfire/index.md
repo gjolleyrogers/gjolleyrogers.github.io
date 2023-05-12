@@ -8,7 +8,7 @@ featured: true
 show_post_time: false
 event: "rstudio::global(2021)"
 event_url: https://global.rstudio.com
-author: "Alison Hill"
+author: "Garry Jolley-Rogers"
 location: "Sydney, Australia"
 draft: false
 # layout options: single, single-sidebar

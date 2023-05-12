@@ -104,8 +104,8 @@ Docs: <https://rstudio.github.io/distill/website.html#theming>
 Remember your `_site.yml` file? Add the theme line there:
 
 ``` {.yaml}
-name: "Alison Hill"
-title: "Personal website of Dr. Alison Hill"
+name: "Garry Jolley-Rogers"
+title: "Personal website of Dr. Garry Jolley-Rogers"
 description: |
   This is my personal website.
 output_dir: "docs"
