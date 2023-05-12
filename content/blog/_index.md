@@ -1,9 +1,8 @@
 ---
-title: A Blog That Works
+title: My Blog
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
-author: "The R Markdown Team @RStudio"
+    I  write to develop ideas   on topics I judge to be noteworthy
+author: "Garry Jolley-Rogers"
 show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 show_author_byline: true
@@ -27,7 +26,7 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
-  author: "The R Markdown Team @RStudio"
+  author: "Garry Jolley-Rogerd"
   show_author_byline: true
   show_post_date: true
   show_comments: true # see site config to choose Disqus or Utterances
