@@ -7,11 +7,11 @@ date: 2023-04-15
 author: "Garry Jolley-Rogers"
 draft: false
 tags:
-  - projects
-categories:
   - ecology
   - abundance
   - insects
+categories:
+   - projects
 # layout options: single or single-sidebar
 layout: single-sidebar
 links:

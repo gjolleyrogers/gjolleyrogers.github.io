@@ -2,5 +2,30 @@
 {{ with .Params.sidebar }}
   {{ with .title }}<h1 class="f3">{{ . | markdownify }}</h1>{{ end }}
   {{ with .description }}<p class="f6 lh-copy measure">{{ . | markdownify }}</p>{{ end }}
+  
+  
+    <h1 class="f3">Subjects</h1>
+  {{ $taxo := "categories" }}
+<ul class="{{ $taxo }}">
+    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+        {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    {{ end }}
+  </ul>
+  
+  <h1 class="f3">Index </h1>
+  {{ $taxo := "tags" }}
+<ul class="{{ $taxo }}">
+    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+        {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>
+
+
+
   {{ with .author }}<p class="f7 measure lh-copy i mh0-l">Written by {{ . | markdownify }}</p>{{ end }}
 {{ end }}
+

@@ -1,6 +1,6 @@
 ---
 title: My Blog
-description: |
+description: |  
     I  write to develop ideas   on topics I judge to be noteworthy
 author: "Garry Jolley-Rogers"
 show_post_thumbnail: true
@@ -15,9 +15,9 @@ layout: list-sidebar # list, list-sidebar, list-grid
 sidebar: 
   title: Blog
   description: |
-    <i class="fas fa-edit"></i>  I  write to develop ideas   on topics I judge to be noteworthy.<br>
-    These are, of course, me thinking aloud. And more like a diary than formal pieces. <br>
-    So I make no guarantees about completeness or truth... that is the end goal but I may not get there anytime soon. 
+    <i class="fas fa-edit"></i> This blog is part of my writing practice. I am thinking aloud. It will be brief, raw, and incomplete.  There will be occasional typos. I make no guarantees about completeness or truth... that is the end goal, but I may not get there anytime soon. 
+     
+ 
   
   author: "Garry Jolley-Rogers"
   text_link_label: Subscribe via RSS
@@ -26,7 +26,7 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
-  author: "Garry Jolley-Rogerd"
+  author: "Garry Jolley-Rogers"
   show_author_byline: true
   show_post_date: true
   show_comments: true # see site config to choose Disqus or Utterances
