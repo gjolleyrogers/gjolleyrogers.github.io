@@ -7,9 +7,9 @@ weight: 1
 date: 2023-04-15
 author: "Garry Jolley-Rogers"
 draft: false
-tags:
-  - hugo-site
 categories:
+  - projects
+tags:
   - Theme Features
   - R
   - package

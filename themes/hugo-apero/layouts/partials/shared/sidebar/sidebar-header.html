@@ -14,10 +14,10 @@
         {{ end }}
     {{ end }}
   </ul>
- -->
-  
-  
-  <div class="container tagcloud">
+ --> 
+ 
+<!-- 
+ <div class="container tagcloud">
     {{ if ne (len $.Site.Taxonomies.categories) 0 }}
           <h1 class="f3">Sitewide Topics</h1>
       {{ $largestFontSize := 1.4 }}
@@ -32,27 +32,56 @@
           {{ $currentFontSize := (add $smallestFontSize (mul (sub $tagCount $min) $fontStep) ) }}
           {{ $weigth := div (sub (math.Log $tagCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
           {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
-          <li>  <a href="{{ "/categories/" | relURL }}{{ $name|urlize }}" 
-            class="tagcloud-item" style="font-size: {{ $currentFontSize }}rem;">
-              {{ $name}}<sup>{{ $tagCount}}</sup></a> </li>
+        <!~~   <li>   ~~>
+          <a href="{{ "/categories/" | relURL }}{{ $name|urlize }}" 
+              style="font-size: {{ $currentFontSize }}rem; ">
+              {{ $name}}</a><sup>{{ $tagCount}}</sup>
+           <!~~    </li> ~~>
         {{ end }}
     {{ end }}
 </div>
+ -->
 
   
 
-<!-- 
-  {{ $taxo := "tags" }}
+ <!-- 
+ {{ $taxo := "tags" }}
 <ul class="{{ $taxo }}">
     {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-        {{ range .Pages }}
+        {{ range .Pages  }}
+            
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{ end }}
     {{ end }}
 </ul>
  
- 
  -->
+   
+ {{ $taxonomy := "categories" }}
+{{ $section :=  $.Section }}
+{{ range $term, $weightedPages := index site.Taxonomies $taxonomy }}
+  {{ $termPage := site.GetPage (printf "%s/%s" $taxonomy $term) }}
+    {{ $counter := 0 }} 
+      {{ range where $weightedPages "Page.Section" $section }} 
+          {{ $counter = add $counter 1 }} 
+    {{ end }}
+    {{ if  $counter  }}
+		  <h3>
+			<a href="{{ $termPage.RelPermalink }}">{{ $termPage.LinkTitle }}</a>
+		  </h3>
+		  <ul>
+			{{ range where $weightedPages "Page.Section" $section }}
+			  <li>
+				<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+			  </li>
+			{{ end }}
+		  </ul>
+    {{ end }}
+{{ end }}
+
+
+
+
 
 
 <div class="container tagcloud">
@@ -72,7 +101,7 @@
           {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
             <a href="{{ "/tags/" | relURL }}{{ $name|urlize }}" 
             class="tagcloud-item" style="font-size: {{ $currentFontSize }}rem;">
-              {{ $name}}<sup>{{ $tagCount}}</sup></a>
+              {{ $name}}</a><sup>{{ $tagCount}}</sup>
         {{ end }}
     {{ end }}
 </div>

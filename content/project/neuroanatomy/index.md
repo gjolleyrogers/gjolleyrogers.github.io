@@ -7,9 +7,9 @@ date: 2023-04-15
 author: "Garry Jolley-Rogers"
 featured: true
 draft: false
-tags:
-- projects
 categories:
+- projects
+tags:
 - anatomy
 - R
 - package
