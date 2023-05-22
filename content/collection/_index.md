@@ -1,10 +1,8 @@
 ---
 title: "Nature"
-subtitle: "A collection, minus the blog."
+subtitle: "EVERYTHING IN NATURE IS NOW FRAMED BY OUR PRESENCE. THE STRATIGRAPHERS MAY QUIBBLE BUT IN A REAL SENSE WE ARE IN THE ANTHROPOCENE.."
 description: |
-  Sometimes you want a souped-up series- a bundle of related pages 
-  meant to be read in sequence. This section is like a blog series, 
-  minus the blog.
+  EVERYTHING IN NATURE IS NOW FRAMED BY OUR PRESENCE. THE STRATIGRAPHERS MAY QUIBBLE BUT IN A REAL SENSE WE ARE IN THE ANTHROPOCENE.
 author: Garry Jolley-Rogers
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
@@ -20,9 +18,7 @@ cascade:
     title: "Nature"
     author: Garry Jolley-Rogers
     description: |
-      Sometimes you want a souped-up series- a bundle of related pages 
-      meant to be read in sequence. This section is like a blog series, 
-      minus the blog.
+      ....
     show_author_byline: true
     show_post_date: true
     text_link_label: ""
@@ -31,3 +27,6 @@ cascade:
     text_series_label: "Outline" 
     text_contents_label: "On this page" 
 ---
+ Everything in nature is now framed by our presence. 
+ 
+ The stratigraphers may quibble but in a real sense we are in the anthropocene.

@@ -1,6 +1,10 @@
 {{ define "main" }}
 {{ $caller := . }}
 <main class="page-main pa4 {{ .Kind }}" role="main">
+        
+        <section class="post-body pt5 pb4">
+        {{ .Content }}
+      </section>
   <section class="blog-content mw7 center">
     {{ if not (eq .FirstSection .CurrentSection) }}
       {{ partial "shared/breadcrumb.html" . }}
@@ -15,11 +19,11 @@
 </main>
 <aside class="page-sidebar" role="complementary">
   {{ if eq .FirstSection .CurrentSection }}
-  dd
     {{ partial "shared/sidebar-scaffold.html" . }}
   {{ else }}
     {{ partial "shared/sidebar/sidebar-image.html" . }}
     {{ partial "shared/section-sidebar.html" . }}
   {{ end }}
 </aside>
-{{ end }}
+{{ end }} 
+  
