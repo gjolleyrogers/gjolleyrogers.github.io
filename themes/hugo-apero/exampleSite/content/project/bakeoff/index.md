@@ -6,11 +6,9 @@ date: 2019-07-01
 author: "Eric Anderson"
 draft: false
 tags:
-  - hugo-site
+  - un
 categories:
-  - Theme Features
-  - R
-  - package
+  - un
 layout: single
 links:
 - icon: door-open

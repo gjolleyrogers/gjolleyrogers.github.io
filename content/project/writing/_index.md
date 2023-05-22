@@ -35,11 +35,11 @@ cascade:
     show_sidebar_adunit: false # show ad container
     text_series_label: "In this series" 
     text_contents_label: "On this page"
-  tags:
-  - hugo-site
-  categories:
-  - Theme Features
-  - R
+categories: 
+  - writing 
+tags:
+  - ecology
+  - abundance
 ---
 In **no way** do I think anything I write here is the last word on a subject.  And  it is likely that mistakes and typos may slip through. So, don't hesitate to get in touch if you see something that <i class="fas fa-bug pr2"></i> bugs you.
 

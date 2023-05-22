@@ -15,16 +15,11 @@
     			<dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
   			</dl>
          {{ end }}	
-           <dl class="f6 lh-copy">
-    <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">{{ .ReadingTime }} minute read, {{ .WordCount }} words</dd>
-  </dl>
- 
-
-          
-          
-      
-
+		<dl class="f6 lh-copy">
+		<dt class="fw7">Length:</dt>
+		<dd class="fw5 ml0">{{ .ReadingTime }} minute read, {{ .WordCount }} words</dd>
+		</dl>
+  
           
       {{ if .Params.links }}
       <div class="ph0 pt5">

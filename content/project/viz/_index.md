@@ -41,9 +41,8 @@ cascade:
 categories:
   - projects
 tags:
-  - Theme Features
-  - R
-  - package	
+  - Visualisations
+  - analysis 
 ---
 A stub..  details to come .
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**

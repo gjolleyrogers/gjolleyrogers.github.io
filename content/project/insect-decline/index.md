@@ -12,6 +12,7 @@ tags:
   - insects
 categories:
    - projects
+   - science
 # layout options: single or single-sidebar
 layout: single-sidebar
 links:

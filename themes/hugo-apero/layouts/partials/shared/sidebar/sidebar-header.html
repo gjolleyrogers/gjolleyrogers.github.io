@@ -83,7 +83,7 @@
 
 <div class="container tagcloud">
     {{ if ne (len $.Site.Taxonomies.tags) 0 }}
-      <h3 class="f3">Sitewide Categories</h3>
+      <h3 class="f3">Categories</h3>
       {{ $largestFontSize := 1.4 }}
       {{ $smallestFontSize := 1.0 }}
       {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
@@ -106,7 +106,7 @@
 
 <div class="container tagcloud">
     {{ if ne (len $.Site.Taxonomies.tags) 0 }}
-      <h3 class="f3">Sitewide Tags </h3>
+      <h3 class="f3">Tags </h3>
       {{ $largestFontSize := 1.4 }}
       {{ $smallestFontSize := 1.0 }}
       {{ $fontSpread := sub $largestFontSize $smallestFontSize }}

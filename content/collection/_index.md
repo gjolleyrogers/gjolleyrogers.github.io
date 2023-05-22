@@ -18,7 +18,9 @@ cascade:
     title: "Nature"
     author: Garry Jolley-Rogers
     description: |
-      ....
+      Everything in nature is now framed by our presence.
+
+      Some stratigraphers may quibble but in a real sense we are in the anthropocene.
     show_author_byline: true
     show_post_date: true
     text_link_label: ""
@@ -29,4 +31,4 @@ cascade:
 ---
  Everything in nature is now framed by our presence. 
  
- The stratigraphers may quibble but in a real sense we are in the anthropocene.
+ Some stratigraphers may quibble but in a real sense we are in the anthropocene.
