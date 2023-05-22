@@ -1,5 +1,63 @@
  
+.sidenote {
+    font-size: 80%;
+    position: relative;
+}
+/* Wide viewport */
+@media (min-width: 1400px) {
+    .sidenote {
+        float: left;
+        clear: left;
+        margin-left: -23vw;
+        text-align: right;
 
+        top: -3rem;
+        width: 20vw;
+        margin-top: 1rem;
+    }
+}
+
+/* Narrow viewport */
+@media (max-width: 1400px) {
+    .sidenote {
+        float: left;
+        text-align: left;
+
+        width: 100%;
+        margin: 1rem 0;
+        padding-left: 15%;
+    }
+}
+/* Sidenote counter */
+body {
+    counter-reset: sidenote-counter;
+}
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+/* Counter before the sidenote in the margin. */
+.sidenote::before {
+    content: counter(sidenote-counter)".";
+    position: relative;
+    vertical-align: baseline;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+/* Counter in the main body. */
+.sidenote-number::after {
+    content: counter(sidenote-counter);
+    vertical-align: super;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 1400px) {
+    /* Highlight the sidenote when mouse hovers on the sidenote number in body. */
+    .sidenote-number:hover .sidenote {
+        background-color: yellow;
+    }
+}
   
 
   .p2 {

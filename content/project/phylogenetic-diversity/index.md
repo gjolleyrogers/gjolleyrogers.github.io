@@ -9,10 +9,12 @@ author: "Garry Jolley-Rogers"
 draft: false
 categories:
   - projects
+  - science
 tags:
-  - Theme Features
-  - R
-  - package
+  - evolution
+  - phylogeny
+  - models
+  - prediction
 # layout options: single or single-sidebar
 layout: single-sidebar
 ---

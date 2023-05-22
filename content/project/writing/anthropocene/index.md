@@ -2,8 +2,10 @@
 title: anthropocene
 date: "2012-04-06" 
 categories: 
-  - Matplotlib
-  - Coordinates
+  - writing 
+tags:
+  - ecology
+  - abundance
 weight: 2 
 date: 2023-04-15
 author: "Garry Jolley-Rogers"

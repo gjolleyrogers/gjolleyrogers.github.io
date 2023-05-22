@@ -15,6 +15,7 @@
 </main>
 <aside class="page-sidebar" role="complementary">
   {{ if eq .FirstSection .CurrentSection }}
+  dd
     {{ partial "shared/sidebar-scaffold.html" . }}
   {{ else }}
     {{ partial "shared/sidebar/sidebar-image.html" . }}

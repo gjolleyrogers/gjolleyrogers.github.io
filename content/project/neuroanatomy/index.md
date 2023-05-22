@@ -9,10 +9,12 @@ featured: true
 draft: false
 categories:
 - projects
+- science
 tags:
 - anatomy
-- R
-- package
+- evolution
+- crustacea
+- science
 # layout options: single or single-sidebar
 layout: single-sidebar
 links:

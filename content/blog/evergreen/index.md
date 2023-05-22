@@ -16,6 +16,11 @@ categories:
 Examples from the [mathjax demo](https://www.mathjax.org/#demo).
 But they work with `katex` as well.
 
+```
+{{< load-plotly >}}
+{{< plotly json="scatter3d.json" height="400px" >}}
+```
+  
 ### Rmarkdown
 
 In `.Rmarkdown` documents, you can use either

@@ -176,7 +176,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Nature"
     title = "A collection"
-    url = "/collection/"
+    url = "/nature/"
     weight = 5
    [[menu.header]]
     name = "Writing"
