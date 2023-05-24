@@ -184,7 +184,7 @@ enableEmoji = true
     url = "/project/writing/"
     weight = 3
    [[menu.header]]
-    name = "Viz"
+    name = "Viz/Analysis"
     title = "Visualisations"
     url = "/project/viz/"
     weight = 3

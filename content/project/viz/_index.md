@@ -1,5 +1,5 @@
 ---
-title: Vz
+title: Viz and analysis
 description: |
   viz
 author: Garry Jolley-Rogers
@@ -13,14 +13,10 @@ layout: list-sidebar # list, list-sidebar, list-grid
 weight: 1 
 # for list-sidebar layout
 sidebar: 
-  title: Viz
+  title: Visualisation and analysis
   author: Garry Jolley-Rogers
   description: |
-    A forking fun new feature for series.
-    Even this sidebar offers a ton of customizations!
-    
-    Check out the _index.md file in the /blog/spoonful-series
-    folder to edit this content.
+    This is a playground where I develop and trial visualisations and analyses.
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
@@ -28,7 +24,7 @@ sidebar:
 # set up common front matter for all individual pages in series
 cascade:
   layout: single-series       # for a series, do not change
-  series: Viz # name your series
+  series: Viz-analyis # name your series
   author: Garry Jolley-Rogers
   show_author_byline: true
   show_post_date: true
