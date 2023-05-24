@@ -55,6 +55,8 @@
   {{ .Scratch.Set "details" "open" }}
   {{ partial "shared/post-details.html" . }}
   {{ partial "shared/sidebar/sidebar-toc.html" . }}
+  
+  {{ partial "shared/sidebar-scaffold-bottom.html" . }}
 </aside>
 
 {{ end }}

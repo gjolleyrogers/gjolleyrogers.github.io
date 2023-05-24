@@ -16,10 +16,9 @@ sidebar:
       Over time, I plan to add details and updates as I progress. <br>
       I will also add details of  past projects that I judge noteworthy. <br>  
       If you are interested, and my progress writing about them is too slow, then get in [touch](/contact/).
-  
   author: "Garry Jolley-Rogers"
-  text_link_label: ""
-  text_link_url: ""
+  text_link_label: "Jottings"
+  text_link_url: "Sections"
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all individual pages inside project/
@@ -35,3 +34,4 @@ cascade:
 ---
 
 ** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **
+ 

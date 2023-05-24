@@ -48,5 +48,7 @@
   {{ partial "shared/sidebar-scaffold.html" . }}
   {{ .Scratch.Set "details" "open" }}
   {{ partial "shared/post-details.html" . }}
+  
+  {{ partial "shared/sidebar-scaffold-bottom.html" . }}
 </aside>
 {{ end }}
