@@ -13,7 +13,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 weight: 1 
 # for list-sidebar layout
 sidebar: 
-  title: Visualisation and analysis
+  title: A word
   author: Garry Jolley-Rogers
   description: |
     This is a playground where I develop and trial visualisations and analyses.
@@ -33,8 +33,8 @@ cascade:
     text_link_label: ""
     text_link_url: ""
     show_sidebar_adunit: false # show ad container
-    text_series_label: "In this series" 
-    text_contents_label: "On this page" 
+    text_series_label: "Analyses" 
+    text_contents_label: "Parts"
 categories:
   - projects
 tags:

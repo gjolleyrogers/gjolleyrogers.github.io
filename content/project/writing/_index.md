@@ -13,7 +13,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 weight: 1 
 # for list-sidebar layout
 sidebar: 
-  title: Jottings
+  title: A word
   author: Garry Jolley-Rogers
   description: |
      In **no way** do I think anything I write here is the last word on a subject.  <br>And  it is likely that mistakes and typos may slip through. So, don't hesitate to get in touch if you see something that <i class="fas fa-bug pr2"></i> bugs you.<br><br> I welcome and encourage all respectful [feedback](/contact/). 
@@ -33,8 +33,8 @@ cascade:
     text_link_label: ""
     text_link_url: ""
     show_sidebar_adunit: false # show ad container
-    text_series_label: "In this series" 
-    text_contents_label: "On this page"
+    text_series_label: "Jottings" 
+    text_contents_label: "Sections"
 categories: 
   - writing 
 tags:
@@ -45,5 +45,5 @@ In **no way** do I think anything I write here is the last word on a subject.  A
 
  I welcome and encourage all respectful [feedback](/contact/). 
 
-
+ 
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**

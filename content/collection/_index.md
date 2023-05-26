@@ -1,6 +1,6 @@
 ---
 title: "Nature"
-subtitle: "EVERYTHING IN NATURE IS NOW FRAMED BY OUR PRESENCE. THE STRATIGRAPHERS MAY QUIBBLE BUT IN A REAL SENSE WE ARE IN THE ANTHROPOCENE.."
+subtitle: ""
 description: |
   EVERYTHING IN NATURE IS NOW FRAMED BY OUR PRESENCE. THE STRATIGRAPHERS MAY QUIBBLE BUT IN A REAL SENSE WE ARE IN THE ANTHROPOCENE.
 author: Garry Jolley-Rogers
@@ -29,6 +29,4 @@ cascade:
     text_series_label: "Outline" 
     text_contents_label: "On this page" 
 ---
- Everything in nature is now framed by our presence. 
  
- Some stratigraphers may quibble but in a real sense we are in the anthropocene.

@@ -186,7 +186,7 @@ enableEmoji = true
    [[menu.header]]
     name = "Viz/Analysis"
     title = "Visualisations"
-    url = "/project/viz/"
+    url = "/project/visualanalysis/"
     weight = 3
     
   # Configure footer  
