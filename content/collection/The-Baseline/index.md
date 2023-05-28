@@ -15,7 +15,7 @@ Humans and livestock now **exceed many times** the global combined weight of wil
 
 
  
-{{< figure src="/images/Distribution-of-global-biomass-across-all-birds_W640.jpeg" caption="Today (by mass) < 4% of land mammals  are  wild and < 30% of birds are  wild. "
+{{< figure src="/images/Distribution-of-global-biomass-across-all-birds_W640.jpeg" caption="Today (by mass) < 4% of land mammals  and < 30% of birds are  wild. "
  
 >}}
  
@@ -24,7 +24,9 @@ Humans and livestock now **exceed many times** the global combined weight of wil
 >Source:<br><a href="https://www.researchgate.net/publication/349004735_Food_system_impacts_on_biodiversity_loss_Three_levers_for_food_system_transformation_in_support_of_nature"> Benton, Tim & Bieg, Carling & Harwatt, Helen & Wellesley, Laura & Pudasaini, Roshan. (2021). Food system impacts on biodiversity loss Three levers for food system transformation in support of nature. 10.13140/RG.2.2.34045.28640.  </a>
 
 
-So in the very recent past, the whole earth ecosystem has changed. Much of the past flow of energy and resources has  been routed permanently to service a growing human population.  On geological scales, 
+So in the very recent past, the whole earth ecosystem has changed. Much of the past flow of energy and resources has  been routed permanently to service a growing human population.  On geological scales, rapid and ongoing.  with worrying implications for all animal life. 
+
+Context. .16 GT carbon  ~ 8% of the worlds animal biomass
 
 {{< figure src="/images/pnas.1711842115fig01.jpeg"
  caption="**A recent census of the total mass (in gigatonnes of carbon)all life of the earth**<br><br> "
