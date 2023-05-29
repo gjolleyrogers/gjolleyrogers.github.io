@@ -97,7 +97,7 @@ format:
     fig-format: png
   docx:
     prefer-html: true          # stops non-HTML format errors 
-    reference-doc: /Users/ian/.local/share/pandoc/templates/custom.docx # change to your own docx template
+    reference-doc: /Users/gjr/.local/share/pandoc/templates/custom.docx # change to your own docx template
 ---
 
 
