@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ecology on GJR</title>
+    <link>https://www.jolley-rogers.au/tags/ecology/</link>
+    <description>Recent content in ecology on GJR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jolley-rogers.au/tags/ecology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are insect abundances in decline?</title>
+      <link>https://www.jolley-rogers.au/project/insect-decline/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/project/insect-decline/</guid>
+      <description>A stub.. details to come .
+whether there is an insect apocalpse by analysing past and recent patterns of insect abundance how to measure changes in insect abundance to determine whether there is long term insect decline by analysing past and recent patterns of insect abundance in Australia</description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://www.jolley-rogers.au/project/writing/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/project/writing/</guid>
+      <description>In no way do I think anything I write here is the last word on a subject. And it is likely that mistakes and typos may slip through. So, don&amp;rsquo;t hesitate to get in touch if you see something that bugs you.
+I welcome and encourage all respectful feedback.
+** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.</description>
+    </item>
+    
+    <item>
+      <title>Our impacts</title>
+      <link>https://www.jolley-rogers.au/collection/day01/01-github/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/collection/day01/01-github/</guid>
+      <description>Profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
+Pin projects to profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile
+Profile README This is new! Let&amp;rsquo;s do it:
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
+    </item>
+    
+    <item>
+      <title>Human Impacts</title>
+      <link>https://www.jolley-rogers.au/collection/day01/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/collection/day01/</guid>
+      <description>If you choose layout: single-series, you can add markdown text here and it will be the landing page for this nested subsection.</description>
+    </item>
+    
+  </channel>
+</rss>

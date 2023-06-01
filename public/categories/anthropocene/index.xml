@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anthropocene on GJR</title>
+    <link>https://www.jolley-rogers.au/categories/anthropocene/</link>
+    <description>Recent content in anthropocene on GJR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jolley-rogers.au/categories/anthropocene/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our impacts</title>
+      <link>https://www.jolley-rogers.au/collection/day01/01-github/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/collection/day01/01-github/</guid>
+      <description>Profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
+Pin projects to profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile
+Profile README This is new! Let&amp;rsquo;s do it:
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
+    </item>
+    
+    <item>
+      <title>Human Impacts</title>
+      <link>https://www.jolley-rogers.au/collection/day01/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/collection/day01/</guid>
+      <description>If you choose layout: single-series, you can add markdown text here and it will be the landing page for this nested subsection.</description>
+    </item>
+    
+  </channel>
+</rss>

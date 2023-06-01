@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viz and analysis on GJR</title>
+    <link>https://www.jolley-rogers.au/project/visualanalysis/</link>
+    <description>Recent content in Viz and analysis on GJR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jolley-rogers.au/project/visualanalysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phylogeny Visualisation</title>
+      <link>https://www.jolley-rogers.au/project/visualanalysis/01-spoonful/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/project/visualanalysis/01-spoonful/</guid>
+      <description>Phylojive Bird phylogeny - for Australian Endemic Species This is from the bird tree project, which aims to give a phylogeny of extant species. We have further chosen to show only those species endemic to Australiasia. It is a beta version. The linkouts are yet to be adapted to point to relevant avifaunal sources. The tree is too deep and the zoom is yet to be adjusted. Click the top button to get the navigation aid try choosing 2nd &amp;amp 3rd characters to plot on the tree; align-names feature; search; set-root; rotate, etc.</description>
+    </item>
+    
+    <item>
+      <title>quarto test</title>
+      <link>https://www.jolley-rogers.au/project/visualanalysis/rea/quarto-test2/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/project/visualanalysis/rea/quarto-test2/</guid>
+      <description>1 Abstract 2 Introduction 3 Methods 3.1 Data Recording 3.2 Experimental Perturbations 3.3 Stimulus Plotting Abstract This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto&amp;rsquo;s layout features.</description>
+    </item>
+    
+    <item>
+      <title>Hello, Quarto</title>
+      <link>https://www.jolley-rogers.au/project/visualanalysis/qmd/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jolley-rogers.au/project/visualanalysis/qmd/</guid>
+      <description>Polar Axis For a demonstration of a line plot on a polar axis, see Figure 1.</description>
+    </item>
+    
+  </channel>
+</rss>
