@@ -10,4 +10,4 @@ draft: false
 
 {{< here >}}
 
- {{< gallery dir="/images/" />}}
+ {{< gallery dir="/images/" hover-effect="none" caption-effect="none"  />}}
