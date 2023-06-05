@@ -72,8 +72,6 @@ Here is some marginalia using the \[`Marginalia`\] Paragraph Style, *including* 
 
 Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo \[@barrett2015; @crivellato2007\]! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
 
-
-
 > **Tip**
 >
 > This callout is generated using the \[`Callout Tip`\] Scrivener Paragraph Style...
