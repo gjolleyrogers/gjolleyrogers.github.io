@@ -83,7 +83,7 @@ intro: |
 
 
    
-  #### MY NAME   {{< figure src="/images/hook.png" title="" class="fr">}}
+  #### MY NAME   {{< figure src="/images/hook.png" title=""  caption="" class="fr">}}
   Before we were married I was Garry Rogers. <br>	My wife to be was Cynthia Jolley. 
 
   We hyphenated because it was just too good an opportunity to pass up - so we are now Cynthia and Garry Jolley-Rogers. When we met, Cynthia was working as Assistant Stage Manager on a production of Gilbert and Sullivans "Pirates of Penzance".
@@ -122,19 +122,7 @@ Using my skills in programming, process analysis, numerical analysis. I have had
 > Epidemiology
 > Cognition 
 > Psychology of music
-> Vision Science {{< figure
-  src="/images/ouchi.png"
-  class="class param"
-  type="margin"
-  label="mn-rhino"
-  title="The image title."
-  label="mn-export-import"
-  caption="This is the image caption."
-  attr="Image attribution"
-  attrlink="https://edwardtufte.github.io/tufte-css"
-  alt="alt"
-  link="link"
- >}}
+> Vision Science  
 > Information technology
 
 ## Management
