@@ -5,8 +5,9 @@ excerpt: "This theme offers built-in Font Awesome icons for organizing your coll
 date: 2021-01-28
 author: "Garry Jolley-Rogers & Eric Anderson"
 draft: false
+featured_image: "featured.png"
 # layout options: single, single-sidebar
-layout: single
+layout: single-sidebar
 tags:
   - parrots
   - rare

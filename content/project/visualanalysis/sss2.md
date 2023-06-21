@@ -1,3 +1,14 @@
+---
+title: "post" 
+subtitle: ""
+excerpt: "A stub..  details to come .."
+weight: 6 
+date: 2023-04-15
+author: "Garry Jolley-Rogers"
+draft: false
+---
+
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 

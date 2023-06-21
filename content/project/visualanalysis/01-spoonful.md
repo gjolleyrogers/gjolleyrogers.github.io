@@ -1,7 +1,7 @@
 ---
-title: "A first post"
+title: "sidenote"
 weight: 1
-subtitle: ""
+subtitle: "sidenote"
 excerpt: " "
 weight: 5 
 date: 2023-04-15
@@ -18,7 +18,6 @@ draft: false
 
 ---
  
- 
 Let's start.
  {{< sidenote >}}
   blah
@@ -29,11 +28,5 @@ Let's start.
 ## middle
 
  
-## end  
-  ![your_img](/images/hook.png#floatright)
-                       
+## end 
  
-
-
- Hi 
-
