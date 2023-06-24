@@ -10,7 +10,7 @@
 # the location of your bibliography files and change any fonts
 # to those present on your system.
 #
-title: "qq "
+title: "scrivener. "
 subtitle: "A Compiler Workflow…"
 author: 
   - name: Jane Doe

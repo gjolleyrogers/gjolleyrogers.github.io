@@ -1,5 +1,5 @@
 ---
-title: Polar
+title: ex2
 date: "2012-04-06"
 categories: 
   - Matplotlib

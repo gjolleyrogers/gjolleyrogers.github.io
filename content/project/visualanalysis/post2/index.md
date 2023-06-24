@@ -1,0 +1,15 @@
+---
+title: "A second post" 
+subtitle: ""
+excerpt: "A stub..  details to come .."
+weight: 6 
+date: 2023-04-15
+author: "Garry Jolley-Rogers"
+draft: false
+---
+
+{{< here >}}
+
+That's some text with a footnote.[^1]
+
+[^1]: And that's the footnote.
