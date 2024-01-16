@@ -10,23 +10,13 @@
 # the location of your bibliography files and change any fonts
 # to those present on your system.
 #
-title: "scrivener "
+title: "Untitled"
 subtitle: "A Compiler Workflow…"
-author: 
-  - name: Jane Doe
-    email: jane@doe.org
-    corresponding: true
-    affiliations:
-      - International Cephalopod Research Institute (ICRI), Pacific Ocean.
-      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
-  - name: John Doe
-    email: john@doe.com
-    affiliations:
-      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
+author: Garry Jolley-Rogers 
 keywords: [pandoc, quarto, scrivener]
 subject: workflow
 lang: en
-date: 2023-06-02      # Scrivener placeholder
+date: 2024-01-16      # Scrivener placeholder
 verbose: true                 # pandoc verbosity
 toc: false                     # table of contents
 number-sections: true         # numbered headings
@@ -35,11 +25,97 @@ crossref:                     # cross-referencing options
   subref-labels: alpha A        # (default is alpha a)
   chapters: true                # Numbers depend on the chapter, e.g. 2.1
 cap-location: bottom          # where put figure & table captions
-link-citations: true          # in-document links to refs bibliography: /Users/gjr/.local/share/pandoc/Core.json
-csl: /Users/gjr/.local/share/pandoc/csl/apa-ian.csl
+link-citations: true          # in-document links to refs
+bibliography: /Users/gjr/.local/share/pandoc/Core.json
+csl: /Users/gjr/.local/share/pandoc/csl/apa.csl
 appendix-style: default       # see https://quarto.org/docs/authoring/appendices.html#appendix-style
 dpi: 300
-format: hugo
+weight: 5  
+draft: false 
+tags:
+  - ecology
+  - abundance
+  - insects
+categories:
+   - projects
+   - science 
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: https://allisonhorst.github.io/palmerpenguins/
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/allisonhorst/palmerpenguins/
+- icon: newspaper
+  icon_pack: far
+  name: Blog post
+  url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
+
+format:
+  html:
+    theme: journal
+    title-block-banner: "#BB3333"
+    embed-resources: false
+    html-math-method: mathjax
+    section-divs: true
+    linestretch: 1.5
+    fig-format: svg
+    mainfont: Alegreya         # !!! Change to a font on your system
+    monofont: Rec Mono Duotone # !!! Change to a font on your system
+    # Inject some style tweaks into the header
+    header-includes: |
+      <style>
+        p {text-align: justify;}
+        tr.odd {background-color: #F1F1F1;}
+        caption, figcaption, .column-margin p {font-family: Alegreya Sans, sans-serif !important; text-align: left !important;}
+      </style>
+  pdf:
+    documentclass: scrbook    # scrbook, scrreport, scrartcl
+    classoption: 
+      - oneside                # oneside or twoside
+    papersize: a4
+    geometry:
+      #- showframe             # check the layout
+      - top=2cm
+      - bottom=2cm
+      - head=1cm
+      - foot=1cm
+      - left=2cm
+      - marginparwidth=4cm
+      - textwidth=12cm
+      - marginparsep=1cm
+      - bindingoffset=0.5cm
+    fontsize: 11pt
+    linestretch: 1.5
+    latex-clean: true
+    keep-tex: true
+    mainfont: Fira Sans         # !!! Change to a font on your system 
+    mainfontoptions: 
+      - Numbers=Proportional
+      - Numbers=OldStyle
+    sansfont: Fira Sans    # !!! Change to a font on your system
+    monofont: Fira Mono # !!! Change to a font on your system
+    monofontoptions: 
+      - Scale=MatchLowercase 
+    linkcolor: Mahogany
+    citecolor: Bittersweet
+    urlcolor: BrickRed
+    #header-includes: |
+      #\KOMAoptions{DIV=last}  # force koma layout rather than geometry
+  epub:
+    html-math-method: katex
+    identifier: 45DRE66-YTX
+    epub-cover-image: /Users/gjr/.local/share/pandoc/templates/cover.jpg
+    fig-format: png
+  docx:
+    prefer-html: true          # stops non-HTML format errors 
+    reference-doc: /Users/gjr/.local/share/pandoc/templates/custom.docx # change to your own docx template 
+  hugo-md:
+    author: Garry Jolley-Rogers
+    code-fold: true
+    toc: false
 ---
 
 
@@ -194,7 +270,7 @@ Note that there are five types of callouts, including:
 
 Note if you have R and Python installed, you can run code like so...
 
-Here is an R plot (@fig-airquality), you need to have R installed for this to work, if not remove this document from the compile:  
+Here is an R plot (@fig-airquality), you need to have R installed for this to work and also the tidy verse packages, if not simply remove this document from the compile:  
 
 ```{r}
 #| label: fig-airquality
@@ -216,12 +292,83 @@ Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te 
 #| label: tbl-tableKable
 #| tbl-cap: This table uses Section Type `[Code R]` to insert the correct markup at compile, this is an alterative to using the `[R Block]` paragraph style. This shows a table generated by the R package *kableExtra*. Currently this works for HTML and LaTeX.
 #| echo: false
+#| cap-location: margin
 
 # install.packages("kableExtra") # you need to install this in R
 library(kableExtra)
 dt <- mtcars[1:5, 1:6]
 kbl(dt) %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
+
+```
+
+
+```{r}
+#| label: load-packages
+#| echo: false
+
+library(ggplot2)
+```
+
+There are `r nrow(mpg)` observations in our data.
+
+```{r}
+#| echo: false
+
+mean_cty <- round(mean(mpg$cty), 2)
+mean_hwy <- round(mean(mpg$hwy), 2)
+
+```
+
+
+```{r}
+#| label: fig-labe3
+#| fig-cap: Place your figure caption here.
+
+# Place your R code here, see https://quarto.org/docs/computations/r.html
+
+#| label: fig-mpg
+#| fig-cap: "City and highway mileage for 38 popular models of cars."
+#| fig-subcap:
+#|   - "Color by number of cylinders"
+#|   - "Color by engine displacement, in liters"
+#| layout-ncol: 2
+#| column: page
+#| cache: true
+
+ggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +
+  geom_point(alpha = 0.5, size = 2) +
+  scale_color_viridis_c() +
+  theme_minimal()
+
+ggplot(mpg, aes(x = hwy, y = cty, color = displ)) +
+  geom_point(alpha = 0.5, size = 2) +
+  scale_color_viridis_c(option = "E") +
+  theme_minimal()
+ 
+
+```
+
+
+```{python}
+#| label: fig-label33
+#| fig-cap: Place your figure caption here.
+#| column: margin
+# Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+
 
 ```
 

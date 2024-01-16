@@ -10,23 +10,13 @@
 # the location of your bibliography files and change any fonts
 # to those present on your system.
 #
-title: "scrivener. "
+title: "Untitled"
 subtitle: "A Compiler Workflow…"
-author: 
-  - name: Jane Doe
-    email: jane@doe.org
-    corresponding: true
-    affiliations:
-      - International Cephalopod Research Institute (ICRI), Pacific Ocean.
-      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
-  - name: John Doe
-    email: john@doe.com
-    affiliations:
-      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
+author: Garry Jolley-Rogers 
 keywords: [pandoc, quarto, scrivener]
 subject: workflow
 lang: en
-date: 2023-06-02      # Scrivener placeholder
+date: 2024-01-16      # Scrivener placeholder
 verbose: true                 # pandoc verbosity
 toc: false                     # table of contents
 number-sections: true         # numbered headings
@@ -35,19 +25,105 @@ crossref:                     # cross-referencing options
   subref-labels: alpha A        # (default is alpha a)
   chapters: true                # Numbers depend on the chapter, e.g. 2.1
 cap-location: bottom          # where put figure & table captions
-link-citations: true          # in-document links to refs bibliography: /Users/gjr/.local/share/pandoc/Core.json
-csl: /Users/gjr/.local/share/pandoc/csl/apa-ian.csl
+link-citations: true          # in-document links to refs
+bibliography: /Users/gjr/.local/share/pandoc/Core.json
+csl: /Users/gjr/.local/share/pandoc/csl/apa.csl
 appendix-style: default       # see https://quarto.org/docs/authoring/appendices.html#appendix-style
 dpi: 300
-format: hugo
+weight: 5  
+draft: false 
+tags:
+  - ecology
+  - abundance
+  - insects
+categories:
+   - projects
+   - science 
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: https://allisonhorst.github.io/palmerpenguins/
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/allisonhorst/palmerpenguins/
+- icon: newspaper
+  icon_pack: far
+  name: Blog post
+  url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
+
+format:
+  html:
+    theme: journal
+    title-block-banner: "#BB3333"
+    embed-resources: false
+    html-math-method: mathjax
+    section-divs: true
+    linestretch: 1.5
+    fig-format: svg
+    mainfont: Alegreya         # !!! Change to a font on your system
+    monofont: Rec Mono Duotone # !!! Change to a font on your system
+    # Inject some style tweaks into the header
+    header-includes: |
+      <style>
+        p {text-align: justify;}
+        tr.odd {background-color: #F1F1F1;}
+        caption, figcaption, .column-margin p {font-family: Alegreya Sans, sans-serif !important; text-align: left !important;}
+      </style>
+  pdf:
+    documentclass: scrbook    # scrbook, scrreport, scrartcl
+    classoption: 
+      - oneside                # oneside or twoside
+    papersize: a4
+    geometry:
+      #- showframe             # check the layout
+      - top=2cm
+      - bottom=2cm
+      - head=1cm
+      - foot=1cm
+      - left=2cm
+      - marginparwidth=4cm
+      - textwidth=12cm
+      - marginparsep=1cm
+      - bindingoffset=0.5cm
+    fontsize: 11pt
+    linestretch: 1.5
+    latex-clean: true
+    keep-tex: true
+    mainfont: Fira Sans         # !!! Change to a font on your system 
+    mainfontoptions: 
+      - Numbers=Proportional
+      - Numbers=OldStyle
+    sansfont: Fira Sans    # !!! Change to a font on your system
+    monofont: Fira Mono # !!! Change to a font on your system
+    monofontoptions: 
+      - Scale=MatchLowercase 
+    linkcolor: Mahogany
+    citecolor: Bittersweet
+    urlcolor: BrickRed
+    #header-includes: |
+      #\KOMAoptions{DIV=last}  # force koma layout rather than geometry
+  epub:
+    html-math-method: katex
+    identifier: 45DRE66-YTX
+    epub-cover-image: /Users/gjr/.local/share/pandoc/templates/cover.jpg
+    fig-format: png
+  docx:
+    prefer-html: true          # stops non-HTML format errors 
+    reference-doc: /Users/gjr/.local/share/pandoc/templates/custom.docx # change to your own docx template 
+  hugo-md:
+    author: Garry Jolley-Rogers
+    code-fold: true
+    toc: false
 ---
 
-<script  src="ss2_files/libs/quarto-diagram/mermaid.min.js"></script>
-<script  src="ss2_files/libs/quarto-diagram/mermaid-init.js"></script>
-<link  href="ss2_files/libs/quarto-diagram/mermaid.css" rel="stylesheet" />
+<script  src="Q22_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script  src="Q22_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link  href="Q22_files/libs/quarto-diagram/mermaid.css" rel="stylesheet" />
 
-<script src="ss2_files/libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="ss2_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<script src="Q22_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="Q22_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 # Abstract
@@ -60,17 +136,17 @@ format: hugo
 
 > *"We don't see things as they are, we see them as we are." --- Anaïs Nin*
 
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium[^1] te eøs, eæm in veri eirmod \[@barrett2015; @crivellato2007\]. Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium[^1] te eøs, eæm in veri eirmod ([Barrett & Simmons, 2015](#ref-barrett2015); [Crivellato & Ribatti, 2007](#ref-crivellato2007)). Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?
 
 <img src="Elephant1.jpg" id="fig-elephant" class="column-body" alt="Figure 2.1: We add the cross-referencing label to the start of the caption. This label will get moved to the correct place in the markdown by the post-processing script before Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style Caption which the Scrivener compiler converts to the correct markdown to generate a captioned image block!" />
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum\[@crivellato2007\], pro paulo ridens quaestio ut (see [Figure 2.1](#fig-elephant))! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, ***his åt justo putant comprehensam (this style is strong emphasis)***.
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum([Crivellato & Ribatti, 2007](#ref-crivellato2007)), pro paulo ridens quaestio ut (see [Figure 2.1](#fig-elephant))! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, ***his åt justo putant comprehensam (this style is strong emphasis)***.
 
-Ad pro quod <sup>superscript</sup>, mel no laudem <sub>subscript</sub>, te mei prompta maiorum pønderum \[@siegel2015; @copenhaver2014; @hoffman2014; @barrett2015; @simmons2013\]. Solum aeque singulis duo ex, est an iriure øblique.
+Ad pro quod <sup>superscript</sup>, mel no laudem <sub>subscript</sub>, te mei prompta maiorum pønderum ([Barrett & Simmons, 2015](#ref-barrett2015); [Copenhaver, 2014](#ref-copenhaver2014); [Hoffman & Prakash, 2014](#ref-hoffman2014); [Siegel & Silins, 2015](#ref-siegel2015); [Simmons, 2015](#ref-simmons2013)). Solum aeque singulis duo ex, est an iriure øblique.
 
-Here is some marginalia using the \[`Marginalia`\] Paragraph Style, *including* a citation \[@barrett2015\]. This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.
+Here is some marginalia using the \[`Marginalia`\] Paragraph Style, *including* a citation ([Barrett & Simmons, 2015](#ref-barrett2015)). This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.
 
-Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo \[@barrett2015; @crivellato2007\]! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
+Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo ([Barrett & Simmons, 2015](#ref-barrett2015); [Crivellato & Ribatti, 2007](#ref-crivellato2007))! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
 
 > **Tip**
 >
@@ -117,7 +193,7 @@ Sint meis quo et, vis ad fæcete dolorem!
 
 <span id="eq-two">$$\nabla \times \mathbf {H} ={\frac {1}{c}}\left(4\pi \mathbf {J} _{\text{f}}+{\frac {\partial \mathbf {D} }{\partial t}}\right) \qquad(3.2)$$</span>
 
-Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See [Figure 3.1](#fig-marginalia) for a poor marginalised elephant. Ad quøt moderatius elaboraret eum \[@siegel2015\], pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm?
+Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See [Figure 3.1](#fig-marginalia) for a poor marginalised elephant. Ad quøt moderatius elaboraret eum ([Siegel & Silins, 2015](#ref-siegel2015)), pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm?
 
 ``` ruby
 # This is a styled Ruby code block, 
@@ -136,7 +212,7 @@ puts say.upcase
 5.times { puts say }
 ```
 
-Ad pro quod definitiønem[^2], mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex \[@siegel2015\], est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
+Ad pro quod definitiønem[^2], mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex ([Siegel & Silins, 2015](#ref-siegel2015)), est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
 
 ## Experimental Perturbations
 
@@ -175,7 +251,7 @@ See [Figure 3.2](#fig-elephants), particularly [Figure 3.2 (A)](#fig-castle). 
 > Note that there are five types of callouts, including:
 > `note`, `tip`, `warning`, `caution`, and `important`.
 
-No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex \[@siegel2015\], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
+No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex ([Siegel & Silins, 2015](#ref-siegel2015)), ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
 
 > **Important**
 >
@@ -193,9 +269,22 @@ No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intelle
 
 Note if you have R and Python installed, you can run code like so...
 
-Here is an R plot ([Figure 3.3](#fig-airquality)), you need to have R installed for this to work, if not remove this document from the compile:
+Here is an R plot ([Figure 3.3](#fig-airquality)), you need to have R installed for this to work and also the tidy verse packages, if not simply remove this document from the compile:
 
-<img src="ss2.markdown_strict_files/figure-markdown_strict/fig-airquality-1.png" id="fig-airquality" width="768" alt="Figure 3.3: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level." />
+<details>
+<summary>Code</summary>
+
+``` r
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+
+</details>
+
+<img src="Q22.markdown_strict_files/figure-markdown_strict/fig-airquality-1.png" id="fig-airquality" width="768" alt="Figure 3.3: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level." />
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. <span class="column-margin">This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout.</span>Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?
 
@@ -208,6 +297,64 @@ Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te 
 | Hornet Sportabout | 18.7 |   8 |  360 | 175 | 3.15 | 3.440 |
 
 Table 3.1: This table uses Section Type `[Code R]` to insert the correct markup at compile, this is an alterative to using the `[R Block]` paragraph style. This shows a table generated by the R package *kableExtra*. Currently this works for HTML and LaTeX.
+
+There are 234 observations in our data.
+
+<details>
+<summary>Code</summary>
+
+``` r
+# Place your R code here, see https://quarto.org/docs/computations/r.html
+
+#| label: fig-mpg
+#| fig-cap: "City and highway mileage for 38 popular models of cars."
+#| fig-subcap:
+#|   - "Color by number of cylinders"
+#|   - "Color by engine displacement, in liters"
+#| layout-ncol: 2
+#| column: page
+#| cache: true
+
+ggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +
+  geom_point(alpha = 0.5, size = 2) +
+  scale_color_viridis_c() +
+  theme_minimal()
+
+ggplot(mpg, aes(x = hwy, y = cty, color = displ)) +
+  geom_point(alpha = 0.5, size = 2) +
+  scale_color_viridis_c(option = "E") +
+  theme_minimal()
+```
+
+</details>
+
+<img src="Q22.markdown_strict_files/figure-markdown_strict/fig-labe3-1.png" id="fig-labe3-1" width="768" alt="Figure 3.4: Place your figure caption here." />
+
+<img src="Q22.markdown_strict_files/figure-markdown_strict/fig-labe3-2.png" id="fig-labe3-2" width="768" alt="Figure 3.5: Place your figure caption here." />
+
+<details>
+<summary>Code</summary>
+
+``` python
+# Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+</details>
+
+<img src="Q22.markdown_strict_files/figure-markdown_strict/fig-label33-1.png" id="fig-label33" width="614" alt="Figure 3.6: Place your figure caption here." />
 
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, *ei ius apeirian cønstituam mediocritatem,* mei rebum detracto scaevølæ ex. Sed modo dico ullum at, **sententiae definiebas ex eam**! Nøstro eruditi eum ex.
 
@@ -395,9 +542,9 @@ new--runmem
 </g>
 </svg>
 
-Figure 3.4: A graphviz graph with figure reference and caption, using the \[Dot block\] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...
+Figure 3.7: A graphviz graph with figure reference and caption, using the \[Dot block\] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [Figure 3.5](#fig-statemachine) and [Figure 3.6](#fig-mermaid) for details.
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [Figure 3.8](#fig-statemachine) and [Figure 3.9](#fig-mermaid) for details.
 
 <svg width="768" height="480" viewbox="0.00 0.00 578.10 255.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 251)">
@@ -610,7 +757,7 @@ finite_state_machine
 </g>
 </svg>
 
-Figure 3.5: A Graphviz-generated state machine diagram, output using a \[Diagram Dot\] Section Type. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...
+Figure 3.8: A Graphviz-generated state machine diagram, output using a \[Diagram Dot\] Section Type. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details...
 
 Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
 
@@ -627,17 +774,17 @@ flowchart LR
 
 </pre>
 
-Figure 3.6: A Mermaid figure using a Scrivener Section Type \[Diagram Mermaid\]; The plot represents some sort of graph...
+Figure 3.9: A Mermaid figure using a Scrivener Section Type \[Diagram Mermaid\]; The plot represents some sort of graph...
 
 No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
 
 Åd nam omnis ullamcørper vituperatoribus. Sed vereartincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.
 
-No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex \[@siegel2015\], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
+No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex ([Siegel & Silins, 2015](#ref-siegel2015)), ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [Figure 3.7](#fig-withattributes) for details.
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See [Figure 3.10](#fig-withattributes) for details.
 
-<img src="Elephant3.jpg" id="fig-withattributes" class="myclass" style="width:3cm;height:2cm" data-fig-align="right" alt="Figure 3.7: This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details…" />
+<img src="Elephant3.jpg" id="fig-withattributes" class="myclass" style="width:3cm;height:2cm" data-fig-align="right" alt="Figure 3.10: This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details…" />
 
 
 
@@ -653,7 +800,7 @@ Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pr
 
 <img src="Elephant1.jpg" id="fig-elespan2" alt="Figure 4.2: This should also span the whole page, using a paragraph block style [Column Page]. This method has the caveat that we cannot use an editor-embedded image as in Figure 4.1; only an Scrivener Binder document link to the file and direct pandoc markup…" />
 
-Ad pro quod definitiønem \[@crivellato2007\], mel no laudem delectus \[@siegel2015\], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo!
+Ad pro quod definitiønem ([Crivellato & Ribatti, 2007](#ref-crivellato2007)), mel no laudem delectus ([Siegel & Silins, 2015](#ref-siegel2015)), te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo!
 
 <img src="Elephant1.jpg" id="fig-elespan3" alt="Figure 4.3: This should span the page to the right in HTML. This uses a Section Type [Layout Page Right] to generate the correct markup by the compile format." />
 
@@ -867,18 +1014,18 @@ Figure 4.4: This demonstrates generating a multi-panel figure using a Scrivener
 
 # Discussion
 
-Lørem ipsum dolør sit amet \[@siegel2015\], eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod \[@siegel2015\]. Sed illum minimum[^3] at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te?
+Lørem ipsum dolør sit amet ([Siegel & Silins, 2015](#ref-siegel2015)), eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod ([Siegel & Silins, 2015](#ref-siegel2015)). Sed illum minimum[^3] at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te?
 
 <img src="Elephant3.jpg" id="fig-alignright" data-fig-align="right" width="400" height="324" alt="Figure 5.1: This should be right-aligned if there is space…" />
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad \[@siegel2015\], ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad ([Siegel & Silins, 2015](#ref-siegel2015)), ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.
 
 This Marginalia is using a Section Type \[`Layout Margin`\]. We can therefore use paragraph styles here, like \[`Maths Block`\]. We know from the *first fundamental theorem of calculus* that for $x$ in $[a, b]$
 <span id="eq-marginalia">$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x). \qquad(5.1)$$</span>
 
-Ad pro quod definitiønem, mel no laudem delectus \[@siegel2015\], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
+Ad pro quod definitiønem, mel no laudem delectus ([Siegel & Silins, 2015](#ref-siegel2015)), te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
 
-No meæ menandri mediøcritatem \[@siegel2015; @barrett2015; @crivellato2007\], meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
+No meæ menandri mediøcritatem ([Barrett & Simmons, 2015](#ref-barrett2015); [Crivellato & Ribatti, 2007](#ref-crivellato2007); [Siegel & Silins, 2015](#ref-siegel2015)), meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.
 
 # Acknowledgments
 
@@ -890,7 +1037,19 @@ The authors do ***love*** octopods, but this in no way biases their work.
 
 # Bibliography
 
-[^1]: This is a footnote, **with** a citation \[@crivellato2007\].
+Barrett, L., & Simmons, W. (2015). Interoceptive predictions in the brain. *Nature Reviews Neuroscience*, *16*(7), 419--429. <https://doi.org/10.1038/nrn3950>
+
+Copenhaver, R. (2014). Berkeley on the language of nature and the objects of vision. *Res Philosophica*, *91*(1), 29--46. <https://doi.org/10.11612/resphil.2014.91.1.2>
+
+Crivellato, E., & Ribatti, D. (2007). Soul, mind, brain: Greek philosophy and the birth of neuroscience. *Journal of Anatomy*, *71*(4), 327--336. <https://doi.org/10.1016/j.brainresbull.2006.09.020>
+
+Hoffman, D. D., & Prakash, C. (2014). Objects of consciousness. *Frontiers in Psychology*, *5*, 577. <https://doi.org/10.3389/fpsyg.2014.00577>
+
+Siegel, S., & Silins, N. (2015). The epistemology of perception. In M. Matthen (Ed.), *The oxford handbook of philosophy of perception* (pp. 781--811). Oxford University Press.
+
+Simmons, A. (2015). Perception in early modern philosophy. In M. Matthen (Ed.), *The oxford handbook of philosophy of perception* (pp. 81--99). Oxford University Press.
+
+[^1]: This is a footnote, **with** a citation ([Crivellato & Ribatti, 2007](#ref-crivellato2007)).
 
 [^2]: Another footnote. Although footnotes get converted just fine, one caveat is you cannot use Scrivener inline styles, so you **must** use Pandoc markup *directly*.
 

@@ -30,9 +30,9 @@ cascade:
   show_author_byline: true
   show_post_date: true
   sidebar:
-    text_link_label: ""
-    text_link_url: ""
-    show_sidebar_adunit: false # show ad container
+    text_link_label: "george"
+    text_link_url: "www.google.com"
+    show_sidebar_adunit: true # show ad container
     text_series_label: "Jottings" 
     text_contents_label: "Sections"
 categories: 
