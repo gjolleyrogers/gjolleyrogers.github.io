@@ -4,6 +4,7 @@ weight: 2
 subtitle: "Write and send a single postcard."
 excerpt: "In this block, we'll use the postcards package to make a single 'about' home page with only R Markdown."
 date: 2021-01-02
+show_post_date: true
 ---
 
 ## Pre-requisites

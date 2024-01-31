@@ -3,8 +3,8 @@ title: Writing
 description: |
   A stub..  details to come .
 author: Garry Jolley-Rogers
-show_post_thumbnail: false
-show_author_byline: true
+show_post_thumbnail: true
+show_author_byline: false
 show_post_date: true
 
 date: 2023-04-15
@@ -30,8 +30,8 @@ cascade:
   show_author_byline: true
   show_post_date: true
   sidebar:
-#    text_link_label: "george"
-#    text_link_url: "www.google.com"
+    text_link_label: "george"
+    text_link_url: "www.google.com"
     show_sidebar_adunit: true # show ad container
     text_series_label: "Jottings" 
     text_contents_label: "Sections"

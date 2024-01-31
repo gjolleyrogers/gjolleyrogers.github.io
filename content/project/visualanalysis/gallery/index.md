@@ -1,19 +1,21 @@
 ---
 title: "Gallery" 
-subtitle: ""
+subtitle: "..."
 excerpt: "A stub..  details to come .."
 weight: 6 
 date: 2023-04-15
 author: "Garry Jolley-Rogers"
 draft: false
+keywords: [pics, gallery]
+subject: workflow
 ---
-
-
+ 
+# photoswipe
 {{< load-photoswipe >}}
  {{< gallery dir="/images/"  thumb="_430x450" hover-effect="none" caption-effect="none"  />}}
  
 {{< here >}}
- 
+## gallery
  {{< gallery title="Pictures from my Arduino post"  caption-effect="none"  caption-position="center" >}}
  <img src="Elephant3.jpg" id="fig-trunk" data-ref-parent="fig-elephants" data-fig.extended="false" width="455" alt="(B) Angry elephant with big trunk." />
   {{< figure src="/images/hook.png" title=""  caption="" class="fr">}}

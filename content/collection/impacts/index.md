@@ -4,7 +4,11 @@ weight: 1
 subtitle: "Baseline measures of our impact"
 excerpt: "some stark but simple measures of our impact on the Earth"
 date: 2021-01-01
-draft: false
+draft: false 
+author: Garry Jolley-Rogers
+show_post_thumbnail: true
+show_author_byline: true
+show_post_date: true
 ---
 
 ##  on the living world

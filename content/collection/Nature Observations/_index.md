@@ -6,6 +6,7 @@ show_post_thumbnail: true
 weight: 2
 publishDate: 2021-01-22
 date: 2021-01-25
+show_post_date: true
 subtitle: "being"
 description: |
   sss off 

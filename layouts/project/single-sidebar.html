@@ -7,20 +7,24 @@
         {{ if .Params.subtitle }}<h4 class="f4 mt0 mb4 lh-title measure">{{ .Params.subtitle }}</h4>{{ end }}
         
 	
+<!-- 
          {{ with .Params.tags }}
   			<dl class="f6 lh-copy">
    			 <dt class="fw7">Tags:</dt>
     			<dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
   			</dl>
          {{ end }}	
+ -->
+<!-- 
 		<dl class="f6 lh-copy">
 		<dt class="fw7">Length:</dt>
 		<dd class="fw5 ml0">{{ .ReadingTime }} minute read, {{ .WordCount }} words</dd>
 		</dl>
+ -->
   
           
       {{ if .Params.links }}
-      <div class="ph0 pt5">
+      <div class="ph0 pt0">
         {{ partial "shared/btn-links.html" . }}
       </div>
       {{ end }}
@@ -28,7 +32,7 @@
       </header>
       
      
-      <section class="post-body pt5 pb4">
+      <section class="post-body pt0 pb4">
     
         {{ .Content }}
         
@@ -43,14 +47,23 @@
   </section>
 </main>
 <aside class="page-sidebar" role="complementary">
+
+  {{ partial "shared/sidebar/sidebar-deets.html" . }}
+
   {{ partial "shared/sidebar-scaffold.html" . }}
-  {{ .Scratch.Set "details" "open" }}
+  
+<!--   {{ partial "shared/series-sidebar.html" . }}
+ 
+=
+  {{ .Scratch.Set "details" "open" }}-->
     {{ partial "shared/sidebar/sidebar-toc.html" . }}
   
-  {{ partial "shared/post-details.html" . }}
+<!--   {{ partial "shared/post-details.html" . }} -->
 
   
   {{ partial "shared/sidebar-scaffold-bottom.html" . }}
+  
+  
   
 </aside>
 

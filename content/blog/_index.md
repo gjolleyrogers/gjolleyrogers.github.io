@@ -1,5 +1,5 @@
 ---
-title: My Blog
+title: Blog
 description: |  
     I  write to develop ideas   on topics I judge to be noteworthy
 author: "Garry Jolley-Rogers"
