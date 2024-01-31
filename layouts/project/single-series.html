@@ -1,13 +1,15 @@
 {{ define "main" }}
 {{ $page := . }}                       <!--save current page-->
-<main class="page-main pa4" role="main">
+ 
+<main class="page-main pa3" role="main">
   <section class="page-content mw7 center">
     <article class="post-content pa0 pl3-l">
-      <header class="post-header">
-
+      <header class="page-header bb b--black-10 bw1 pb1 mb0 ">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw6">{{ .Title }}</h1>
+        
+        {{ if .Params.subtitle }}<h4 class="f3 mt0 mb4 lh-title measure">{{ .Params.subtitle }}</h4>{{ end }}
       </header>
-
-      <section class="post-body pt5 pb4">
+       <section class="post-body pt5 pb1">
         {{ .Content }}
       </section>
       <footer class="post-footer">
@@ -23,10 +25,10 @@
 <aside class="page-sidebar" role="complementary">
 
   {{ partial "shared/sidebar-scaffold.html" . }}
-  
-
+  {{ partial "shared/sidebar/sidebar-deets.html" . }}
   {{ partial "shared/series-sidebar.html" . }}
   {{ partial "shared/sidebar/sidebar-toc.html" . }}
+
   
 <!--   {{ partial "shared/sidebar-scaffold-bottom.html" . }} -->
 </aside>
@@ -38,5 +40,24 @@ footnotes
   
 <!~~   {{ partial "shared/sidebar-scaffold-bottom.html" . }} ~~>
 </aside>
+
+      <h1 class="f1 lh-solid measure-narrow mb3 fw6">{{ .Title }}</h1>
+        {{ if .Params.subtitle }}<h4 class="f7 mt0 mb4 lh-title measure">{{ .Params.subtitle }}</h4>{{ end }}
+        {{ if .Params.show_author_byline }}<p class="f7 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+        {{ if .Params.show_post_date }}<p class="f8 db mv0 ttu">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
+ 
+          {{ with .Params.tags }}
+  			<dl class="f6 lh-copy">
+   			 <dt class="fw7">Tags:</dt>
+    			<dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
+  			</dl>
+         {{ end }}	
+		<dl class="f6 lh-copy">
+		<dt class="fw7">Length:</dt>
+		<dd class="fw5 ml0">{{ .ReadingTime }} minute read, {{ .WordCount }} words</dd>
+		</dl>
+        {{ if .Params.show_author_byline }}<p class="f6 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+        {{ if .Params.show_post_date }}<p class="f7 db mv0 ttu">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
+
  -->
 {{ end }}

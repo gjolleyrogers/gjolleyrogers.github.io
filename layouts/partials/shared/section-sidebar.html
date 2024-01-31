@@ -29,7 +29,7 @@
         </ul>
     </nav>
   </div>
-  {{ $headers := findRE "<h[1].*>" $page.Content }}
+  {{ $headers := findRE "<h[2].*>" $page.Content }}
   {{- $has_headers := ge (len $headers) 1 -}}
   {{- if $has_headers -}}
   <details id="PageTableOfContents">

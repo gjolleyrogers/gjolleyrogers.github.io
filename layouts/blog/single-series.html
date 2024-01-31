@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $page := . }}                       <!--save current page-->
-<main class="page-main pa4" role="main">
+<main class="page-main pa10" role="main">
   <section class="page-content mw7 center">
     <article class="post-content pa0 pl3-l">
       <header class="post-header">
@@ -38,7 +38,16 @@
   
   {{ partial "shared/series-sidebar.html" . }}
   
-  {{ partial "shared/sidebar-scaffold-bottom.html" . }}
+  {{ partial "shared/sidebar/sidebar-toc.html" . }}
+   
 </aside>
 
 {{ end }}
+ <!-- 
+ {{ partial "shared/sidebar-scaffold.html" . }}
+  
+  {{ partial "shared/series-sidebar.html" . }}
+
+  
+  {{ partial "shared/sidebar-scaffold-bottom.html" . }} 
+ -->

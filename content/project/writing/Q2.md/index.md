@@ -10,7 +10,7 @@
 # the location of your bibliography files and change any fonts
 # to those present on your system.
 #
-title: "Untitled"
+title: "scrivener"
 subtitle: "A Compiler Workflow…"
 author: Garry Jolley-Rogers 
 keywords: [pandoc, quarto, scrivener]
@@ -117,22 +117,17 @@ format:
     code-fold: true
     toc: false
 ---
-
+## Abstract
 <script  src="Q22_files/libs/quarto-diagram/mermaid.min.js"></script>
 <script  src="Q22_files/libs/quarto-diagram/mermaid-init.js"></script>
 <link  href="Q22_files/libs/quarto-diagram/mermaid.css" rel="stylesheet" />
-
 <script src="Q22_files/libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="Q22_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
-
-
-# Abstract
-
 <span class="smallcaps">This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler</span>. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto's layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener's markdown output so that it is compatible with Quarto's cross-referencing filter.
 
 
 
-# Introduction
+## Introduction
 
 > *"We don't see things as they are, we see them as we are." --- Anaïs Nin*
 
@@ -170,14 +165,15 @@ No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intelle
 | Item 10      | Item 11      | Item 12      |
 
 Table 2.1: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables.
-
+ 
 Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.
 
+ 
 
 
-# Methods
+## Methods
 
-## Data Recording
+### Data Recording
 
 <img src="Elephant3.jpg" id="fig-marginalia" alt="Figure 3.1: A figure of a poor, poor marginalised elephant…" />
 

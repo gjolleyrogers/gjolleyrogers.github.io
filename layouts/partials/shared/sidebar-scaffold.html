@@ -3,25 +3,27 @@
 {{ $is_root := eq .CurrentSection .FirstSection }}
 
 {{ partial "shared/sidebar/sidebar-image.html" $page }}
-
-<div class="blog-info ph4 pt4 pb4 pb0-l">
-        {{ if .Params.show_author_byline }}<p class="f6 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+-
+<div class="blog-info ph4 pt1 pb1 pb0-l">
+   	    {{ if .Params.show_author_byline }}<p class="f7 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
         {{ if .Params.show_post_date }}<p class="f7 db mv0 ttu">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
-  
-  {{ partial "shared/sidebar/sidebar-header.html" $section }}
-  
-                    
-         {{ with .Params.tags }}
+
+   {{ partial "shared/sidebar/sidebar-header.html" $section }}
+
+        {{ with .Params.tags }}
   			<dl class="f6 lh-copy">
    			 <dt class="fw7">Tags:</dt>
     			<dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
   			</dl>
          {{ end }}	
-		<dl class="f6 lh-copy">
-		<dt class="fw7">Length:</dt>
-		<dd class="fw5 ml0">{{ .ReadingTime }} minute read, {{ .WordCount }} words</dd>
-		</dl>
+
+<!--   {{ partial "shared/sidebar/sidebar-toc2.html" . }}
+
   {{ partial "shared/sidebar/sidebar-link.html" .Params.sidebar }}
    
+ -->
 </div>
  
+
+<!-- 
+ -->
