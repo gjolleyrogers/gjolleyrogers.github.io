@@ -1,0 +1,103 @@
+<!-- 
+{{ $page := . }}                       <!~~save current page~~>
+
+
+{{ $headers := findRE "<blockquote.*" $page.Content }}
+{{- $has_headers := ge (len $headers) 1 -}}
+{{- if $has_headers -}}
+<div class="   f6  lh-solid pl4">
+ 
+  			<span class="f6 b ttu db">On this page</span>
+  		<!~~ 	 {{ $headers  }}  ~~>
+  			 {{- range $headers -}}
+       				 {{- $header := . -}}
+       				  {{ $header  }} 
+  			{{ end }} 
+  	 </div>
+{{ end }}
+
+
+<!~~ 
+<!-- 
+ ~~>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>This callout is generated using the [<code>Callout Tip</code>] Scrivener Paragraph Style…</p>
+</blockquote>
+ ~~>
+ -->
+<!-- {{ $page := . }}            -->            <!--save current page-->
+<!-- 
+ <b>Table of Contents</b>
+<!-- 
+ ~~>
+
+{{/* ignore empty links with + */}}
+{{- $headers := findRE "<h[2-4].*?>(.|\n])+?</h[2-4]>" .Content -}}
+{{ .Scratch.Set "last_level" 1 }}
+
+{{/* at least one header to link to */}}
+{{- $has_headers := ge (len $headers) 1 -}}
+{{- if $has_headers -}} 
+    <details>
+    <summary>
+    <b>Table of s</b>
+    </summary>
+    {{- range $headers -}}
+        {{- $header := . -}}
+        {{- $base := ($.Page.File.LogicalName) -}}
+        {{- $anchorId := ($header | plainify | htmlUnescape | anchorize) -}}
+        {{- $href := delimit (slice $base $anchorId) "#" | string -}}
+        {{- range findRE "[2-4]" . 1 -}}
+            {{- $next_heading := (int .) -}}
+            {{- if gt $next_heading ($.Scratch.Get "last_level") -}}
+                <ul class="toc-h{{ . }}">
+            {{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
+                </ul>
+            {{- end -}}
+            <li><a href="{{ relref $.Page $href }}">{{- $header | plainify | htmlUnescape -}}</a></li>
+            {{ $.Scratch.Set "last_level" $next_heading }}
+        {{- end -}}
+    {{- end -}}
+    </details> 
+{{- end -}}
+ -->
+<!-- 
+{{/* https://github.com/gohugoio/hugo/issues/1778 */}}
+ 
+    <b>Ta s</b>
+ 
+ {{/* https://github.com/gohugoio/hugo/issues/1778 */}}
+
+{{/* ignore empty links with + */}}
+{{- $headers := findRE "<h[2-4].*?>(.|\n])+?</h[2-4]>" .Content -}}
+{{ .Scratch.Set "last_level" 1 }}
+
+{{/* at least one header to link to */}}
+{{- $has_headers := ge (len $headers) 1 -}}
+{{- if $has_headers -}}
+<aside class="table-of-contents">
+    <details>
+    <summary>
+    <b>Table of Contents</b>
+    </summary>
+    {{- range $headers -}}
+        {{- $header := . -}}
+        {{- $base := ($.Page.File.LogicalName) -}}
+        {{- $anchorId := ($header | plainify | htmlUnescape | anchorize) -}}
+        {{- $href := delimit (slice $base $anchorId) "#" | string -}}
+        {{- range findRE "[2-4]" . 1 -}}
+            {{- $next_heading := (int .) -}}
+            {{- if gt $next_heading ($.Scratch.Get "last_level") -}}
+                <ul class="toc-h{{ . }}">
+            {{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
+                </ul>
+            {{- end -}}
+            <li><a href="{{ relref $.Page $href }}">{{- $header | plainify | htmlUnescape -}}</a></li>
+            {{ $.Scratch.Set "last_level" $next_heading }}
+        {{- end -}}
+    {{- end -}}
+    </details>
+</aside>
+{{- end -}}
+ -->

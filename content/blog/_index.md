@@ -13,7 +13,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: Blog
+  title: Why this Blog
   description: |
     <i class="fas fa-edit"></i> This blog is part of my writing practice. I am thinking aloud. It will be brief, raw, and incomplete.  There will be occasional typos. I make no guarantees about completeness or truth... that is the end goal, but I may not get there anytime soon. 
      

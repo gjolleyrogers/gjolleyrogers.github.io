@@ -20,53 +20,15 @@
 </main>
 <aside class="page-sidebar" role="complementary">
   
-<!-- 
-{{ if .Params.show_author_byline }}<p class="f6 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
-  
-  
- -->
+ 
+ 
   {{ partial "shared/sidebar/sidebar-deets.html" . }}
 
   {{ partial "shared/sidebar-scaffold.html" . }}
   
-<!--   {{ partial "shared/series-sidebar.html" . }}
- 
-=
-  {{ .Scratch.Set "details" "open" }}-->
-    {{ partial "shared/sidebar/sidebar-toc.html" . }}
-  
-<!--   {{ partial "shared/post-details.html" . }} -->
-
-   <!--   
-  {{ partial "shared/sidebar-scaffold-bottom.html" . }}
-     {{ if .Params.show_post_date }}<p class="f7 db mv0 ttu">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
-        
-               	{{ if .Params.show_author_byline }}<p class="f6 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
-		{{ if .Params.show_post_date }}<p class="f7 db mv0 ttu">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
-
-         {{ with .Params.tags }}
-  			<dl class="f6 lh-copy">
-   			 <dt class="fw7">Tags:</dt>
-    			<dd class="fw5 ml0">{{ range . }} <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</dd>
-  			</dl>
-         {{ end }}	
-		<dl class="f6 lh-copy">
-		<dt class="fw7">Length:</dt>
-		<dd class="fw5 ml0">{{ .ReadingTime }} minute read, {{ .WordCount }} words</dd>
-		</dl>
-   {{ partial "shared/post-details.html" . }}  
-     {{ partial "shared/sidebar/sidebar-deets.html" . }}
-  {{ partial "shared/sidebar-scaffold.html" . }}
-<!--   {{ .Scratch.Set "details" "open" }} --> 
-
-  {{ .Scratch.Set "details" "open" }}
  
     {{ partial "shared/sidebar/sidebar-toc.html" . }}
-  
-
-  {{ partial "shared/post-details.html" . }}
  
-
   
   {{ partial "shared/sidebar-scaffold-bottom.html" . }}
 </aside>
