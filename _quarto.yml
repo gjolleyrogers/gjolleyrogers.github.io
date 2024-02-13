@@ -1,8 +1,12 @@
 project:
-  type: hugo
+  type: hugo 
+  lib-dir: ./assets
       
 format: 
   hugo-md:
     code-fold: true
+    output-file: index.md
+    layout: single-sidebar
   
+ 
  
