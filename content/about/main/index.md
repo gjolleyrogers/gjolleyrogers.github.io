@@ -11,7 +11,7 @@ intro: |
   {{< table title="" class="collapse     mv4 w-100"   >}}
   | |  |   |  
   |:---|----|---------------------------------:|
-   |  | <i class="fas fa-balance-scale pr2"><i class="fas fa-paw">  <i class="fas fa-bug pr2"> <i class="fas fa-file-contract  pr2"> <i class="fas fa-frog pr2"></i> &ensp; &ensp;     | remediating our impact on  [**nature**]( {{< relref "/project/nature-remedies" >}})  <br> |
+   |  | <i class="fas fa-balance-scale pr2"><i class="fas fa-paw">  <i class="fas fa-bug pr2"> <i class="fas fa-file-contract  pr2"> <i class="fas fa-frog pr2"></i> &ensp; &ensp;     | remediating our impact on  [**nature**]( {{< relref "/project/insect-decline" >}})  <br> |
   |  | <i class="fas fa-bug pr2"></i> &ensp; &ensp;     | evidence of an [**insect apocalypse**]( {{< relref "/project/insect-decline" >}}) in Australia  <br> |
   | | <i class="fas fa-code-branch pr2"></i>   &ensp; &ensp;   |  how to estimate clade [**phylogenetic diversity**]( {{< relref "/project/phylogenetic-diversity" >}})  |
   | | <i class="fas fa-pastafarianism"></i><i class="fas fa-brain"></i><i class="fas fa-arrows-alt-h"></i><i class="fas fa-brain"></i><i class="fas fa-microscope"></i>  &ensp; &ensp;  | comparative   [**crustacean neuroanatomy**]( {{< relref "/project/neuroanatomy" >}}) | 
