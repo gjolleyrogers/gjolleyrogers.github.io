@@ -1,0 +1,15 @@
+--> Input Filename: /Users/gjr/Documents-working/1.Projects/1.8-websites/gjolleyrogers.github.io/content/project/Nature-Pres/Nature-Pres
+--> Modified path: /usr/local/bin:/opt/local/bin:/opt/local/bin:/Users/gjr/Library/TinyTeX/bin/universal-darwin:/Users/gjr/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Scrivener.app/Contents/Resources/MultiMarkdown/bin
+--> CrossRef figure details: Label={#fig-elephant .column-body}  | We add the *cross-referencing label* to the **_start_** of the caption. This label will get moved to the correct place in the markdown by the post-processing script **_before_** Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style `Caption` which the Scrivener compiler converts to the correct markdown to generate a captioned image block! | Elephant1
+--> CrossRef figure details: Label={#fig-castle}  | Elephant castle. | Elephant2
+--> CrossRef figure details: Label={#fig-trunk}  | Angry elephant with big trunk. | Elephant3
+--> CrossRef figure details: Label={#fig-withattributes .myclass fig-align="right" width=3cm height=2cm}  |  This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details… | Elephant3-1
+--> CrossRef figure details: Label={#fig-elespan}  | This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a `.column-page` class, for Quarto's layout for extend-to-page-width. | Elephant1-1
+--> CrossRef figure details: Label={#fig-elespan3   width= height=}  |  This should span the page to the right in HTML. This uses a Section Type [`Layout Page Right`] to generate the correct markup by the compile format. | Elephant1-2
+--> CrossRef figure details: Label={#fig-castle2}  | Elephant. | Elephant2-1
+--> CrossRef figure details: Label={#fig-trunk2}  | Angry elephant with big trunk. | Elephant3-2
+--> CrossRef figure details: Label={#fig-alignright fig-align="right"}  | This should be right-aligned if there is space… | Elephant3-3
+--> Modified File with fixed cross-references: /Users/gjr/Documents-working/1.Projects/1.8-websites/gjolleyrogers.github.io/content/project/Nature-Pres/Nature-Pres.qmd
+--> Parsing took: 0.004184s
+--> Tada
+--> Tada del

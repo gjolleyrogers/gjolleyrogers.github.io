@@ -7,7 +7,7 @@ author: "Garry Jolley-Rogers & Eric Anderson"
 draft: false
 featured_image: "featured.png"
 # layout options: single, single-sidebar
-layout: single-sidebar
+layout: single
 tags:
   - parrots
   - rare

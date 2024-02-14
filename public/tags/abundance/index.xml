@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>abundance on GJR</title>
+    <link>https://www.jolley-rogers.au/tags/abundance/</link>
+    <description>Recent content in abundance on GJR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.jolley-rogers.au/tags/abundance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1zzz NatureRemedies</title>
+      <link>https://www.jolley-rogers.au/project/natureremedies/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/natureremedies/</guid>
+      <description>Abstract This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto&amp;rsquo;s layout features.</description>
+    </item>
+    <item>
+      <title>Are insect abundances in decline?</title>
+      <link>https://www.jolley-rogers.au/project/insect-decline/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/insect-decline/</guid>
+      <description>A stub.. details to come .&#xA;Intro whether there is an insect apocalpse by analysing past and recent patterns of insect abundance how to measure changes in insect abundance to determine whether there is long term insect decline by analysing past and recent patterns of insect abundance in Australia&#xA;The problem ljlj&#xA;evidence </description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://www.jolley-rogers.au/project/writing/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/writing/</guid>
+      <description>In no way do I think anything I write here is the last word on a subject. And it is likely that mistakes and typos may slip through. So, don&amp;rsquo;t hesitate to get in touch if you see something that bugs you.&#xA;I welcome and encourage all respectful feedback.&#xA;** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.</description>
+    </item>
+    <item>
+      <title>zzAre insect abundances in decline?</title>
+      <link>https://www.jolley-rogers.au/project/nature-remedies/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/nature-remedies/</guid>
+      <description>A stub.. details to come .&#xA;Intro whether there is an insect apocalpse by analysing past and recent patterns of insect abundance how to measure changes in insect abundance to determine whether there is long term insect decline by analysing past and recent patterns of insect abundance in Australia&#xA;The problem ljlj&#xA;evidence </description>
+    </item>
+    <item>
+      <title>NatureRemedies</title>
+      <link>https://www.jolley-rogers.au/project/natureremedies/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/natureremedies/</guid>
+      <description>Abstract This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto&amp;rsquo;s layout features.</description>
+    </item>
+  </channel>
+</rss>

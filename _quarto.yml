@@ -1,8 +1,10 @@
 project:
-  type: hugo
+  type: hugo 
+  lib-dir:  /quarto-libs
+ 
       
 format: 
   hugo-md:
     code-fold: true
-  
- 
+    output-file: index.md
+    layout: single-sidebar

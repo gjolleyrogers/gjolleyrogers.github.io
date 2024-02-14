@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Untitled on GJR</title>
+    <link>https://www.jolley-rogers.au/project/writing/q2.md/</link>
+    <description>Recent content in Untitled on GJR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.jolley-rogers.au/project/writing/q2.md/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>scrivener</title>
+      <link>https://www.jolley-rogers.au/project/writing/q2.md/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/writing/q2.md/</guid>
+      <description>Abstract This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto&#39;s layout features.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viz and analysis on GJR</title>
+    <link>https://www.jolley-rogers.au/project/visualanalysis/</link>
+    <description>Recent content in Viz and analysis on GJR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.jolley-rogers.au/project/visualanalysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gallery</title>
+      <link>https://www.jolley-rogers.au/project/visualanalysis/gallery/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/visualanalysis/gallery/</guid>
+      <description>photoswipe Distribution of global biomass across all birds w640&#xA;Distribution of global biomass across all mammals and birds w640&#xA;Distribution of global biomass across all mammals&#xA;Elephant1&#xA;Elephant2&#xA;Elephant3&#xA;Evolve square&#xA;Evolve square&#xA;Hook&#xA;Pnas&#xA;Treking&#xA;Yabby&#xA;Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/project/visualanalysis/gallery/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: project My layout is: single-series Images in this page bundle: /project/visualanalysis/gallery/sidebar-inverse.</description>
+    </item>
+    <item>
+      <title>Phylojive</title>
+      <link>https://www.jolley-rogers.au/project/visualanalysis/phylojive/</link>
+      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
+      <guid>https://www.jolley-rogers.au/project/visualanalysis/phylojive/</guid>
+      <description> Marsupials Species level Phylogeny of extant species. from Cardillo et al (2004). A species-level phylogenetic supertree of marsupials. Journal of Zoology, 264(1), 11 It is a beta version. Click the top button to get the navigation aid try choosing 2nd &amp;amp 3rd characters to plot on the tree; align-names feature; search; set-root; rotate, etc. </description>
+    </item>
+    <item>
+      <title>Ojs Test</title>
+      <link>https://www.jolley-rogers.au/project/visualanalysis/aboutx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.jolley-rogers.au/project/visualanalysis/aboutx/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&#xA;viewof bill_length_min = Inputs.range( [32, 50], {value: 35, step: 1, label: &amp;#34;Bill length (min):&amp;#34;} ) Nulla at varius turpis. Ut nec purus efficitur, dictum urna eget, molestie ante.</description>
+    </item>
+  </channel>
+</rss>

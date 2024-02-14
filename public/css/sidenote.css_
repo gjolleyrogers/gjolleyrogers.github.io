@@ -1,0 +1,47 @@
+ .sidenote-content {
+    display: block;
+    position: absolute;
+    width: $sidenote-width;
+    box-sizing: border-box;
+    margin-top: -1.5em;
+
+    &.sidenote-right {
+        right: 0;
+        margin-right: -($sidenote-width + $sidenote-offset);
+    }
+
+    // ...
+}
+.sidenote-checkbox {
+    display: none;
+}
+
+.sidenote {
+    &:hover {
+        .sidenote-label { /* style for the label */ }
+        .sidenote-content { /* style for the sidenote */ }
+    }
+}
+
+.sidenote-content {
+    // ...
+    @media screen and
+        (max-width: $container-width + 2 * ($sidenote-width + 2 * $sidenote-offset)) {
+        position: static;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        display: none;
+
+        .sidenote-checkbox:checked ~ & {
+            display: block;
+        }
+
+        &.sidenote-right {
+            margin-right: 0px;
+        }
+
+        // ...
+    }
+    // ...
+}
