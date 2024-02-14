@@ -2,7 +2,7 @@
 {{ $section := $page.CurrentSection }} <!--save current section-->
 {{ $is_root := eq .CurrentSection .FirstSection }}
  
-<div class="blog-info ph2 pt0 pb4 pb0-l"> 
+<div class="blog-info ml2 ph2 pt0 pb4 pb0-l"> 
  
   {{ partial "shared/sidebar/sidebar-footer.html" $section }}
   {{ partial "shared/sidebar/sidebar-link.html" .Params.sidebar }}

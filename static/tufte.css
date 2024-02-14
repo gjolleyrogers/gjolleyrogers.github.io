@@ -1,3 +1,4 @@
+/* 
 @charset "UTF-8";
 @font-face {
     font-family: et-book;
@@ -12,7 +13,7 @@
     font-family: et-book;
     src: url(et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot);
     src: url(et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix) format("embedded-opentype"), url(et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff) format("woff"), url(et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf) format("truetype"), url(et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf) format("svg");
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
     font-display:swap
 }
@@ -34,22 +35,28 @@
     font-style: normal;
     font-display:swap
 }
+ */
 
+/* 
 html {
     font-size:15px
 }
+ */
 
 body {
+/* 
     width: 100%; /* here */
     margin-left: auto;
     margin-right: auto;
     padding-left: 1%;/* here */
-    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  /*   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
    /*  background-color: #fffff8; *//*  here */
     color: #111;
-    max-width: 1400px;
+   /*  max-width: 1400px; */ /*  here */
+ */
     counter-reset:sidenote-counter
 }
+/* 
 
 h1 {
     font-weight: 400;
@@ -141,7 +148,9 @@ div.epigraph > blockquote, div.epigraph > blockquote > p {
 div.epigraph > blockquote > footer {
     font-style:normal
 }
+ */
 
+/* 
 div.epigraph > blockquote > footer > cite {
     font-style:italic
 }
@@ -149,6 +158,7 @@ div.epigraph > blockquote > footer > cite {
 blockquote {
     font-size:1.4rem
 }
+ */
 
 blockquote p {
     width: 90%;/* here */
@@ -162,7 +172,7 @@ blockquote footer {
 }
 
 section > footer, section > p, section > table {
-    width:90%  /* here */
+    width:80%  /* here */
 }
 
 section > ol, section > ul {
@@ -241,11 +251,11 @@ img {
 .marginnote, .sidenote {
     float: right;
     clear: right;
-    margin-right: -60%;   /* here */
-    width: 50%;
+    margin-right: -45%;   /* here */
+    width: 40%;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     line-height: 1.3;
     vertical-align: baseline;
     position:relative
@@ -256,7 +266,7 @@ img {
 }
 
 .sidenote-number:after, .sidenote:before {
-    font-family: et-book-roman-old-style;
+   /*  font-family: et-book-roman-old-style; */
     position: relative;
     vertical-align:baseline
 }
@@ -286,27 +296,27 @@ div.fullwidth, table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif
+/*     font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif */
 }
 
 .sans {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+/*     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; */
     letter-spacing:.03em
 }
 
 code, pre > code {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+/*     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; */
     font-size: 1rem;
     line-height: 1.42;
     -webkit-text-size-adjust:100%
 }
 
 .sans > code {
-    font-size:1.2rem
+  /*   font-size:1.2rem */
 }
 
 h1 > code, h2 > code, h3 > code {
-    font-size:.8em
+   /*  font-size:.8em */
 }
 
 .marginnote > code, .sidenote > code {

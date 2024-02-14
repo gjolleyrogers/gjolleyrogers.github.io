@@ -32,7 +32,7 @@ appendix-style: default       # see https://quarto.org/docs/authoring/appendices
 dpi: 300
 weight: 1
 # layout options: single or single-sidebar
-#layout: single-series
+layout: single-series
 draft: false  
 tags:
   - ecology
@@ -226,9 +226,10 @@ Ad pro quod definitiønem[^2], mel no laudem delectus, te mei prompta maiorum p�
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?
 
-Scrivener cannot ***nest*** block styles, so for Marginalia like this one we can use pandoc markup like `$$` directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
-$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+Scrivener cannot ***nest*** block styles, so for Marginalia like this one we can use pandoc markup like `$$` directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from *the first fundamental theorem of calculus* that for $$x    [a, b]$$  
 
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$ 
+ 
 Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.
 
 This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See [Figure 4.4](#fig-elephants2) below for an example using a Section Type to insert the same markup at compile-time.

@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   details {
-    @extend .mt4 ;
+    @extend .mt0 ;
   }
 }
 
@@ -235,7 +235,7 @@ form {
   @extend .w-100 ;
 
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(10, minmax(0, 1fr));
   grid-template-rows: repeat(3, auto);
   grid-auto-flow: dense;
   grid-gap: 0px;
@@ -243,37 +243,38 @@ form {
   max-width: 1440px;
 }
 .site-header {
-  grid-column: 1 / 9;
+  grid-column: 1 / 10;
 }
 .page-main {
-  grid-column: 1 / 9;
+  grid-column: 1 / 10	;
 }
 .site-footer {
-  grid-column: 1 / 9;
+  grid-column: 1 / 10;
 }
 
 .list-sidebar {
   .page-main {
-    grid-column: 3 / 9;
+    grid-column: 4 / 10;
   }
   .page-sidebar {
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
   }
 }
+
 .single-sidebar {
   .page-main {
-    grid-column: 1 / 5;
+    grid-column: 1 / 7;
   }
   .page-sidebar {
-    grid-column: 5 / 9;
+    grid-column: 7 / 10;
   }
 }
 .single-series {
   .page-sidebar {
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
   }
   .page-main {
-    grid-column: 3 / 9;
+    grid-column: 4 / 10;
   }
 
 }
@@ -295,7 +296,7 @@ form {
   .list-sidebar {
     .page-main,
     .page-sidebar {
-      grid-column: 1 / 7;
+      grid-column: 1 / 10;
     }
     .page-main {
       order: 3;
@@ -307,13 +308,13 @@ form {
   .single-sidebar {
     .page-main,
     .page-sidebar {
-      grid-column: 1 / 7;
+      grid-column: 1 / 10;
     }
   }
   .single-series {
     .page-main,
     .page-sidebar {
-      grid-column: 1 / 7;
+      grid-column: 1 / 10;
     }
     .page-main {
       order: 3;
