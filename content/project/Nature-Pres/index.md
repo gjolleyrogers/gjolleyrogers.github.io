@@ -16,7 +16,7 @@ author: Garry Jolley-Rogers
 keywords: [pandoc, quarto, scrivener]
 subject: workflow
 lang: en
-date: 2024-02-14      # Scrivener placeholder
+date: 2024-02-13      # Scrivener placeholder
 verbose: true                 # pandoc verbosity
 toc: false                     # table of contents
 number-sections: true         # numbered headings
@@ -30,10 +30,9 @@ bibliography: /Users/gjr/.local/share/pandoc/Core.json
 csl: /Users/gjr/.local/share/pandoc/csl/apa.csl
 appendix-style: default       # see https://quarto.org/docs/authoring/appendices.html#appendix-style
 dpi: 300
-weight: 1
-# layout options: single or single-sidebar
-layout: single-series
-draft: false  
+weight: 5  
+draft: false 
+
 tags:
   - ecology
   - abundance
@@ -124,10 +123,9 @@ format:
 <script  src="/quarto-diagram/mermaid-init.js"></script>
 <link  href="/quarto-diagram/mermaid.css" rel="stylesheet" />
 
-<script src="/kePrint-0.0.1/kePrint.js"></script>
-<link href="/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<script src="/assets/kePrint-0.0.1/kePrint.js"></script>
+<link href="/assets/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
-<link href="/tufte.css" rel="stylesheet" />
 
 # Abstract
 
@@ -150,8 +148,6 @@ Ad pro quod <sup>superscript</sup>, mel no laudem <sub>subscript</sub>, te mei p
 Here is some marginalia using the \[`Marginalia`\] Paragraph Style, *including* a citation ([Barrett & Simmons, 2015](#ref-barrett2015)). This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.
 
 Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo ([Barrett & Simmons, 2015](#ref-barrett2015); [Crivellato & Ribatti, 2007](#ref-crivellato2007))! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
-
-<span class="sidenote">See Tufte’s comment in the <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Vt">Tufte book fonts</a> thread.</span>
 
 > **Tip**
 >
@@ -178,10 +174,7 @@ Table 2.1: This is native Scrivener table with a referenced table caption. You 
 
 Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.
 
- 
- 
-
- 
+
 
 # Methods
 
@@ -226,10 +219,9 @@ Ad pro quod definitiønem[^2], mel no laudem delectus, te mei prompta maiorum p�
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?
 
-Scrivener cannot ***nest*** block styles, so for Marginalia like this one we can use pandoc markup like `$$` directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from *the first fundamental theorem of calculus* that for $$x    [a, b]$$  
+Scrivener cannot ***nest*** block styles, so for Marginalia like this one we can use pandoc markup like `$$` directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
 
-$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$ 
- 
 Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.
 
 This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See [Figure 4.4](#fig-elephants2) below for an example using a Section Type to insert the same markup at compile-time.
