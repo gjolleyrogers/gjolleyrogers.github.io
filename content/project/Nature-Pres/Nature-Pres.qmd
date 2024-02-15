@@ -10,13 +10,22 @@
 # the location of your bibliography files and change any fonts
 # to those present on your system.
 #
+<<<<<<<< HEAD:content/project/Nature-Pres/Nature-Pres.qmd
 title: "Nature-Pres"
 subtitle: "Thoughts on how to be better Stewards on the natural world"
+========
+title: "Nature-"
+subtitle: "A Compiler Workflow…"
+>>>>>>>> 5f81d4679171e14893737300e15877a35c51625e:public/project/insect-decline/Nature.qmd
 author: Garry Jolley-Rogers 
 keywords: [pandoc, quarto, scrivener]
 subject: workflow
 lang: en
+<<<<<<<< HEAD:content/project/Nature-Pres/Nature-Pres.qmd
 date: 2024-02-15      # Scrivener placeholder
+========
+date: 2024-02-12      # Scrivener placeholder
+>>>>>>>> 5f81d4679171e14893737300e15877a35c51625e:public/project/insect-decline/Nature.qmd
 verbose: true                 # pandoc verbosity
 toc: false                     # table of contents
 number-sections: true         # numbered headings
@@ -51,8 +60,13 @@ links:
 - icon: newspaper
   icon_pack: far
   name: Blog post
+<<<<<<<< HEAD:content/project/Nature-Pres/Nature-Pres.qmd
   url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
 layout: single-sidebar
+========
+  url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/ 
+  
+>>>>>>>> 5f81d4679171e14893737300e15877a35c51625e:public/project/insect-decline/Nature.qmd
 format:
   html:
     theme: journal
