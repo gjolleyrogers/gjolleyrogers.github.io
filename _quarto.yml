@@ -1,0 +1,11 @@
+project:
+  type: hugo 
+  lib-dir:  ./quartolibs/
+  #  ln -s ./static/quartolibs quartolibs
+      
+format: 
+  hugo-md:
+    code-fold: true
+    output-file: index.md
+#    layout: single-sidebar
+    html-math-method: webtex

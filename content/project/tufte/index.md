@@ -10,13 +10,13 @@
 # the location of your bibliography files and change any fonts
 # to those present on your system.
 #
-title: "Nature-Pres"
+title: "tufte - goodness"
 subtitle: "Thoughts on how to be better Stewards on the natural world"
 author: Garry Jolley-Rogers 
 keywords: [pandoc, quarto, scrivener]
 subject: workflow
 lang: en
-date: 2024-02-15      # Scrivener placeholder
+date: 2024-02-14      # Scrivener placeholder
 verbose: true                 # pandoc verbosity
 toc: false                     # table of contents
 number-sections: true         # numbered headings
@@ -32,6 +32,7 @@ appendix-style: default       # see https://quarto.org/docs/authoring/appendices
 dpi: 300
 weight: 5  
 draft: false 
+
 tags:
   - ecology
   - abundance
@@ -53,6 +54,7 @@ links:
   name: Blog post
   url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
 layout: single-sidebar
+html-math-method: webtex
 format:
   html:
     theme: journal
@@ -116,11 +118,13 @@ format:
     author: Garry Jolley-Rogers
     code-fold: true
     toc: false
+    layout: single-sidebar
+    html-math-method: webtex
 ---
 
 <script  src="../../../quartolibs/quarto-diagram/mermaid.min.js"></script>
 <script  src="../../../quartolibs/quarto-diagram/mermaid-init.js"></script>
-<link  href="../../../quartolibs/quarto-diagram/mermaid.css" rel="stylesheet" />
+<link  href="/tufte.css" rel="stylesheet" />
 
 <script src="../../../quartolibs/kePrint-0.0.1/kePrint.js"></script>
 <link href="../../../quartolibs/lightable-0.0.1/lightable.css" rel="stylesheet" />
@@ -148,10 +152,11 @@ Here is some marginalia using the \[`Marginalia`\] Paragraph Style, *including* 
 
 Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo ([Barrett & Simmons, 2015](#ref-barrett2015); [Crivellato & Ribatti, 2007](#ref-crivellato2007))! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!
 
+
 > **Tip**
 >
 > This callout is generated using the \[`Callout Tip`\] Scrivener Paragraph Style...
-
+<span class="sidenote">See Tufte’s comment in the <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Vt">Tufte book fonts</a> thread.</span>
 This is a standard native Scrivener list, which will get converted to markdown by the Scrivener compiler:
 
 -   Item 1
@@ -173,13 +178,57 @@ Table 2.1: This is native Scrivener table with a referenced table caption. You 
 
 Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.
 
-
+## Matrix
+
+`$$
+\begin{matrix}
+\alpha& \beta^{*}\\
+\gamma^{*}& \delta
+\end{matrix}
+$$`
+
+
+`
+$$
+\begin{bmatrix}
+\alpha& \beta^{*}\\
+\gamma^{*}& \delta
+\end{bmatrix}
+$$
+`
+
+
+## Limits
+
+`$$
+\lim_{n \to \infty}
+    \sum_{k=1}^n \frac{1}{k^2}
+    = \frac{\pi^2}{6}
+$$`
+
+
+`$$
+\lim_{n \to \infty}
+     \frac{1}{x^n}
+    = 0
+$$`
+
+## Various symbols
+
+`$$\lambda,\xi,\pi,\theta,
+\mu,\Phi,\Omega,\Delta$$`
+
+<span class="sidenote">
+`$$\lambda,\xi,\pi,\theta,
+\mu,\Phi,\Omega,\Delta$$`
+</span>
 
 # Methods
 
 ## Data Recording
-
+<span class="sidenote">
 <img src="Elephant3.jpg" id="fig-marginalia" alt="Figure 3.1: A figure of a poor, poor marginalised elephant…" />
+</span>
 
 Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, and here is some inline maths: ![e^{ix}=r(\cos \theta +i\sin \theta)](https://latex.codecogs.com/svg.latex?e%5E%7Bix%7D%3Dr%28%5Ccos%20%5Ctheta%20%2Bi%5Csin%20%5Ctheta%29 "e^{ix}=r(\cos \theta +i\sin \theta)"), est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?
 
