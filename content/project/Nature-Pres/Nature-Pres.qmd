@@ -16,7 +16,7 @@ author: Garry Jolley-Rogers
 keywords: [pandoc, quarto, scrivener]
 subject: workflow
 lang: en
-date: 2024-02-14      # Scrivener placeholder
+date: 2024-02-15      # Scrivener placeholder
 verbose: true                 # pandoc verbosity
 toc: false                     # table of contents
 number-sections: true         # numbered headings
@@ -32,7 +32,6 @@ appendix-style: default       # see https://quarto.org/docs/authoring/appendices
 dpi: 300
 weight: 5  
 draft: false 
-
 tags:
   - ecology
   - abundance
@@ -53,7 +52,7 @@ links:
   icon_pack: far
   name: Blog post
   url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
-
+layout: single-sidebar
 format:
   html:
     theme: journal

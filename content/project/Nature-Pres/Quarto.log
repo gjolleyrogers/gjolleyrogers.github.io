@@ -10,6 +10,6 @@
 --> CrossRef figure details: Label={#fig-trunk2}  | Angry elephant with big trunk. | Elephant3-2
 --> CrossRef figure details: Label={#fig-alignright fig-align="right"}  | This should be right-aligned if there is space… | Elephant3-3
 --> Modified File with fixed cross-references: /Users/gjr/Documents-working/1.Projects/1.8-websites/gjolleyrogers.github.io/content/project/Nature-Pres/Nature-Pres.qmd
---> Parsing took: 0.004184s
+--> Parsing took: 0.003033s
 --> Tada
 --> Tada del
