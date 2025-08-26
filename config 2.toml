@@ -1,0 +1,235 @@
+ 
+baseURL = "https://www.jolley-rogers.au/"
+theme =  [ "hugo-cloak-email",  "hugo-apero"] 
+languageCode = "en"
+ 
+ 
+relativeURLs = true
+
+title = "GJR"
+author = "Garry Jolley-Rogers"
+copyright = "" # set to override the auto generated copyright using org info and now year
+googleAnalytics = "G-FEY2C57K9Z"
+disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+metaDataFormat = "yaml"
+footnoteReturnLinkContents = "&#8617;" # ↩
+# set deliberately low for testing choose your preffered number based on the blog layout you've chosen
+pagination.pagerSize = 5
+preserveTaxonomyNames = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$", "\\.qmd$", "\\.ipynb$", "\\.py$" ]
+enableEmoji = true
+
+# Permalinks
+[permalinks]
+  blog = "/blog/:year-:month-:slug/"
+#  talk = "/talk/:filename/"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+    hardwraps = false  
+    block = true
+    title = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+    ordered = false
+  [markup.highlight]
+    # one of: https://xyproto.github.io/splash/docs/ 
+    style = "github"
+    
+[params]
+  orgName = "Garry Jolley-Rogers"
+  orgLocal = ""  
+  description = "Garry Jolley-Rogers Personal site"
+  favicon = "/img/hook.ico"
+  logo = "/images/evolve_square.png"
+  mainSections = ["blog", "project", "nature"]
+  navallcaps = true
+  # show/hide social icons in site header & footer
+  # configure social icons and links below in [[params.social]]
+  socialInHeader = false
+  socialInFooter = true
+  # Default image for social sharing and search engines. 
+  # Place image file in `static` folder and specify image name here.
+  sharing_image = "/img/evolve_square.png"
+  # Twitter username (without @). Used when a visitor shares your site on Twitter.
+  twitter = "gjolleyrogers"
+  
+  # use a built-in color theme
+  # one of: forest / grayscale / peach / plum /
+  #         poppy / sky / violet / water 
+  theme = "grayscale"
+  
+  # or, leave theme empty & make your own palette
+  # see docs at https://hugo-apero.netlify.app/blog/color-themes/
+  # the custom scss file must be in the assets/ folder
+  # add the filename name here, without extension
+  # to use hex colors instead of named tachyons colors, include "hex" in filename
+  custom_theme = ""  
+   
+  # use an embedded font-family
+  # serif options: Fraunces / EB Garamond / Bitter
+  # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
+  # if you import your own fonts, name them here too
+   customtextFontFamily = "Atkinson Hyperlegible"
+  customheadingFontFamily = "Petrona"
+#   customtextFontFamily = "Commissioner"
+#   customheadingFontFamily = "Fraunces"
+  # alternatively, leave empty and select basic font options: sans-serif or serif
+  # for more http://tachyons.io/docs/typography/font-family/
+  textFontFamily = "sans-serif"
+  headingFontFamily = "sans-serif"
+ 
+   
+  # Configuration of https://utteranc.es/ for comments
+  [params.utterances]
+    use_utterances = false
+    repo_name = "gjolleyrogers/gjolleyrogers.github.io"
+    issue_term = "pathname" # url, pathname, or title
+    theme = "boxy-light"
+    label = "comments :crystal_ball:"
+
+  # Configuration of math rendering
+  [params.math]
+    renderer = "katex" # one of "mathjax" / "katex" 
+
+  # Social icons may appear on homepage and in site header or footer
+  # Configure show/hide above - add as many as you like below
+  # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
+  # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
+  # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+ 
+       [[params.social]]
+      icon      = "google-scholar " # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=hz9ggEMAAAAJ&hl=en" 
+      
+  [[params.social]]
+      icon      = "orcid" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://orcid.org/0000-0002-5029-2975"
+      
+        [[params.social]]
+      icon      = "researchgate" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://www.researchgate.net/profile/Garry-Jolley-Rogers"
+
+       [[params.social]]
+      icon      = "bezier-curve" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "http://neurotree.org/neurotree/tree.php?pid=17206&pnodecount=4&cnodecount=2&fontsize=1"
+      
+  [[params.social]]
+      icon      = "linkedin" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.linkedin.com/in/garry-jolley-rogers-74a18b11/"  
+  [[params.social]]
+      icon      = "twitter" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://twitter.com/gjolleyrogers"
+  [[params.social]]
+      icon      = "mastodon" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://mastodon.au/@gjr#"
+
+
+
+  [[params.social]]
+      icon      = "github" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://github.com/gjolleyrogers"
+#   [[params.social]]
+#       icon      = "facebook-square" # icon name without the 'fa-'
+#       icon_pack = "fab"
+#       url       = "https://www.facebook.com/garry.jolleyrogers"
+[[params.social]]
+      icon      = "rss" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "/blog/index.xml"
+      
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[menu]
+  # Configure header 
+  [[menu.header]]
+    name = "About"
+    title = "About me"
+    url = "/about/"
+    weight = 1
+ 
+  [[menu.header]]
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
+    weight = 2
+     [[menu.header]]
+    name = "Blog"
+    title = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.header]]
+    name = "Nature"
+    title = "A collection"
+    url = "/collection/"
+    weight = 5
+   [[menu.header]]
+    name = "Writing"
+    title = "Writings"
+    url = "/project/writing/"
+    weight = 3
+  #  [[menu.header]]
+#     name = "Viz/Analysis"
+#     title = "Visualisations"
+#     url = "/project/visualanalysis/"
+#     weight = 3
+    
+  # Configure footer  
+  [[menu.footer]]
+    name = "License"
+    title = "License"
+    url = "/license/"
+    weight = 1
+  [[menu.footer]]
+    name = "Contact"
+    title = "Contact form"
+    url = "/contact/"
+    weight = 2
+   [[menu.footer]]
+    name = "RSS"
+    title = "RSS"
+    url = "/blog/index.xml"
+    weight = 3
+  [[menu.footer]]
+    name = "Contributors"
+    title = "Contributors"
+    url = "/contributors/"
+    weight = 3
+
+# see https://gohugo.io/about/hugo-and-gdpr/    
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.x]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
