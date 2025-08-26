@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Parrots on GJR</title>
-    <link>https://www.jolley-rogers.au/tags/parrots/</link>
+    <link>http://localhost:1313/tags/parrots/</link>
     <description>Recent content in Parrots on GJR</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.jolley-rogers.au/tags/parrots/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/parrots/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swift Parrots</title>
-      <link>https://www.jolley-rogers.au/blog/2021-01-swift-parrots/</link>
+      <link>http://localhost:1313/blog/2021-01-swift-parrots/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.jolley-rogers.au/blog/2021-01-swift-parrots/</guid>
+      <guid>http://localhost:1313/blog/2021-01-swift-parrots/</guid>
       <description>&lt;p&gt;&lt;span class=&#34;sidenote&#34;&gt;&#xA;&lt;label class=&#34;sidenote-label&#34; for=&#34;example-note&#34;&gt;Here&amp;#39;s an example sidenote.&lt;/label&gt;&#xA;&lt;input class=&#34;sidenote-checkbox&#34; type=&#34;checkbox&#34; id=&#34;example-note&#34;&gt;&lt;/input&gt;&#xA;&lt;span class=&#34;sidenote-content sidenote-right&#34;&gt;&#xA;&#xA;This is this example note&#39;s content.&#xA;&#xA;&lt;/span&gt;&#xA;&lt;/span&gt;&#xA;If you&amp;rsquo;re on a mobile device, the content is hidden by default: there&amp;rsquo;s no&#xA;&amp;ldquo;side&amp;rdquo; on which the note fits. In this case, you can click or tap the underlined&#xA;portion of the text, which is the part to which the sidenote is related or refers to.&#xA;Otherwise, the example sidenote should be visible&#xA;&lt;span class=&#34;sidenote&#34;&gt;&#xA;&lt;label class=&#34;sidenote-label&#34; for=&#34;left-note&#34;&gt;on the right side of the screen.&lt;/label&gt;&#xA;&lt;input class=&#34;sidenote-checkbox&#34; type=&#34;checkbox&#34; id=&#34;left-note&#34;&gt;&lt;/input&gt;&#xA;&lt;span class=&#34;sidenote-content sidenote-left&#34;&gt;&#xA;&#xA;Sidenotes can also appear on the left of the screen, to help prevent situations&#xA;in which there are too many sidenotes and not enough space.&#xA;&#xA;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/p&gt;</description>
     </item>
   </channel>

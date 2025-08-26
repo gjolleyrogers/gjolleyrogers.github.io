@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forms on GJR</title>
-    <link>https://www.jolley-rogers.au/form/</link>
+    <link>http://localhost:1313/form/</link>
     <description>Recent content in Forms on GJR</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Feb 2019 13:38:41 -0600</lastBuildDate>
-    <atom:link href="https://www.jolley-rogers.au/form/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/form/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://www.jolley-rogers.au/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
-      <guid>https://www.jolley-rogers.au/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;img src=&#34;../img/contact.png&#34; id=&#34;fig-marginalia&#34; alt=&#34;Figure 3.1: A figure of a poor, poor marginalised elephant…&#34; /&gt;</description>
     </item>
   </channel>

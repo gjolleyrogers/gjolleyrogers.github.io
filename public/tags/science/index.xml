@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science on GJR</title>
-    <link>https://www.jolley-rogers.au/tags/science/</link>
+    <link>http://localhost:1313/tags/science/</link>
     <description>Recent content in Science on GJR</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.jolley-rogers.au/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comparative crustacean Neuroanatomy</title>
-      <link>https://www.jolley-rogers.au/project/neuroanatomy/</link>
+      <link>http://localhost:1313/project/neuroanatomy/</link>
       <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.jolley-rogers.au/project/neuroanatomy/</guid>
+      <guid>http://localhost:1313/project/neuroanatomy/</guid>
       <description>&lt;p&gt;A stub..  details to come .&lt;/p&gt;&#xA;&lt;p&gt;I am currently working on the comparative neuroanatomy of crustaceans i.e. Cherax destructor, Koonunga spp., and Anaspides spp. and software. I have worked in many disciplines including Biodiversity Informatics, Taxonomy, Zool&lt;/p&gt;</description>
     </item>
   </channel>
