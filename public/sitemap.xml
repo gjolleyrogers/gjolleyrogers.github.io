@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/project/writing/anthropocene/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/project/insect-decline/</loc>
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,9 +20,6 @@
     <loc>http://localhost:1313/project/writing/</loc>
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/collection/day02/01-netlify/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/collection/nature-observations/going-bush/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,26 +32,29 @@
     <loc>http://localhost:1313/collection/nature-observations/02-postcards/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/collection/day02/02-blogdown/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/collection/day02/</loc>
-    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/collection/nature-observations/musings/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/project/natureremedies.md/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/writing/anthropocene/</loc>
+    <loc>http://localhost:1313/project/ffx/</loc>
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/jottings/</loc>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/project/</loc>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/project/writing/tufte/</loc>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/abundance/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
@@ -66,9 +69,6 @@
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/projects/</loc>
-    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/project/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/science/</loc>
@@ -89,9 +89,6 @@
     <loc>http://localhost:1313/tags/evolution/</loc>
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/jottings/</loc>
-    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/models/</loc>
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -102,9 +99,6 @@
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/science/</loc>
-    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/visualisations/</loc>
@@ -134,10 +128,10 @@
     <loc>http://localhost:1313/blog/2021-01-swift-parrots/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/collection/</loc>
-    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/anthropocene/</loc>
+    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/collection/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/talk/campfire/</loc>

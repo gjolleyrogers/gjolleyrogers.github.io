@@ -1,8 +1,14 @@
  
 baseURL = "https://www.jolley-rogers.au/"
 theme =  [   "hugo-apero"] 
-languageCode = "en"
- 
+
+[languages.en-au]
+locale = "en-au"
+label = "English (Australia)"
+weight = 1
+
+[security]
+allowContent = ['.*'] # or specify allowed types
  
 relativeURLs = true
 

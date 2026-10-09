@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Series on GJR</title>
-    <link>http://localhost:1313/series/</link>
-    <description>Recent content in Series on GJR</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Jottings</title>
-      <link>http://localhost:1313/series/jottings/</link>
-      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/jottings/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Viz-Analyis</title>
-      <link>http://localhost:1313/series/viz-analyis/</link>
-      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/viz-analyis/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Series on </title>
+		<link>http://localhost:1313/series/</link>
+		<description>Recent content in Series on </description>
+		<generator>Hugo</generator>
+		<language>en-au</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Jottings</title>
+				<link>http://localhost:1313/series/jottings/</link>
+				<pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/series/jottings/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Viz-Analyis</title>
+				<link>http://localhost:1313/series/viz-analyis/</link>
+				<pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/series/viz-analyis/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

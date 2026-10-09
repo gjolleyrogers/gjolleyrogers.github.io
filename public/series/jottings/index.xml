@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Jottings on GJR</title>
-    <link>http://localhost:1313/series/jottings/</link>
-    <description>Recent content in Jottings on GJR</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/series/jottings/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Anthropocene</title>
-      <link>http://localhost:1313/project/writing/anthropocene/</link>
-      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/writing/anthropocene/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Jottings on </title>
+		<link>http://localhost:1313/series/jottings/</link>
+		<description>Recent content in Jottings on </description>
+		<generator>Hugo</generator>
+		<language>en-au</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/series/jottings/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Anthropocene</title>
+				<link>http://localhost:1313/project/writing/anthropocene/</link>
+				<pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/project/writing/anthropocene/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Scrivener &amp; Tufte</title>
+				<link>http://localhost:1313/project/writing/tufte/</link>
+				<pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/project/writing/tufte/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;#beginnings&#34;&gt;Beginnings&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;#intermediaries&#34;&gt;Intermediaries&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;#particles&#34;&gt;Particles&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;#molecules&#34;&gt;Molecules&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;#endings&#34;&gt;Endings&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h1 id=&#34;beginnings&#34;&gt;Beginnings&#xA;  &lt;a href=&#34;#beginnings&#34;&gt;&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;span class=&#34;smallcaps&#34;&gt;These are the voyages of the Starship Enterprise&lt;/span&gt; [@barrett2015]. Its continuing mission, to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator coil.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
